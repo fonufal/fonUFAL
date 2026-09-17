@@ -1,0 +1,46 @@
+[
+  {
+    "id": "almeida2019prolingua",
+    "authors": ["Ayane Nazarela Santos de Almeida", "Miguel Oliveira Jr."],
+    "title": "Análise do comportamento da F0 em enunciados numéricos de CPF no português brasileiro",
+    "journal": "PROLÍNGUA",
+    "volume": "14",
+    "issue": "1",
+    "pages": "35–49",
+    "year": 2019,
+    "url": "https://doi.org/10.22478/ufpb.1983-9979.2019v14n1.48974",
+    "noticiaSlug": "novo-artigo"
+  },
+  {
+    "id": "silva2020roseta",
+    "authors": ["Ebson Wilkerson da Silva", "Miguel Oliveira Jr."],
+    "title": "O mundo aos pedaços: como a segmentação nos ajuda a compreender estímulos?",
+    "journal": "Roseta (divulgação científica, ABRALIN)",
+    "year": 2020,
+    "url": "http://www.roseta.org.br/pt/2020/02/27/o-mundo-aos-pedacos-como-a-segmentacao-nos-ajudar-a-compreender-estimulos/",
+    "noticiaSlug": "artigo-de-divulgacao-cientifica"
+  },
+  {
+    "id": "oliveira2018deltavogais",
+    "authors": ["Miguel Oliveira Jr.", "João Paulo Moraes Lima dos Santos"],
+    "title": "Análise das vogais átonas finais /e/ e /o/ em sândi vocálico externo em dados do Projeto NURC-Recife",
+    "journal": "DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada",
+    "volume": "34",
+    "issue": "4",
+    "pages": "1243–1274",
+    "year": 2018,
+    "url": "https://doi.org/10.1590/0102-445033561122072027",
+    "noticiaSlug": "artigo-na-delta"
+  },
+  {
+    "id": "silva2017gelne",
+    "authors": ["Miguel Oliveira Jr.", "Remildo Barbosa Silva"],
+    "title": "Padrões temporais em agrupamentos de números telefônicos móveis no português do Brasil",
+    "journal": "Revista do GELNE",
+    "volume": "19",
+    "pages": "107–122",
+    "year": 2017,
+    "url": "https://doi.org/10.21680/1517-7874.2017v19n0id12616",
+    "noticiaSlug": "remildo-barbosa-publica-seu-primeiro-artigo"
+  }
+]

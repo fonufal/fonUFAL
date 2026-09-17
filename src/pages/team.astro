@@ -20,7 +20,8 @@ const groups = categoryOrder.map(cat => {
   return { key: cat, title: categoryTitles[cat], members };
 }).filter(g => g.members.length > 0);
 
-const linkLabels = { lattes: 'Lattes', researchgate: 'ResearchGate', email: 'Email', vcard: 'Vcard' };
+const linkLabels = { lattes: 'Lattes', orcid: 'ORCID', email: 'Email' };
+const linkOrder = ['lattes', 'orcid', 'email'];
 ---
 <html lang="pt-BR"><head><BaseHead title={`Pessoas | ${SITE_TITLE}`} description="Pessoas do fonUFAL" /></head><body><Header/><main>
 <section class="hero"><div class="hero-content"><p class="eyebrow">Pessoas · {authors.length} integrantes</p><h1>Equipe</h1><p class="lead">Líderes, pesquisadores, estudantes e egressos do fonUFAL, preservados do diretório oficial do grupo.</p></div><Waveform class="hero-waveform" /></section>
@@ -34,8 +35,8 @@ const linkLabels = { lattes: 'Lattes', researchgate: 'ResearchGate', email: 'Ema
           <h3>{a.name}</h3>
           {a.subRole && <span class="badge" style="margin-bottom:8px">{a.subRole}</span>}
           <p class="person-links">
-            {Object.entries(a.links).map(([key, href]) => (
-              <a href={href} target="_blank" rel="noopener">{linkLabels[key] || key}</a>
+            {linkOrder.filter(key => a.links[key]).map(key => (
+              <a href={a.links[key]} target="_blank" rel="noopener">{linkLabels[key]}</a>
             ))}
           </p>
         </article>

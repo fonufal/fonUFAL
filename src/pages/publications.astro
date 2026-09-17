@@ -1,4 +1,19 @@
 ---
-import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { SITE_TITLE } from '../consts';
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
+import publications from '../data/publications.json';
+const ordered = [...publications].sort((a, b) => b.year - a.year);
 ---
-<html lang="pt-BR"><head><BaseHead title={`Publicações | ${SITE_TITLE}`} description="Publicações do fonUFAL" /></head><body><Header/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica</p><h1>Publicações</h1><p class="lead">O Astro Scholar oferece integração bibliográfica por BibTeX. A lista será preenchida após a reconciliação entre o WordPress, os registros do grupo e as fontes bibliográficas validadas.</p></div><Waveform class="hero-waveform" /></section></main><Footer/></body></html>
+<html lang="pt-BR"><head><BaseHead title={`Publicações | ${SITE_TITLE}`} description="Publicações do fonUFAL" /></head><body><Header/><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos de membros do fonUFAL identificados no arquivo de notícias do grupo. A lista completa depende do currículo Lattes de cada pesquisador, cujo visualizador exige verificação por CAPTCHA e não pode ser extraído automaticamente.</p></div><Waveform class="hero-waveform" /></section>
+<section class="section"><div class="grid">
+{ordered.map(p => (
+  <article class="card">
+    <span class="badge">{p.year}</span>
+    <h3><a href={p.url} target="_blank" rel="noopener">{p.title}</a></h3>
+    <p class="meta">{p.authors.join(', ')}</p>
+    <p>{p.journal}{p.volume && `, v. ${p.volume}`}{p.issue && `, n. ${p.issue}`}{p.pages && `, p. ${p.pages}`}.</p>
+    {p.noticiaSlug && <p class="meta"><a href={url(`/noticias/${p.noticiaSlug}`)}>Ver notícia original →</a></p>}
+  </article>
+))}
+</div></section>
+</main><Footer/></body></html>
