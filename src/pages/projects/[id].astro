@@ -1,0 +1,44 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import projects from '../../data/projects.json';
+import authors from '../../data/authors.json';
+import { SITE_TITLE } from '../../consts';
+
+export function getStaticPaths() {
+  return projects.map((project) => ({ params: { id: project.id }, props: { project } }));
+}
+
+const { project } = Astro.props;
+const projectAuthors = (project.authors ?? [])
+  .map((id: string) => authors.find((author) => author.id === id))
+  .filter(Boolean);
+---
+<html lang="pt-BR">
+  <head>
+    <BaseHead title={`${project.title} | ${SITE_TITLE}`} description={project.description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Pesquisa</p>
+        <span class="badge">{project.status}</span>
+        <h1>{project.title}</h1>
+        <p class="lead">{project.description}</p>
+      </section>
+      <section class="section project-details">
+        <dl>
+          {project.period && <><dt>Período</dt><dd>{project.period}</dd></>}
+          {project.reference && <><dt>Referência</dt><dd>{project.reference}</dd></>}
+          {project.funding && <><dt>Financiamento</dt><dd>{project.funding}</dd></>}
+          {projectAuthors.length > 0 && <><dt>Coordenação / autoria institucional</dt><dd>{projectAuthors.map((a) => a?.name).join(', ')}</dd></>}
+          {project.themes?.length > 0 && <><dt>Temas</dt><dd>{project.themes.join(' · ')}</dd></>}
+        </dl>
+        <p class="migration-note">Esta página está em migração editorial. Serão acrescentados equipe, produtos, publicações e recursos somente após validação nas fontes do projeto.</p>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

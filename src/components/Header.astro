@@ -1,0 +1,18 @@
+---
+import { SITE_TITLE, WP_LOGO } from '../consts';
+import { url } from '../utils/paths';
+const nav = [
+  ['Início','/'], ['Pesquisa','/projects'], ['Pessoas','/team'],
+  ['Publicações','/publications'], ['Notícias','/noticias'], ['Contato','/contato']
+];
+---
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href={url('/')} aria-label={`${SITE_TITLE} — início`}>
+      <img src={WP_LOGO} alt="fonUFAL" width="150" height="51" />
+    </a>
+    <nav aria-label="Navegação principal">
+      {nav.map(([label,path]) => <a href={url(path)}>{label}</a>)}
+    </nav>
+  </div>
+</header>

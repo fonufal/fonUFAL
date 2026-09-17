@@ -1,0 +1,4 @@
+---
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import authors from '../data/authors.json'; import { SITE_TITLE } from '../consts';
+---
+<html lang="pt-BR"><head><BaseHead title={`Pessoas | ${SITE_TITLE}`} description="Pessoas do fonUFAL" /></head><body><Header/><main><section class="hero"><p class="eyebrow">Pessoas</p><h1>Equipe</h1><p class="lead">A página definitiva será gerada a partir dos 66 perfis preservados do WordPress e de uma auditoria de vínculos atuais. Nesta base inicial aparecem apenas registros já confirmados para estruturar o template.</p></section><section class="section"><div class="grid">{authors.map(a=><article class="card"><span class="badge">{a.role}</span><h3>{a.name}</h3><p class="meta">{a.title}</p><p>{a.bio}</p></article>)}</div></section></main><Footer/></body></html>

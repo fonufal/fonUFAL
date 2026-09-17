@@ -1,0 +1,7 @@
+source_url,target_url,type,status,notes
+https://fale.ufal.br/grupo/fonufal/,/,page,inventoried,home institutional content
+https://fale.ufal.br/grupo/fonufal/?page_id=14893,/noticias/,page,partial,news index requires full extraction
+https://fale.ufal.br/grupo/fonufal/?page_id=14896,/team/,page,inventoried,66 profiles preserved before updating
+https://fale.ufal.br/grupo/fonufal/?page_id=15350,/contato/,page,inventoried,WordPress form will not be copied directly
+https://fale.ufal.br/grupo/fonufal/?page_id=14895,,protected,excluded,internal password-protected area stays outside GitHub Pages
+https://fale.ufal.br/grupo/fonufal/?p=15903,/noticias/minicurso-fonetica-acustica/,post,inventoried,full raw post extraction pending

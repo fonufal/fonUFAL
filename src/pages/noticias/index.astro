@@ -1,0 +1,5 @@
+---
+import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import { getCollection } from 'astro:content'; import { SITE_TITLE } from '../../consts';
+const posts=(await getCollection('blog')).sort((a,b)=>b.data.pubDate.valueOf()-a.data.pubDate.valueOf());
+---
+<html lang="pt-BR"><head><BaseHead title={`Notícias | ${SITE_TITLE}`} description="Notícias do fonUFAL" /></head><body><Header/><main><section class="hero"><p class="eyebrow">Atualizações</p><h1>Notícias</h1><p class="lead">Arquivo de notícias em migração a partir do WordPress e novas atualizações do grupo. O conteúdo histórico só será marcado como preservado após extração e validação.</p></section><section class="section"><div class="grid">{posts.map(p=><article class="card"><p class="meta">{p.data.pubDate.toLocaleDateString('pt-BR')}</p><h3>{p.data.title}</h3><p>{p.data.description}</p>{p.data.originalUrl && <p><a href={p.data.originalUrl}>Ver fonte no WordPress →</a></p>}</article>)}</div></section></main><Footer/></body></html>

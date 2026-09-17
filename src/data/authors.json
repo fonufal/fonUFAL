@@ -1,0 +1,20 @@
+[
+  {
+    "id": "miguel-oliveira-jr",
+    "name": "Miguel Oliveira Jr.",
+    "title": "Professor de Linguística — Universidade Federal de Alagoas",
+    "role": "Líder / Pesquisador",
+    "bio": "Atua principalmente em prosódia, fonética experimental e documentação linguística.",
+    "sortOrder": 1,
+    "alumni": false
+  },
+  {
+    "id": "januacele-francisca-da-costa",
+    "name": "Januacele Francisca da Costa",
+    "title": "Pesquisadora — Universidade Federal de Alagoas",
+    "role": "Liderança histórica registrada no WordPress",
+    "bio": "Pesquisadora com atuação em descrição e documentação de línguas indígenas, fonologia, linguística histórica, variação e bilinguismo.",
+    "sortOrder": 2,
+    "alumni": false
+  }
+]
