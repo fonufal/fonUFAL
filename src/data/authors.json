@@ -1,5 +1,18 @@
 [
   {
+    "id": "leticia-lilia-da-silva-barbosa",
+    "name": "Letícia Lília da Silva Barbosa",
+    "category": "estudante",
+    "categoryLabel": "Estudante",
+    "subRole": "Graduação",
+    "bio": "Título do Plano de Trabalho: \"Curadoria técnica de estímulos, TextGrids e metadados de fala natural e sintetizada do português para uso em benchmarks de TTS\"",
+    "photo": null,
+    "links": {
+      "email": "mailto:leticia.barbosa@fale.ufal.br",
+      "lattes": "https://lattes.cnpq.br/9120243110196607"
+    }
+  },
+  {
     "id": "januacele-francisca-da-costa",
     "name": "Januacele Francisca da Costa",
     "category": "lider",
