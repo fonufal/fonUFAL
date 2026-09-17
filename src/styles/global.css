@@ -113,9 +113,8 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .nav-toggle-label { display: none; }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; padding: 56px 0 86px; border-bottom: 1px solid var(--border); overflow: hidden; }
+.hero { position: relative; padding: 56px 0 48px; border-bottom: 1px solid var(--border); overflow: hidden; }
 .waveform { display: block; width: 100%; height: 64px; }
-.hero-waveform { position: absolute; inset: auto 0 0 0; width: 100%; height: 46px; opacity: .3; pointer-events: none; }
 .hero-content { position: relative; max-width: 760px; }
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
@@ -272,6 +271,6 @@ main { padding-top: 56px; padding-bottom: 88px; }
   .nav-toggle-label svg { width: 18px; height: 18px; }
   .header-inner { flex-wrap: wrap; }
   main { padding-top: 34px; }
-  .hero { padding: 40px 0 68px; }
+  .hero { padding: 40px 0 32px; }
   .footer-inner { padding-top: 32px; padding-bottom: 32px; }
 }

@@ -1,8 +1,8 @@
 ---
-import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import Waveform from '../../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL } from '../../consts'; import { url } from '../../utils/paths';
+import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL } from '../../consts'; import { url } from '../../utils/paths';
 const nextUrl = `${SITE_URL}${url('/en/contact?sent=1')}`;
 ---
-<html lang="en"><head><BaseHead title={`Contact | ${SITE_TITLE}`} description="Contact fonUFAL" /></head><body><Header lang="en"/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contact</p><h1>Get in touch with fonUFAL</h1><p class="lead">Email: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section>
+<html lang="en"><head><BaseHead title={`Contact | ${SITE_TITLE}`} description="Contact fonUFAL" /></head><body><Header lang="en"/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contact</p><h1>Get in touch with fonUFAL</h1><p class="lead">Email: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div></section>
 <section class="section">
   <div id="contact-success" class="callout" hidden>
     <h2>Message sent</h2>

@@ -2,7 +2,6 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Waveform from '../components/Waveform.astro';
 import projects from '../data/projects.json';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { url } from '../utils/paths';
@@ -12,7 +11,7 @@ const featured = projects.slice(0,3);
 <html lang="pt-BR">
 <head><BaseHead title={`${SITE_TITLE} | Universidade Federal de Alagoas`} description={SITE_DESCRIPTION} /></head>
 <body><Header /><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Universidade Federal de Alagoas · Faculdade de Letras</p><h1>Estudos em <em>Fonética</em> e Fonologia</h1><p class="lead">O fonUFAL desenvolve pesquisa teórico-experimental sobre os sons, a prosódia e o processamento da linguagem, articulando descrição linguística, métodos experimentais, tecnologias da fala e documentação.</p><p><a class="btn btn--primary" href={url('/projects')}>Ver pesquisas em andamento →</a></p></div><Waveform class="hero-waveform" /></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Universidade Federal de Alagoas · Faculdade de Letras</p><h1>Estudos em <em>Fonética</em> e Fonologia</h1><p class="lead">O fonUFAL desenvolve pesquisa teórico-experimental sobre os sons, a prosódia e o processamento da linguagem, articulando descrição linguística, métodos experimentais, tecnologias da fala e documentação.</p><p><a class="btn btn--primary" href={url('/projects')}>Ver pesquisas em andamento →</a></p></div></section>
 <section class="section"><div class="section-head"><h2>Pesquisa em destaque</h2><a href={url('/projects')}>Ver todos os projetos →</a></div><div class="grid">{featured.map(p => <article class="card"><span class={`badge ${statusClass(p.status)}`}>{p.status}</span><h3><a href={url(`/projects/${p.id}`)}>{p.title}</a></h3><p>{p.description}</p></article>)}</div></section>
 <section class="section"><h2>Linhas de atuação</h2><div class="grid"><div class="card"><h3>Prosódia e discurso</h3><p>Produção e percepção de fronteiras, estruturação do discurso e processamento em tempo real.</p></div><div class="card"><h3>Fonética experimental</h3><p>Análise acústica, percepção da fala, rastreamento ocular, EEG e métodos multimodais.</p></div><div class="card"><h3>Tecnologias da fala</h3><p>Síntese de fala, naturalidade, avaliação de TTS, métricas automáticas e ciência aberta.</p></div></div></section>
 <section class="section"><div class="callout"><h2>Diversidade & Inclusão</h2><p>O Grupo de Estudos em Fonética e Fonologia (fonUFAL) promove a igualdade, a diversidade e a inclusão, objetivando excelência em pesquisa acadêmica e alcance público abrangente. Estamos comprometidos com um ambiente intelectual que seja ao mesmo tempo acolhedor, encorajador e estimulante, e que respeite o espectro completo da diversidade humana em raça, etnia, identidade de gênero, idade, status socioeconômico, deficiência, nacionalidade, orientação sexual e crença. Os membros do Grupo de Estudos em Fonética e Fonologia (fonUFAL) trabalham ativamente para criar e manter um ambiente de afirmação, de proteção, de respeito mútuo e de apoio irrestrito.</p></div></section>
