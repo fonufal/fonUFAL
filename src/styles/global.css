@@ -53,29 +53,6 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --fon-red: #ef5c50;
-    --fon-blue: #4bb6e0;
-    --ink: #edeef0;
-    --ink-soft: #cbcfd4;
-    --muted: #979ea6;
-    --faint: #676d76;
-    --bg: #101114;
-    --bg-soft: #16181c;
-    --bg-raised: #18191d;
-    --border: #262931;
-    --border-strong: #34383f;
-    --status-active-bg: #133523; --status-active-fg: #6fd398;
-    --status-review-bg: #3a2c10; --status-review-fg: #e8b95e;
-    --status-proposal-bg: #24272d; --status-proposal-fg: #b7bec8;
-    --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
-    --shadow-md: 0 10px 28px -10px rgba(0,0,0,.55);
-    --shadow-lg: 0 28px 56px -18px rgba(0,0,0,.65);
-    color-scheme: dark;
-  }
-}
-
 /* ---------- Reset & base ---------- */
 * { box-sizing: border-box; }
 html { background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-text-size-adjust: 100%; }
@@ -151,8 +128,13 @@ nav.site-nav a:hover::after { right: 0; }
 .card:hover { box-shadow: var(--shadow-md); border-color: var(--border-strong); }
 .card h3 { margin-top: .5em; }
 .avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 4px; }
-.person-card h3 { margin-top: 4px; margin-bottom: 2px; }
-.person-links { display: flex; gap: 12px; flex-wrap: wrap; font-size: .82rem; margin-top: 12px; margin-bottom: 0; }
+
+.person-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px 4px; margin-top: 22px; }
+.person-tile { text-align: center; padding: 20px 10px; border-radius: var(--radius-md); transition: background var(--dur) var(--ease); }
+.person-tile:hover { background: var(--bg-soft); }
+.avatar-lg { width: 88px; height: 88px; margin: 0 auto 14px; }
+.person-tile h3 { font-size: .96rem; margin: 0 0 6px; line-height: 1.25; }
+.person-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; font-size: .74rem; margin-top: 8px; margin-bottom: 0; }
 .person-links a { color: var(--muted); text-decoration: none; }
 .person-links a:hover { color: var(--fon-red); }
 .card h3 a { color: var(--ink); text-decoration: none; }
