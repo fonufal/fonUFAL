@@ -7,9 +7,9 @@ tags: ["notícias"]
 ---
 
 <p>O Grupo de Estudo em Fonética e Fonologia da UFAL tem o prazer de anunciar a realização do Minicurso de Fonética Acústica, destinado a estudantes interessados em compreender e analisar a produção da fala a partir de seus aspectos acústicos.</p>
-<p><img src="https://s.w.org/images/core/emoji/2.3/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Período: 30 de setembro a 25 de novembro de 2025<br />
+<p>📅 Período: 30 de setembro a 25 de novembro de 2025<br />
 ⏱️ Carga horária: 20 horas<br />
-<img src="https://s.w.org/images/core/emoji/2.3/72x72/1f465.png" alt="👥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Vagas: 30</p>
+👥 Vagas: 30</p>
 <p>Este curso, de caráter introdutório e aplicado, oferecerá uma visão abrangente sobre:</p>
 <p>Fundamentos articulatórios e físicos do som;</p>
 <p>Representações acústicas (oscilograma, espectro e espectrograma);</p>
@@ -17,11 +17,11 @@ tags: ["notícias"]
 <p>Reconhecimento acústico de classes consonantais e vocálicas;</p>
 <p>Procedimentos de medição e visualização no Praat (F0, formantes, filtros, segmentação e anotação em TextGrid);</p>
 <p>Elaboração de um mini-relatório técnico com figuras e parâmetros acústicos.</p>
-<p><img src="https://s.w.org/images/core/emoji/2.3/72x72/1f468.png" alt="👨" class="wp-smiley" style="height: 1em; max-height: 1em;" />‍<img src="https://s.w.org/images/core/emoji/2.3/72x72/1f3eb.png" alt="🏫" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Coordenação:<br />
+<p>👨‍🏫 Coordenação:<br />
 Prof. Dr. Miguel José Alves de Oliveira Junior<br />
-<img src="https://s.w.org/images/core/emoji/2.3/72x72/1f4e7.png" alt="📧" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Contato: miguel@fale.ufal.br</p>
-<p><img src="https://s.w.org/images/core/emoji/2.3/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Uma oportunidade única para aprofundar seus conhecimentos em Fonética Acústica e desenvolver práticas reprodutíveis de análise da fala.</p>
-<p><img src="https://s.w.org/images/core/emoji/2.3/72x72/1f4da.png" alt="📚" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Cronograma Resumido</p>
+📧 Contato: miguel@fale.ufal.br</p>
+<p>👉 Uma oportunidade única para aprofundar seus conhecimentos em Fonética Acústica e desenvolver práticas reprodutíveis de análise da fala.</p>
+<p>📚 Cronograma Resumido</p>
 <p>30/09 – Aula 1: Fundamentos de Fonética (articuladores, modos de articulação, parâmetros de vozeamento e nasalidade).</p>
 <p>07/10 – Aula 2: Física do Som e Áudio Digital (ondas, frequência, amostragem; prática no Praat).</p>
 <p>14/10 – Aula 3: Harmônicos e Fourier (ondas complexas; extração manual e automática de F0).</p>

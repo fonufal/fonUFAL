@@ -36,6 +36,9 @@ for (const post of posts) {
   }
   // any <img> still pointing at the live site 404'd during download and has no local file — drop it
   content = content.replace(/<img[^>]*src="https:\/\/fale\.ufal\.br\/grupo\/fonufal\/wp-content\/uploads\/[^"]*"[^>]*>/g, '');
+  // WordPress's emoji shim: swap the hotlinked s.w.org glyph image for the plain character it represents
+  content = content.replace(/<img[^>]*class="wp-smiley"[^>]*alt="([^"]*)"[^>]*>/g, '$1');
+  content = content.replace(/<img[^>]*alt="([^"]*)"[^>]*class="wp-smiley"[^>]*>/g, '$1');
   content = content
     .replace(/\s+srcset="[^"]*"/g, '')
     .replace(/\s+sizes="[^"]*"/g, '');
