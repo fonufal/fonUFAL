@@ -84,7 +84,7 @@ p { margin: 0 0 1em; }
 }
 .header-inner { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-svg.brand-wordmark { display: block; width: 132px; height: auto; flex-shrink: 0; }
+svg.brand-logo { display: block; width: 168px; height: auto; flex-shrink: 0; }
 .brand-mark { font-family: var(--font-mono); font-size: .66rem; letter-spacing: .1em; color: var(--faint); text-transform: uppercase; border-left: 1px solid var(--border-strong); padding-left: 10px; line-height: 1.3; }
 
 nav.site-nav { display: flex; gap: 26px; flex-wrap: wrap; align-items: center; }
@@ -257,7 +257,7 @@ main { padding-top: 56px; padding-bottom: 88px; }
 @media (max-width: 760px) {
   .header-inner { padding-top: 14px; padding-bottom: 14px; }
   .brand-mark { display: none; }
-  svg.brand-wordmark { width: 110px; }
+  svg.brand-logo { width: 140px; }
   nav.site-nav {
     display: none; width: 100%; order: 3; padding-top: 14px; border-top: 1px solid var(--border);
     margin-top: 14px; gap: 2px;

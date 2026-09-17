@@ -1,7 +1,7 @@
 ---
 import { SITE_TITLE } from '../consts';
 import { url } from '../utils/paths';
-import Wordmark from './Wordmark.astro';
+import Logo from './Logo.astro';
 
 interface Props { lang?: 'pt' | 'en' }
 const { lang = 'pt' } = Astro.props;
@@ -47,7 +47,7 @@ function otherLangHref(): string {
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href={url(lang === 'en' ? '/en/' : '/')} aria-label={`${SITE_TITLE} — ${lang === 'en' ? 'home' : 'início'}`}>
-      <Wordmark class="brand-wordmark" />
+      <Logo class="brand-logo" />
       <span class="brand-mark">{lang === 'en' ? <>Phonetics<br/>&amp; Phonology</> : <>Fonética<br/>&amp; Fonologia</>}</span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
