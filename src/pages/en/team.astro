@@ -32,7 +32,7 @@ const linkLabels: Record<string, string> = { lattes: 'Lattes', orcid: 'ORCID', e
 const linkOrder = ['lattes', 'orcid', 'email'];
 ---
 <html lang="en"><head><BaseHead title={`People | ${SITE_TITLE}`} description="fonUFAL people" /></head><body><Header lang="en"/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">People · {authors.length} members</p><h1>Team</h1><p class="lead">Leaders, researchers, students, and alumni of fonUFAL, preserved from the group's official directory.</p></div><Waveform class="hero-waveform" /></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">People · {authors.length} members</p><h1>Team</h1><p class="lead">Leaders, researchers, students, and alumni of fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
 {groups.map(group => (
   <section class="section">
     <div class="section-head"><h2>{group.title}</h2><span class="person-count">{group.members.length}</span></div>

@@ -1,6 +1,5 @@
 ---
 import { CONTACT_EMAIL } from '../consts';
-import { url } from '../utils/paths';
 
 interface Props { lang?: 'pt' | 'en' }
 const { lang = 'pt' } = Astro.props;
@@ -15,8 +14,7 @@ const { lang = 'pt' } = Astro.props;
       <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
     </div>
     <div>
-      <p class="credit">{lang === 'en' ? 'Built on the Astro Scholar template, by Shravan Goswami (MIT).' : 'Site baseado no template Astro Scholar, de Shravan Goswami (MIT).'}</p>
-      <p class="credit"><a href={url('/design-system')}>{lang === 'en' ? 'Design system →' : 'Sistema de design →'}</a></p>
+      <p class="credit">© {new Date().getFullYear()} fonUFAL</p>
     </div>
   </div>
 </footer>

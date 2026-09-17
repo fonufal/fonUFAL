@@ -9,7 +9,7 @@ function formatAuthors(authors: string[]) {
 }
 ---
 <html lang="pt-BR"><head><BaseHead title={`Publicações | ${SITE_TITLE}`} description="Publicações do fonUFAL" /></head><body><Header/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos identificados no arquivo de notícias do grupo e no ORCID público dos membros atuais, verificados individualmente no Crossref antes da publicação. O currículo Lattes não pôde ser usado como fonte: o visualizador do CNPq exige verificação por CAPTCHA em toda consulta.</p></div><Waveform class="hero-waveform" /></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos e demais produções científicas do fonUFAL, com ênfase na produção recente de seus membros atuais.</p></div><Waveform class="hero-waveform" /></section>
 <section class="section"><div class="pub-list">
 {ordered.map(p => (
   <article class="pub-item">

@@ -29,8 +29,7 @@ const formattedDate = post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-di
     <div class="prose">
       <Content />
     </div>
-    <p class="meta" style="margin-top:32px"><a href={post.data.originalUrl}>Ver publicação original no WordPress →</a></p>
-    <p><a href={url('/noticias')}>← Voltar para notícias</a></p>
+    <p style="margin-top:32px"><a href={url('/noticias')}>← Voltar para notícias</a></p>
   </article>
 </main>
 <Footer />
