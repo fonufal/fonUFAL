@@ -1,7 +1,317 @@
 [
   {
+    "id": "10-1007-978-3-032-15984-7-37",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Sidney Leal",
+      "Leticia de Souza",
+      "Rodrigo Lima",
+      "Antonio Moreira",
+      "Arnaldo Candido",
+      "Miguel Oliveira Jr.",
+      "Edresson Casanova",
+      "Sandra Aluísio"
+    ],
+    "title": "The Impact of Prosodic Segmentation on Speech Synthesis of Spontaneous Speech",
+    "journal": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "547–561",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/978-3-032-15984-7_37"
+  },
+  {
+    "id": "10-25189-2675-4916-2025-v6-n4-id863",
+    "authors": [
+      "Raquel Freitag",
+      "Marcia dos Santos Machado Vieira",
+      "Juliana Bertucci Barbosa",
+      "Miguel Oliveira Jr.",
+      "Cleber Ataíde",
+      "Alana de Santana Correia",
+      "Amanda Post da Silveira",
+      "André Britto de Carvalho",
+      "Andréia Silva Araujo",
+      "Brayna Conceição dos Santos Cardoso",
+      "Claudia Andrea Rosto Snichelotto",
+      "Eduardo Cardoso Martins",
+      "Eliabe dos Santos Procópio",
+      "Elisa Battisti",
+      "Elisângela Nogueira Teixeira",
+      "Fabiane Cristina Altino",
+      "Hadinei Ribeiro Batista",
+      "Hendrik Teixeira Macedo",
+      "Isabel de Oliveira e Silva Monguilhott",
+      "Iury Cleveston",
+      "Kendra Dickinson",
+      "Lilian Cristine Hübner",
+      "Luma da Silva Miranda",
+      "Mailce Borges Mota",
+      "Marcus Garcia de Sene",
+      "Marinete Rodrigues da Silva",
+      "Marta Deysiane Alves Faria Sousa",
+      "Monica Maria Guimarães Savedra",
+      "Pedro Ricardo Bin",
+      "Ronice Muller de Quadros",
+      "Sandro Marcío Drumond Alves Marengo",
+      "Silvana Silva de Farias Araújo",
+      "Túlio Sousa de Gois",
+      "Valéria Viana Sousa",
+      "Valter de Carvalho Dias"
+    ],
+    "title": "Plataforma da Diversidade Linguística Brasileira: dados linguísticos para uma IA brasileira",
+    "journal": "Cadernos de Linguística",
+    "volume": "6",
+    "issue": "4",
+    "pages": null,
+    "year": 2025,
+    "url": "https://doi.org/10.25189/2675-4916.2025.v6.n4.id863"
+  },
+  {
+    "id": "10-35520-diadorim-2023-v25n2a61715",
+    "authors": [
+      "Ebson Wilkerson Rocha da Silva",
+      "Arthur Ronald Brasil Terto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "O uso da prosódia na percepção de fronteiras de eventos narrados em português brasileiro",
+    "journal": "Diadorim: revista de estudos linguísticos e literários",
+    "volume": "25",
+    "issue": "2",
+    "pages": "e61715",
+    "year": 2025,
+    "url": "https://doi.org/10.35520/diadorim.2023.v25n2a61715"
+  },
+  {
+    "id": "10-25189-rabralin-v23i1-2287",
+    "authors": [
+      "Remildo Barbosa da Silva",
+      "Arthur Ronald Brasil Terto",
+      "Ebson Wilkerson Rocha da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Rastreador ocular como método de análise de percepção da prosódia da fala: uma revisão de escopo",
+    "journal": "Revista da ABRALIN",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "year": 2024,
+    "url": "https://doi.org/10.25189/rabralin.v23i1.2287"
+  },
+  {
+    "id": "10-5753-stil-2024-245424",
+    "authors": [
+      "Gustavo E. Araújo",
+      "Julio Cesar Galdino",
+      "Rodrigo de F. Lima",
+      "Leonardo Ishida",
+      "Gustavo W. Lopes",
+      "Miguel Oliveira Jr.",
+      "Arnaldo Cândido Jr.",
+      "Sandra M. Aluísio",
+      "Moacir A. Ponti"
+    ],
+    "title": "EyetrackingMOS: Proposal for an online evaluation method for speech synthesis models",
+    "journal": "Anais do XV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL 2024)",
+    "volume": null,
+    "issue": null,
+    "pages": "87–96",
+    "year": 2024,
+    "url": "https://doi.org/10.5753/stil.2024.245424"
+  },
+  {
+    "id": "10-25189-2675-4916-2024-v5-n1-id723",
+    "authors": [
+      "Camiel Hamans",
+      "Hein Van der Voort",
+      "Miguel Oliveira Jr.",
+      "Katia Silene Costa Valdenilson"
+    ],
+    "title": "Economic Value of Endangered Languages",
+    "journal": "Cadernos de Linguística",
+    "volume": "5",
+    "issue": "1",
+    "pages": "e723",
+    "year": 2024,
+    "url": "https://doi.org/10.25189/2675-4916.2024.v5.n1.id723"
+  },
+  {
+    "id": "10-17851-2237-2083-30-3-1314-1338",
+    "authors": [
+      "Kyvia Fernanda Tenório da Silva",
+      "Susana Carvalho",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "A identificação da fala interna por meio da eletromiografia de superfície e da encefalografia: uma revisão de escopo",
+    "journal": "Revista de Estudos da Linguagem",
+    "volume": "30",
+    "issue": "3",
+    "pages": "1314–1338",
+    "year": 2024,
+    "url": "https://doi.org/10.17851/2237-2083.30.3.1314-1338"
+  },
+  {
+    "id": "10-5007-1984-8420-2023-e92124",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Miguel Oliveira Jr.",
+      "Ayane Nazarela Santos de Almeida",
+      "Oyedeji Musiliyu"
+    ],
+    "title": "Percepção de fala comprimida: um estudo experimental",
+    "journal": "Working Papers em Linguística",
+    "volume": "24",
+    "issue": "1",
+    "pages": "255–270",
+    "year": 2023,
+    "url": "https://doi.org/10.5007/1984-8420.2023.e92124"
+  },
+  {
+    "id": "10-25189-rabralin-v22i1-2130",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Prosódia e síntese da fala: uma revisão integrativa da literatura",
+    "journal": "Revista da ABRALIN",
+    "volume": null,
+    "issue": null,
+    "pages": "1–15",
+    "year": 2023,
+    "url": "https://doi.org/10.25189/rabralin.v22i1.2130"
+  },
+  {
+    "id": "10-1590-1981-5794-e16329",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "PROCESSOS FÔNICOS NA PRODUÇÃO DE SENTIDO: A FONOLOGIA NA VIRADA PRAGMÁTICA",
+    "journal": "Alfa: Revista de Linguística (São José do Rio Preto)",
+    "volume": "67",
+    "issue": null,
+    "pages": null,
+    "year": 2023,
+    "url": "https://doi.org/10.1590/1981-5794-e16329"
+  },
+  {
+    "id": "10-1075-scl-108-05qua",
+    "authors": [
+      "Ronice Müller de Quadros",
+      "Jair Barbosa da Silva",
+      "Rodrigo Nogueira Machado"
+    ],
+    "title": "A corpus-based analysis of coordinate structures in Libras",
+    "journal": "Studies in Corpus Linguistics",
+    "volume": null,
+    "issue": null,
+    "pages": "123–154",
+    "year": 2023,
+    "url": "https://doi.org/10.1075/scl.108.05qua"
+  },
+  {
+    "id": "10-14393-dl49-v16n1a2022-10",
+    "authors": [
+      "Humberto Meira de Araújo Neto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Papel das mudanças na segmentação de eventos narrados",
+    "journal": "Domínios de Lingu@gem",
+    "volume": "16",
+    "issue": "1",
+    "pages": "255–297",
+    "year": 2022,
+    "url": "https://doi.org/10.14393/dl49-v16n1a2022-10"
+  },
+  {
+    "id": "10-25189-2675-4916-2021-v2-n4-id477",
+    "authors": [
+      "Arthur Ronald Brasil Terto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "A prosódia do metadiscurso",
+    "journal": "Cadernos de Linguística",
+    "volume": "2",
+    "issue": "4",
+    "pages": "e477",
+    "year": 2021,
+    "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id477"
+  },
+  {
+    "id": "10-25189-2675-4916-2021-v2-n4-id468",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Kyvia Fernanda Tenório da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Características prosódicas associadas aos sinais de pontuação: uma revisão de escopo",
+    "journal": "Cadernos de Linguística",
+    "volume": "2",
+    "issue": "4",
+    "pages": null,
+    "year": 2021,
+    "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id468"
+  },
+  {
+    "id": "10-20396-cel-v63i00-8660603",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Miguel Oliveira Jr.",
+      "Reinier Cozijn"
+    ],
+    "title": "A influência da prosódia da fala na resolução de ambiguidade sintática",
+    "journal": "Cadernos de Estudos Linguísticos",
+    "volume": "63",
+    "issue": null,
+    "pages": "e021004",
+    "year": 2021,
+    "url": "https://doi.org/10.20396/cel.v63i00.8660603"
+  },
+  {
+    "id": "10-5935-2079-312x-20210021",
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Análisis entonacional de los códigos postales (CEP) en portugués brasileño",
+    "journal": "Lingüística",
+    "volume": "37",
+    "issue": "2",
+    "pages": null,
+    "year": 2021,
+    "url": "https://doi.org/10.5935/2079-312x.20210021"
+  },
+  {
+    "id": "10-5151-9786555500929-06",
+    "authors": [
+      "Ebson Wilkerson Rocha da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Segmentação Automática e Manual de Narrativas Espontâneas: Metodologia de um Estudo de Percepção da Prosódia",
+    "journal": "Estudos em Fonética e Fonologia",
+    "volume": null,
+    "issue": null,
+    "pages": "135–150",
+    "year": 2021,
+    "url": "https://doi.org/10.5151/9786555500929-06"
+  },
+  {
+    "id": "silva2020roseta",
+    "authors": [
+      "Ebson Wilkerson da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "O mundo aos pedaços: como a segmentação nos ajuda a compreender estímulos?",
+    "journal": "Roseta (divulgação científica, ABRALIN)",
+    "year": 2020,
+    "url": "http://www.roseta.org.br/pt/2020/02/27/o-mundo-aos-pedacos-como-a-segmentacao-nos-ajudar-a-compreender-estimulos/",
+    "noticiaSlug": "artigo-de-divulgacao-cientifica"
+  },
+  {
     "id": "almeida2019prolingua",
-    "authors": ["Ayane Nazarela Santos de Almeida", "Miguel Oliveira Jr."],
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
     "title": "Análise do comportamento da F0 em enunciados numéricos de CPF no português brasileiro",
     "journal": "PROLÍNGUA",
     "volume": "14",
@@ -12,17 +322,11 @@
     "noticiaSlug": "novo-artigo"
   },
   {
-    "id": "silva2020roseta",
-    "authors": ["Ebson Wilkerson da Silva", "Miguel Oliveira Jr."],
-    "title": "O mundo aos pedaços: como a segmentação nos ajuda a compreender estímulos?",
-    "journal": "Roseta (divulgação científica, ABRALIN)",
-    "year": 2020,
-    "url": "http://www.roseta.org.br/pt/2020/02/27/o-mundo-aos-pedacos-como-a-segmentacao-nos-ajudar-a-compreender-estimulos/",
-    "noticiaSlug": "artigo-de-divulgacao-cientifica"
-  },
-  {
     "id": "oliveira2018deltavogais",
-    "authors": ["Miguel Oliveira Jr.", "João Paulo Moraes Lima dos Santos"],
+    "authors": [
+      "Miguel Oliveira Jr.",
+      "João Paulo Moraes Lima dos Santos"
+    ],
     "title": "Análise das vogais átonas finais /e/ e /o/ em sândi vocálico externo em dados do Projeto NURC-Recife",
     "journal": "DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada",
     "volume": "34",
@@ -34,7 +338,10 @@
   },
   {
     "id": "silva2017gelne",
-    "authors": ["Miguel Oliveira Jr.", "Remildo Barbosa Silva"],
+    "authors": [
+      "Miguel Oliveira Jr.",
+      "Remildo Barbosa da Silva"
+    ],
     "title": "Padrões temporais em agrupamentos de números telefônicos móveis no português do Brasil",
     "journal": "Revista do GELNE",
     "volume": "19",

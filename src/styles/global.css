@@ -207,6 +207,19 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .prose iframe { width: 100%; aspect-ratio: 16 / 9; height: auto; border-radius: var(--radius-md); margin: 8px 0 20px; }
 .prose a { text-decoration: underline; }
 
+/* ---------- Publications list ---------- */
+.pub-list { display: flex; flex-direction: column; gap: 14px; margin-top: 26px; }
+.pub-item {
+  border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-raised);
+  padding: 20px 26px; box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.pub-item:hover { box-shadow: var(--shadow-md); border-color: var(--border-strong); }
+.pub-item h3 { margin: 6px 0 6px; font-size: 1.08rem; line-height: 1.35; }
+.pub-item h3 a { color: var(--ink); text-decoration: none; }
+.pub-item h3 a:hover { color: var(--fon-red); }
+.pub-item p:last-child { margin-bottom: 0; }
+
 /* ---------- Callout ---------- */
 .callout {
   border-left: 4px solid var(--fon-blue); background: var(--bg-soft);
