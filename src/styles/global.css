@@ -138,12 +138,23 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .card h3 { margin-top: .5em; }
 .avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 4px; }
 
-.person-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px 4px; margin-top: 22px; }
-.person-tile { text-align: center; padding: 20px 10px; border-radius: var(--radius-md); transition: background var(--dur) var(--ease); }
-.person-tile:hover { background: var(--bg-soft); }
-.avatar-lg { width: 88px; height: 88px; margin: 0 auto 14px; }
-.person-tile h3 { font-size: .96rem; margin: 0 0 6px; line-height: 1.25; }
-.person-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; font-size: .74rem; margin-top: 8px; margin-bottom: 0; }
+.person-count { font-family: var(--font-mono); font-size: .78rem; color: var(--faint); }
+.person-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(172px, 1fr)); gap: 14px; margin-top: 22px; }
+.person-tile {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding: 24px 14px; min-height: 100%;
+  border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-raised);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.person-tile:hover { box-shadow: var(--shadow-md); border-color: var(--border-strong); transform: translateY(-2px); }
+.avatar-lg {
+  width: 84px; height: 84px; margin: 0 auto 14px;
+  box-shadow: 0 0 0 3px var(--bg-raised), 0 0 0 4px var(--border);
+}
+.person-tile h3 { font-size: .95rem; margin: 0 0 6px; line-height: 1.3; }
+.person-tile .badge { margin-bottom: 4px; }
+.person-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; font-size: .74rem; margin-top: auto; padding-top: 10px; margin-bottom: 0; }
 .person-links a { color: var(--muted); text-decoration: none; }
 .person-links a:hover { color: var(--fon-red); }
 .card h3 a { color: var(--ink); text-decoration: none; }
