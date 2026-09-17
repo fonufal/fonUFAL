@@ -173,6 +173,11 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .badge--proposal { color: var(--status-proposal-fg); background: var(--status-proposal-bg); }
 .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 
+/* Student degree level — distinct from status badges above */
+.badge--phd { color: #6a3fa0; background: #f1ecfa; }
+.badge--masters { color: var(--fon-blue-strong); background: #e7f2fa; }
+.badge--undergrad { color: #0a7d6c; background: #e5f5f1; }
+
 .meta { color: var(--muted); font-size: .87rem; font-family: var(--font-mono); }
 
 /* ---------- Buttons ---------- */

@@ -14,6 +14,7 @@ const subRoleEn: Record<string, string> = {
   'Graduação': 'Undergraduate',
 };
 const studentRank: Record<string, number> = { Doutorado: 0, Mestrado: 1, Graduação: 2 };
+const subRoleBadge: Record<string, string> = { Doutorado: 'badge--phd', Mestrado: 'badge--masters', Graduação: 'badge--undergrad' };
 const groups = categoryOrder.map(cat => {
   let members = authors.filter(a => a.category === cat);
   if (cat === 'estudante') {
@@ -21,6 +22,8 @@ const groups = categoryOrder.map(cat => {
       const rankDiff = (studentRank[a.subRole] ?? 99) - (studentRank[b.subRole] ?? 99);
       return rankDiff !== 0 ? rankDiff : a.name.localeCompare(b.name, 'pt-BR');
     });
+  } else if (cat === 'egresso') {
+    members = [...members].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
   }
   return { key: cat, title: categoryTitles[cat], members };
 }).filter(g => g.members.length > 0);
@@ -38,7 +41,7 @@ const linkOrder = ['lattes', 'orcid', 'email'];
         <article class="person-tile">
           {a.photo && <img class="avatar avatar-lg" src={url(a.photo)} alt={a.name} width="96" height="96" loading="lazy" />}
           <h3>{a.name}</h3>
-          {a.subRole && <span class="badge">{subRoleEn[a.subRole] || a.subRole}</span>}
+          {a.subRole && <span class={`badge ${subRoleBadge[a.subRole] || ''}`}>{subRoleEn[a.subRole] || a.subRole}</span>}
           <p class="person-links">
             {linkOrder.filter(key => a.links[key]).map(key => (
               <a href={a.links[key]} target="_blank" rel="noopener">{linkLabels[key]}</a>
