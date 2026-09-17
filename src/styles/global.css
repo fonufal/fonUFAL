@@ -254,6 +254,9 @@ footer.site-footer { border-top: 1px solid var(--border); background: var(--bg-s
 .footer-inner p { margin: 0 0 6px; }
 .footer-brand { font-family: var(--font-display); font-size: 1.15rem; color: var(--ink); }
 .credit { font-size: .8rem; }
+.footer-social { margin-top: 10px; }
+.footer-social a { display: inline-flex; color: var(--muted); transition: color var(--dur) var(--ease); }
+.footer-social a:hover { color: var(--fon-red); }
 
 main { padding-top: 56px; padding-bottom: 88px; }
 

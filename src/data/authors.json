@@ -875,5 +875,18 @@
       "email": "mailto:weksley.albuquerque@fale.ufal.br",
       "lattes": "http://lattes.cnpq.br/1322775089672108"
     }
+  },
+  {
+    "id": "jose-eraldo-nunes-de-albuquerque",
+    "name": "José Eraldo Nunes de Albuquerque",
+    "category": "estudante",
+    "categoryLabel": "Estudante",
+    "subRole": "Graduação",
+    "photo": "/team/jose-eraldo-nunes-de-albuquerque.jpeg",
+    "links": {
+      "email": "mailto:jose.albuquerque@fale.ufal.br",
+      "lattes": "https://lattes.cnpq.br/2464480214272048",
+      "orcid": "https://orcid.org/0009-0000-3862-8782"
+    }
   }
 ]

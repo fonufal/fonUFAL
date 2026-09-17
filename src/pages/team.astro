@@ -4,9 +4,9 @@ import BaseHead from '../components/BaseHead.astro'; import Header from '../comp
 const categoryOrder = ['lider', 'pesquisador', 'estudante', 'egresso'];
 const categoryTitles = {
   lider: 'Liderança',
-  pesquisador: 'Pesquisadores',
+  pesquisador: 'Pesquisadoras e pesquisadores',
   estudante: 'Estudantes',
-  egresso: 'Egressos',
+  egresso: 'Ex-integrantes',
 };
 const studentRank = { Doutorado: 0, Mestrado: 1, Graduação: 2 };
 const subRoleBadge = { Doutorado: 'badge--phd', Mestrado: 'badge--masters', Graduação: 'badge--undergrad' };
@@ -25,9 +25,11 @@ const groups = categoryOrder.map(cat => {
 
 const linkLabels = { lattes: 'Lattes', orcid: 'ORCID', email: 'Email' };
 const linkOrder = ['lattes', 'orcid', 'email'];
+const egressosCount = authors.filter(a => a.category === 'egresso').length;
+const atuaisCount = authors.length - egressosCount;
 ---
-<html lang="pt-BR"><head><BaseHead title={`Pessoas | ${SITE_TITLE}`} description="Pessoas do fonUFAL" /></head><body><Header/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Pessoas · {authors.length} integrantes</p><h1>Equipe</h1><p class="lead">Líderes, pesquisadores, estudantes e egressos do fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
+<html lang="pt-BR"><head><BaseHead title={`Equipe | ${SITE_TITLE}`} description="Equipe do fonUFAL" /></head><body><Header/><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Equipe · {atuaisCount} integrantes atuais · {egressosCount} ex-integrantes</p><h1>Equipe</h1><p class="lead">Liderança, pesquisadoras e pesquisadores, estudantes e ex-integrantes do fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
 {groups.map(group => (
   <section class="section">
     <div class="section-head"><h2>{group.title}</h2><span class="person-count">{group.members.length}</span></div>

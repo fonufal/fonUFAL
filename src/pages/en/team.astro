@@ -30,9 +30,11 @@ const groups = categoryOrder.map(cat => {
 
 const linkLabels: Record<string, string> = { lattes: 'Lattes', orcid: 'ORCID', email: 'Email' };
 const linkOrder = ['lattes', 'orcid', 'email'];
+const alumniCount = authors.filter(a => a.category === 'egresso').length;
+const currentCount = authors.length - alumniCount;
 ---
-<html lang="en"><head><BaseHead title={`People | ${SITE_TITLE}`} description="fonUFAL people" /></head><body><Header lang="en"/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">People · {authors.length} members</p><h1>Team</h1><p class="lead">Leaders, researchers, students, and alumni of fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
+<html lang="en"><head><BaseHead title={`Team | ${SITE_TITLE}`} description="fonUFAL team" /></head><body><Header lang="en"/><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Team · {currentCount} current members · {alumniCount} alumni</p><h1>Team</h1><p class="lead">Leadership, research staff, students, and alumni of fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
 {groups.map(group => (
   <section class="section">
     <div class="section-head"><h2>{group.title}</h2><span class="person-count">{group.members.length}</span></div>

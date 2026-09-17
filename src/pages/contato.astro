@@ -1,12 +1,12 @@
 ---
-import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL } from '../consts'; import { url } from '../utils/paths';
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL, MAILING_LIST_URL } from '../consts'; import { url } from '../utils/paths';
 const nextUrl = `${SITE_URL}${url('/contato?enviado=1')}`;
 ---
 <html lang="pt-BR"><head><BaseHead title={`Contato | ${SITE_TITLE}`} description="Contato do fonUFAL" /></head><body><Header/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contato</p><h1>Fale com o fonUFAL</h1><p class="lead">E-mail: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section>
 <section class="section">
   <div id="contact-success" class="callout" hidden>
     <h2>Mensagem enviada</h2>
-    <p>Obrigado pelo contato — a mensagem foi encaminhada para o fonUFAL. Respondemos o quanto antes.</p>
+    <p>Agradecemos o contato — a mensagem foi encaminhada para o fonUFAL. Respondemos o quanto antes.</p>
   </div>
   <div id="contact-form-wrap">
     <form class="contact-form" action={`https://formsubmit.co/${CONTACT_EMAIL}`} method="POST">
@@ -30,6 +30,14 @@ const nextUrl = `${SITE_URL}${url('/contato?enviado=1')}`;
       <button type="submit" class="btn btn--primary">Enviar mensagem</button>
     </form>
     <p class="meta" style="margin-top:16px">Sua mensagem é encaminhada diretamente para o e-mail do fonUFAL. Nenhum dado é armazenado.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="callout">
+    <h2>Receba nossas notificações</h2>
+    <p>Participe da nossa lista de e-mails para receber avisos sobre atividades, publicações e eventos do fonUFAL.</p>
+    <p><a class="btn btn--ghost" href={MAILING_LIST_URL} target="_blank" rel="noopener">Acessar o grupo →</a></p>
+    <p class="meta" style="margin-top:12px">No link acima, clique em "Pedir para participar do grupo" (é necessário estar conectado a uma conta Google). Alternativamente, envie um e-mail em branco para <a href="mailto:fonufal+subscribe@googlegroups.com">fonufal+subscribe@googlegroups.com</a> para se inscrever.</p>
   </div>
 </section>
 </main><Footer/></body></html>
