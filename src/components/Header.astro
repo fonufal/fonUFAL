@@ -10,8 +10,12 @@ const nav = [
   <div class="header-inner">
     <a class="brand" href={url('/')} aria-label={`${SITE_TITLE} — início`}>
       <img src={WP_LOGO} alt="fonUFAL" width="150" height="51" />
+      <span class="brand-copy">
+        <strong>Fonética e Fonologia</strong>
+        <span>Universidade Federal de Alagoas</span>
+      </span>
     </a>
-    <nav aria-label="Navegação principal">
+    <nav class="site-nav" aria-label="Navegação principal">
       {nav.map(([label,path]) => <a href={url(path)}>{label}</a>)}
     </nav>
   </div>
