@@ -6,8 +6,9 @@ import Waveform from '../components/Waveform.astro';
 import { SITE_TITLE } from '../consts';
 
 const colors = [
-  ['--fon-red', 'Vermelho fonUFAL', 'Ênfase, links ativos, estado "em andamento"'],
-  ['--fon-blue', 'Azul fonUFAL', 'Links, acentos secundários, callouts'],
+  ['--fon-red', 'Vermelho fonUFAL', 'Cor oficial (#C4161C) — ênfase, links ativos, estado "em andamento"'],
+  ['--fon-blue', 'Azul fonUFAL', 'Cor oficial (#005E9E) — links, acentos secundários, callouts'],
+  ['--fon-gray', 'Cinza fonUFAL', 'Cor oficial (#939598) — barras neutras do símbolo da marca'],
   ['--ink', 'Texto principal', 'Títulos e corpo de texto'],
   ['--muted', 'Texto secundário', 'Metadados, legendas'],
   ['--bg', 'Fundo', 'Fundo de página'],
@@ -39,8 +40,8 @@ const type = [
 
   <section class="section">
     <h2>Identidade</h2>
-    <p class="lead">A marca do fonUFAL já usa uma onda sonora bicolor (vermelho → azul) no logotipo. Esse motivo foi estendido ao sistema como o elemento gráfico assinatura do grupo — um lembrete visual constante de que o objeto de estudo é o som da fala.</p>
-    <Waveform bars={64} />
+    <p class="lead">O símbolo oficial da marca fonUFAL é uma onda sonora em barras cinza, com um acento vermelho e um acento azul — reproduzido aqui a partir da geometria exata de <code>marca-fonUFAL.ai</code> e da <code>identidade-visual-fonUFAL.pdf</code>. Esse motivo foi estendido ao sistema como o elemento gráfico assinatura do grupo — um lembrete visual constante de que o objeto de estudo é o som da fala.</p>
+    <Waveform bars={68} />
   </section>
 
   <section class="section">

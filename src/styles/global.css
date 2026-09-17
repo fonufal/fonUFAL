@@ -6,10 +6,12 @@
 
 :root {
   /* Brand */
-  --fon-red: #d6362b;
-  --fon-red-strong: #a82920;
-  --fon-blue: #0d7fac;
-  --fon-blue-strong: #095f80;
+  /* Official palette per identidade-visual-fonUFAL.pdf */
+  --fon-red: #c4161c;
+  --fon-red-strong: #9c1216;
+  --fon-blue: #005e9e;
+  --fon-blue-strong: #00426f;
+  --fon-gray: #939598;
 
   /* Neutrals (light) — cool, crisp, not sepia */
   --ink: #12151a;
@@ -113,7 +115,7 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 /* ---------- Hero ---------- */
 .hero { position: relative; padding: 56px 0 40px; border-bottom: 1px solid var(--border); overflow: hidden; }
 .waveform { display: block; width: 100%; height: 64px; }
-.hero-waveform { position: absolute; inset: auto 0 0 0; width: 100%; height: 46px; opacity: .16; pointer-events: none; filter: grayscale(1); color: var(--ink); }
+.hero-waveform { position: absolute; inset: auto 0 0 0; width: 100%; height: 46px; opacity: .3; pointer-events: none; }
 .hero-content { position: relative; max-width: 760px; }
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
