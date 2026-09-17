@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import Waveform from '../../components/Waveform.astro';
 import projects from '../../data/projects.json';
 import { SITE_DESCRIPTION_EN, SITE_TITLE } from '../../consts';
 import { url } from '../../utils/paths';
@@ -11,7 +12,7 @@ const featured = projects.slice(0,3);
 <html lang="en">
 <head><BaseHead title={`${SITE_TITLE} | Federal University of Alagoas`} description={SITE_DESCRIPTION_EN} /></head>
 <body><Header lang="en" /><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Federal University of Alagoas · Faculty of Languages</p><h1>Studies in <em>Phonetics</em> and Phonology</h1><p class="lead">fonUFAL carries out theoretical and experimental research on speech sounds, prosody, and language processing, combining linguistic description, experimental methods, speech technologies, and documentation.</p><p><a class="btn btn--primary" href={url('/en/projects')}>See ongoing research →</a></p></div></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Federal University of Alagoas · Faculty of Languages</p><h1>Studies in <em>Phonetics</em> and Phonology</h1><p class="lead">fonUFAL carries out theoretical and experimental research on speech sounds, prosody, and language processing, combining linguistic description, experimental methods, speech technologies, and documentation.</p><p><a class="btn btn--primary" href={url('/en/projects')}>See ongoing research →</a></p></div><Waveform class="hero-waveform" /></section>
 <section class="section"><div class="section-head"><h2>Featured research</h2><a href={url('/en/projects')}>See all projects →</a></div><div class="grid">{featured.map(p => <article class="card"><span class={`badge ${statusClass(p.status_en || p.status)}`}>{p.status_en || p.status}</span><h3><a href={url(`/en/projects/${p.id}`)}>{p.title_en || p.title}</a></h3><p>{p.description_en || p.description}</p></article>)}</div></section>
 <section class="section"><h2>Research areas</h2><div class="grid"><div class="card"><h3>Prosody and discourse</h3><p>Production and perception of boundaries, discourse structuring, and real-time processing.</p></div><div class="card"><h3>Experimental phonetics</h3><p>Acoustic analysis, speech perception, eye tracking, EEG, and multimodal methods.</p></div><div class="card"><h3>Speech technologies</h3><p>Speech synthesis, naturalness, TTS evaluation, automatic metrics, and open science.</p></div></div></section>
 <section class="section"><div class="callout"><h2>Diversity & Inclusion</h2><p>The Phonetics and Phonology Research Group (fonUFAL) promotes equality, diversity, and inclusion, aiming for academic research excellence and broad public reach. We are committed to an intellectual environment that is welcoming, encouraging, and stimulating, and that respects the full spectrum of human diversity in race, ethnicity, gender identity, age, socioeconomic status, disability, nationality, sexual orientation, and belief. The members of fonUFAL work actively to create and maintain an environment of affirmation, protection, mutual respect, and unrestricted support.</p></div></section>

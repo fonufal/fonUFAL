@@ -1,6 +1,5 @@
 ---
 import { CONTACT_EMAIL } from '../consts';
-import Wordmark from './Wordmark.astro';
 
 interface Props { lang?: 'pt' | 'en' }
 const { lang = 'pt' } = Astro.props;
@@ -8,7 +7,7 @@ const { lang = 'pt' } = Astro.props;
 <footer class="site-footer">
   <div class="footer-inner">
     <div>
-      <Wordmark class="footer-wordmark" />
+      <p class="footer-brand">fonUFAL</p>
       <p>{lang === 'en' ? <>Phonetics and Phonology Research Group<br/>Federal University of Alagoas (UFAL), Brazil</> : <>Grupo de Estudos em Fonética e Fonologia<br/>Universidade Federal de Alagoas</>}</p>
     </div>
     <div>

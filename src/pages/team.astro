@@ -1,5 +1,5 @@
 ---
-import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import authors from '../data/authors.json'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import authors from '../data/authors.json'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
 
 const categoryOrder = ['lider', 'pesquisador', 'estudante', 'egresso'];
 const categoryTitles = {
@@ -27,7 +27,7 @@ const linkLabels = { lattes: 'Lattes', orcid: 'ORCID', email: 'Email' };
 const linkOrder = ['lattes', 'orcid', 'email'];
 ---
 <html lang="pt-BR"><head><BaseHead title={`Pessoas | ${SITE_TITLE}`} description="Pessoas do fonUFAL" /></head><body><Header/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Pessoas · {authors.length} integrantes</p><h1>Equipe</h1><p class="lead">Líderes, pesquisadores, estudantes e egressos do fonUFAL.</p></div></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Pessoas · {authors.length} integrantes</p><h1>Equipe</h1><p class="lead">Líderes, pesquisadores, estudantes e egressos do fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
 {groups.map(group => (
   <section class="section">
     <div class="section-head"><h2>{group.title}</h2><span class="person-count">{group.members.length}</span></div>

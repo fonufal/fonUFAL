@@ -1,5 +1,5 @@
 ---
-import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
 import publications from '../data/publications.json';
 const ordered = [...publications].sort((a, b) => b.year - a.year);
 
@@ -9,7 +9,7 @@ function formatAuthors(authors: string[]) {
 }
 ---
 <html lang="pt-BR"><head><BaseHead title={`Publicações | ${SITE_TITLE}`} description="Publicações do fonUFAL" /></head><body><Header/><main>
-<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos e demais produções científicas do fonUFAL, com ênfase na produção recente de seus membros atuais.</p></div></section>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos e demais produções científicas do fonUFAL, com ênfase na produção recente de seus membros atuais.</p></div><Waveform class="hero-waveform" /></section>
 <section class="section"><div class="pub-list">
 {ordered.map(p => (
   <article class="pub-item">
