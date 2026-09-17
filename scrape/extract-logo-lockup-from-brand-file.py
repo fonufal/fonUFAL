@@ -5,11 +5,17 @@ subtitle) from marca-fonUFAL.ai — the same combination shown as the primary
 cards, notebooks) and matching fonufal_high/logo2.psd.
 
 Reuses the icon-bar selection from extract-favicon-from-brand-file.py and
-the letter-path reconstruction from extract-wordmark-from-brand-file.py,
-but keeps both groups in their original relative position/scale from the
-source artboard instead of normalizing each separately — that's what
-reproduces the official spacing and baseline alignment between the icon and
-the wordmark exactly.
+the letter-path reconstruction from extract-wordmark-from-brand-file.py.
+
+The icon and wordmark are NOT simply kept at their raw relative position
+from the source artboard: measured directly, the icon's bounding box
+(y 273.98-340.15) and the wordmark's (y 273.59-309.28) share almost the same
+TOP edge, not a common baseline or optical center — rendering that raw
+relationship puts the wordmark visibly top-heavy against the icon, which
+doesn't match the actual reference lockup (fonufal_high/logo2.psd) or how
+the "assinaturas" page of the brand PDF shows it. Centering the wordmark's
+bounding box on the icon's bounding box vertically reproduces the reference
+correctly instead.
 
 Usage:
   python scrape/extract-logo-lockup-from-brand-file.py "path/to/marca-fonUFAL.ai"
@@ -55,17 +61,26 @@ def main(ai_path):
 
     icon = sorted((d for d in drawings if 255 < d['rect'].x0 < 370), key=lambda d: d['rect'].x0)
     letters = [d for d in drawings if not (255 < d['rect'].x0 < 370) and classify(d['fill']) in ('red', 'blue')]
-    combined = icon + letters
     if len(icon) != 17 or not letters:
         print('WARNING: expected 17 icon bars and wordmark letters — check the source file has not changed shape.')
 
-    min_x = min(d['rect'].x0 for d in combined)
-    max_x = max(d['rect'].x1 for d in combined)
-    min_y = min(d['rect'].y0 for d in combined)
-    max_y = max(d['rect'].y1 for d in combined)
+    icon_y0 = min(d['rect'].y0 for d in icon)
+    icon_y1 = max(d['rect'].y1 for d in icon)
+    icon_center = (icon_y0 + icon_y1) / 2
 
-    def pt(p):
-        return f'{p.x - min_x:.3f},{p.y - min_y:.3f}'
+    word_y0 = min(d['rect'].y0 for d in letters)
+    word_y1 = max(d['rect'].y1 for d in letters)
+    word_center = (word_y0 + word_y1) / 2
+
+    y_shift = icon_center - word_center  # applied to wordmark points only
+
+    min_x = min(d['rect'].x0 for d in icon + letters)
+    max_x = max(d['rect'].x1 for d in icon + letters)
+    min_y = min(icon_y0, word_y0 + y_shift)
+    max_y = max(icon_y1, word_y1 + y_shift)
+
+    def pt_word(p):
+        return f'{p.x - min_x:.3f},{p.y + y_shift - min_y:.3f}'
 
     COLORS = {'red': 'var(--fon-red)', 'blue': 'var(--fon-blue)', 'gray': 'var(--fon-gray)'}
 
@@ -78,7 +93,7 @@ def main(ai_path):
         icon_els.append(f'  <rect x="{x0:.3f}" y="{y0:.3f}" width="{w:.3f}" height="{(y1 - y0):.3f}" rx="{rx:.3f}" fill="{COLORS[classify(d["fill"])]}"/>')
 
     letter_els = [
-        f'  <path d="{items_to_path(d["items"], pt)}" fill="{COLORS[classify(d["fill"])]}"/>'
+        f'  <path d="{items_to_path(d["items"], pt_word)}" fill="{COLORS[classify(d["fill"])]}"/>'
         for d in letters
     ]
 
@@ -94,7 +109,7 @@ def main(ai_path):
     out_path = 'public/brand/fonufal-logo-lockup.svg'
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(svg)
-    print(f'Wrote {out_path} (viewBox 0 0 {w:.3f} {h:.3f})')
+    print(f'Wrote {out_path} (viewBox 0 0 {w:.3f} {h:.3f}, wordmark y-shift {y_shift:.3f})')
 
 
 if __name__ == '__main__':
