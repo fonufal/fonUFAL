@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const formattedDate = post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const topics = (post.data.tags ?? []).filter(t => t.toLowerCase() !== 'notícias');
 ---
 <html lang="pt-BR">
 <head><BaseHead title={`${post.data.title} | ${SITE_TITLE}`} description={post.data.description} /></head>
@@ -22,10 +23,10 @@ const formattedDate = post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-di
 <main>
   <article class="hero-content" style="max-width:var(--measure)">
     <p class="eyebrow">Notícias · {formattedDate}</p>
-    <h1>{post.data.title}</h1>
-    {post.data.tags && post.data.tags.length > 0 && (
-      <p>{post.data.tags.map(t => <span class="badge" style="margin-right:6px">{t}</span>)}</p>
+    {topics.length > 0 && (
+      <p class="topic-badges">{topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>
     )}
+    <h1>{post.data.title}</h1>
     <div class="prose">
       <Content />
     </div>

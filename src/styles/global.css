@@ -177,7 +177,10 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .badge--review { color: var(--status-review-fg); background: var(--status-review-bg); }
 .badge--proposal { color: var(--status-proposal-fg); background: var(--status-proposal-bg); }
 .badge--done { color: var(--status-done-fg); background: var(--status-done-bg); }
+.badge--topic { color: var(--muted); background: var(--bg-soft); border: 1px solid var(--border); }
+.badge--topic::before { display: none; }
 .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.topic-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0; }
 
 /* Student degree level — distinct from status badges above */
 .badge--phd { color: #6a3fa0; background: #f1ecfa; }
