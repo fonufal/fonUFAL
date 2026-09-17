@@ -7,11 +7,11 @@ interface Props { lang?: 'pt' | 'en' }
 const { lang = 'pt' } = Astro.props;
 
 const navPt = [
-  ['Início','/'], ['Pesquisa','/projects'], ['Pessoas','/team'],
+  ['Início','/'], ['Projetos','/projects'], ['Pessoas','/team'],
   ['Publicações','/publications'], ['Notícias','/noticias'], ['Contato','/contato']
 ];
 const navEn = [
-  ['Home','/en/'], ['Research','/en/projects'], ['People','/en/team'],
+  ['Home','/en/'], ['Projects','/en/projects'], ['People','/en/team'],
   ['Publications','/publications'], ['News','/noticias'], ['Contact','/en/contact']
 ];
 const nav = lang === 'en' ? navEn : navPt;

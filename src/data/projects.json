@@ -31,63 +31,6 @@
     ]
   },
   {
-    "id": "sintese",
-    "title": "SÍNTESE — avaliação reprodutível de fala sintetizada",
-    "description": "Programa de trabalho do fonUFAL que integra avaliação perceptiva e objetiva de TTS, EyetrackingMOS, métricas acústico-prosódicas, curadoria de áudios/TextGrids/metadados e documentação técnica reprodutível.",
-    "year": 2026,
-    "period": "2026–2027",
-    "status": "Em andamento",
-    "authors": [
-      "miguel-oliveira-jr"
-    ],
-    "themes": [
-      "TTS",
-      "prosódia",
-      "EyetrackingMOS",
-      "reprodutibilidade",
-      "curadoria de dados"
-    ],
-    "title_en": "SÍNTESE — reproducible evaluation of synthesized speech",
-    "description_en": "A fonUFAL work program integrating perceptual and objective TTS evaluation, EyetrackingMOS, acoustic-prosodic metrics, audio/TextGrid/metadata curation, and reproducible technical documentation.",
-    "status_en": "Ongoing",
-    "themes_en": [
-      "TTS",
-      "prosody",
-      "EyetrackingMOS",
-      "reproducibility",
-      "data curation"
-    ]
-  },
-  {
-    "id": "eyetrackingmos-metricas-tts",
-    "title": "EyetrackingMOS e métricas automáticas para avaliação de TTS em português",
-    "description": "Projeto de desenvolvimento científico e tecnológico que dá continuidade ao trabalho com avaliação perceptiva por rastreamento ocular e métricas automáticas para fala sintetizada em português.",
-    "year": 2026,
-    "period": "Cota PIBITI 2026–2027",
-    "status": "Em avaliação",
-    "reference": "PVLE4730-2026",
-    "authors": [
-      "miguel-oliveira-jr"
-    ],
-    "themes": [
-      "EyetrackingMOS",
-      "TTS",
-      "MOS",
-      "rastreamento ocular",
-      "prosódia"
-    ],
-    "title_en": "EyetrackingMOS and automatic metrics for TTS evaluation in Portuguese",
-    "description_en": "A scientific and technological development project continuing work on eye-tracking-based perceptual evaluation and automatic metrics for synthesized speech in Portuguese.",
-    "status_en": "Under review",
-    "themes_en": [
-      "EyetrackingMOS",
-      "TTS",
-      "MOS",
-      "eye tracking",
-      "prosody"
-    ]
-  },
-  {
     "id": "processamento-estrutura-discurso-multimodal",
     "title": "O processamento da estrutura do discurso em contexto multimodal",
     "description": "Investiga o papel da prosódia acústica e visual no processamento da estrutura do discurso, por meio de estudos experimentais de percepção que combinam testes comportamentais e técnicas on-line de resposta eletrofisiológica a estímulos multimodais. Contam com a participação das estudantes de graduação Cinthya Gabrielly de Melo Silva, Helen Moraes, Mariana Costa Galdino e Hevillyn Luiza da Silva Santos.",
@@ -135,64 +78,6 @@
       "computer vision",
       "natural language processing",
       "heterogeneous computing"
-    ]
-  },
-  {
-    "id": "fronteiras-prosodicas-fase-4",
-    "title": "Processamento de fronteiras prosódicas no discurso, Fase 4: pistas acústicas, percepção de eventos e preparação para estudos neurocognitivos e multimodais",
-    "description": "Investiga o peso relativo e cumulativo de pistas temporais, melódicas e energéticas na percepção de fronteiras discursivas, combinando análise acústica, manipulação prosódica, experimentos comportamentais e rastreamento ocular, com preparação para estudos EEG e multimodais.",
-    "year": 2026,
-    "period": "Cota PIBIC 2026–2027",
-    "status": "Em avaliação",
-    "reference": "PVLE4829-2026",
-    "authors": [
-      "miguel-oliveira-jr"
-    ],
-    "themes": [
-      "prosódia",
-      "discurso",
-      "fronteiras",
-      "eye tracking",
-      "EEG",
-      "multimodalidade"
-    ],
-    "title_en": "Processing of Prosodic Boundaries in Discourse, Phase 4: acoustic cues, event perception, and preparation for neurocognitive and multimodal studies",
-    "description_en": "Investigates the relative and cumulative weight of temporal, melodic, and energy-related cues in the perception of discourse boundaries, combining acoustic analysis, prosodic manipulation, behavioral experiments, and eye tracking, with preparation for EEG and multimodal studies.",
-    "status_en": "Under review",
-    "themes_en": [
-      "prosody",
-      "discourse",
-      "boundaries",
-      "eye tracking",
-      "EEG",
-      "multimodality"
-    ]
-  },
-  {
-    "id": "eeg-naturalidade-tts",
-    "title": "Índice neurofisiológico implícito da naturalidade da fala sintetizada",
-    "description": "Proposta para testar se sinais de EEG obtidos durante escuta sem julgamento avaliativo predizem naturalidade percebida da fala sintetizada e acrescentam informação a modelos acústicos.",
-    "year": 2026,
-    "status": "Proposta 2026",
-    "authors": [
-      "miguel-oliveira-jr"
-    ],
-    "themes": [
-      "EEG",
-      "naturalidade",
-      "TTS",
-      "percepção da fala",
-      "modelos acústicos"
-    ],
-    "title_en": "Implicit Neurophysiological Index of Synthesized Speech Naturalness",
-    "description_en": "A proposal to test whether EEG signals recorded during non-evaluative listening predict the perceived naturalness of synthesized speech and add information to acoustic models.",
-    "status_en": "2026 Proposal",
-    "themes_en": [
-      "EEG",
-      "naturalness",
-      "TTS",
-      "speech perception",
-      "acoustic models"
     ]
   },
   {
