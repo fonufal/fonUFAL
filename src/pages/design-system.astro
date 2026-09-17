@@ -1,0 +1,101 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Waveform from '../components/Waveform.astro';
+import { SITE_TITLE } from '../consts';
+
+const colors = [
+  ['--fon-red', 'Vermelho fonUFAL', 'Ênfase, links ativos, estado "em andamento"'],
+  ['--fon-blue', 'Azul fonUFAL', 'Links, acentos secundários, callouts'],
+  ['--ink', 'Texto principal', 'Títulos e corpo de texto'],
+  ['--muted', 'Texto secundário', 'Metadados, legendas'],
+  ['--bg', 'Fundo', 'Fundo de página'],
+  ['--bg-soft', 'Fundo suave', 'Seções alternadas, footer'],
+  ['--border', 'Borda', 'Divisores, contornos de card'],
+];
+
+const type = [
+  ['h1 · Newsreader 500', 'display'],
+  ['h2 · Newsreader 600', 'h2'],
+  ['h3 · Newsreader 600', 'h3'],
+  ['Corpo · Inter 400', 'body'],
+  ['Rótulo · JetBrains Mono 600', 'mono'],
+];
+---
+<html lang="pt-BR">
+<head><BaseHead title={`Sistema de Design | ${SITE_TITLE}`} description="Tokens e componentes do sistema de design do fonUFAL" /></head>
+<body>
+<Header />
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Documentação interna</p>
+      <h1>Sistema de <em>Design</em></h1>
+      <p class="lead">Tokens, tipografia e componentes extraídos do site do fonUFAL, reunidos em um sistema único e documentado para manter consistência entre páginas futuras.</p>
+    </div>
+    <Waveform class="hero-waveform" />
+  </section>
+
+  <section class="section">
+    <h2>Identidade</h2>
+    <p class="lead">A marca do fonUFAL já usa uma onda sonora bicolor (vermelho → azul) no logotipo. Esse motivo foi estendido ao sistema como o elemento gráfico assinatura do grupo — um lembrete visual constante de que o objeto de estudo é o som da fala.</p>
+    <Waveform bars={64} />
+  </section>
+
+  <section class="section">
+    <h2>Cor</h2>
+    <div class="grid">
+      {colors.map(([token, label, use]) => (
+        <article class="card">
+          <div style={`height:56px;border-radius:10px;background:var(${token});border:1px solid var(--border);margin-bottom:14px`}></div>
+          <p class="meta">{token}</p>
+          <h3>{label}</h3>
+          <p>{use}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Tipografia</h2>
+    <p class="lead">Par editorial: <strong>Newsreader</strong> (serifada, títulos) + <strong>Inter</strong> (texto corrido, interface) + <strong>JetBrains Mono</strong> (rótulos, metadados — um aceno à precisão da transcrição fonética).</p>
+    <div class="card" style="margin-top:26px">
+      <h1 style="margin:0">Aa — Estudos em Fonética</h1>
+      <h2 style="margin:.6em 0 0">Aa — Prosódia e discurso</h2>
+      <p class="lead" style="margin-top:.6em">Aa — corpo de texto em Inter, para leitura confortável em parágrafos longos.</p>
+      <p class="meta" style="margin-top:.6em">AA · RÓTULO EM JETBRAINS MONO</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Componentes</h2>
+    <div class="grid">
+      <article class="card">
+        <p class="meta">Badges de status</p>
+        <p><span class="badge badge--active">Em andamento</span> <span class="badge badge--review">Em avaliação</span> <span class="badge badge--proposal">Proposta</span></p>
+      </article>
+      <article class="card">
+        <p class="meta">Botões</p>
+        <p><a class="btn btn--primary" href="#">Ação primária</a> <a class="btn btn--ghost" href="#">Ação secundária</a></p>
+      </article>
+      <article class="card">
+        <span class="badge badge--active">Exemplo</span>
+        <h3>Card padrão</h3>
+        <p>Usado para projetos, pessoas, publicações e notícias — mesma estrutura, conteúdo variável.</p>
+      </article>
+    </div>
+    <div class="callout" style="margin-top:22px">
+      <h2>Callout</h2>
+      <p>Usado para avisos institucionais e notas de migração de conteúdo.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Espaçamento &amp; forma</h2>
+    <p class="lead">Escala de 8px (<code>--space-1</code> a <code>--space-9</code>), raios de <code>8/14/22px</code> e sombras em três níveis para elevação consistente entre cards, menus e overlays.</p>
+  </section>
+</main>
+<Footer />
+</body>
+</html>

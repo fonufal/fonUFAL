@@ -1,0 +1,32 @@
+---
+interface Props {
+  class?: string;
+  bars?: number;
+}
+const { class: className = '', bars = 48 } = Astro.props;
+// Deterministic pseudo-random heights so output is stable across builds.
+const heights = Array.from({ length: bars }, (_, i) => {
+  const t = Math.sin(i * 12.9898) * 43758.5453;
+  const r = t - Math.floor(t);
+  return 18 + Math.round(r * 82);
+});
+const barWidth = 100 / bars;
+---
+<svg class={`waveform ${className}`} viewBox={`0 0 100 100`} preserveAspectRatio="none" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="waveform-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="var(--fon-red)" />
+      <stop offset="100%" stop-color="var(--fon-blue)" />
+    </linearGradient>
+  </defs>
+  {heights.map((h, i) => (
+    <rect
+      x={i * barWidth + barWidth * 0.18}
+      y={100 - h}
+      width={barWidth * 0.64}
+      height={h}
+      rx={barWidth * 0.3}
+      fill="url(#waveform-grad)"
+    />
+  ))}
+</svg>

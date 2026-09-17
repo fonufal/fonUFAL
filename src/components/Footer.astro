@@ -2,30 +2,19 @@
 import { CONTACT_EMAIL, WP_SOURCE } from '../consts';
 import { url } from '../utils/paths';
 ---
-<footer>
+<footer class="site-footer">
   <div class="footer-inner">
     <div>
-      <p class="footer-label">fonUFAL</p>
-      <p class="footer-title">Grupo de Estudos em Fonética e Fonologia</p>
-      <p>Universidade Federal de Alagoas · Faculdade de Letras</p>
+      <p class="footer-brand">fonUFAL</p>
+      <p>Grupo de Estudos em Fonética e Fonologia<br/>Universidade Federal de Alagoas</p>
+    </div>
+    <div>
+      <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+      <p><a href={WP_SOURCE}>Site WordPress de origem →</a></p>
+    </div>
+    <div>
       <p class="credit">Site baseado no template Astro Scholar, de Shravan Goswami (MIT).</p>
-    </div>
-    <div>
-      <p class="footer-label">Navegação</p>
-      <div class="footer-links">
-        <a href={url('/projects')}>Pesquisa</a>
-        <a href={url('/team')}>Pessoas</a>
-        <a href={url('/publications')}>Publicações</a>
-        <a href={url('/noticias')}>Notícias</a>
-      </div>
-    </div>
-    <div>
-      <p class="footer-label">Contato e arquivo</p>
-      <div class="footer-links">
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
-        <a href={url('/contato')}>Contato</a>
-        <a href={WP_SOURCE}>Site WordPress de origem</a>
-      </div>
+      <p class="credit"><a href={url('/design-system')}>Sistema de design →</a></p>
     </div>
   </div>
 </footer>

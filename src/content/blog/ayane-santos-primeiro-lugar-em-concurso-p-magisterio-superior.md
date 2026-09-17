@@ -1,0 +1,9 @@
+---
+title: "Ayane Santos: Primeiro Lugar em Concurso p/ Magistério Superior"
+description: "Ayane Santos, pesquisadora do fonUFAL, foi aprovada em primeiro lugar em concurso para professora da carreira do magistério superior na UFRB – Universidade F..."
+pubDate: 2017-04-02
+originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15513"
+tags: ["notícias"]
+---
+
+<p><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2017/04/ayane.jpg"><img src="/fonUFAL/noticias/ayane-santos-primeiro-lugar-em-concurso-p-magisterio-superior-1.jpg" alt="ayane" width="294" height="300" class="alignleft size-medium wp-image-15514" /></a>Ayane Santos, pesquisadora do fonUFAL, foi aprovada em <a href="https://www1.ufrb.edu.br/portal/components/com_chronoforms5/chronoforms/uploads/documento/20170323100944_resultado_final_materia_ensino_de_lingua_portuguesa_como_l2_para_surdos_edital_11_2016.pdf">primeiro lugar</a> em concurso para professora da carreira do magistério superior na <a href="https://ufrb.edu.br/portal/">UFRB &#8211; Universidade Federal do Recôncavo da Bahia</a>. Ayane, como todos os pós-graduandos do grupo de pesquisa Estudos em Fonética e Fonologia, tem desenvolvido um trabalho inovador e pontuado sua carreira acadêmica com responsabilidade e dedicação. Participa com entusiasmo de todas as atividades do grupo de pesquisa, publica com regularidade em periódicos conceituados e tem interesses de pesquisa abrangentes, desenvolvendo estudos nas áreas da prosódia e da educação. Em breve, <a href="https://fale.ufal.br/grupo/fonufal/defesa-de-tese-ayane-santos/">defenderá a sua tese</a> “Análise prosódica de agrupamentos numéricos no Português do Brasil”. Na UFRB atuará como professora de Ensino de Língua Portuguesa como L2 para Surdos. Estamos todos muito orgulhosos e contentes com este resultado. Seguros de que Ayane terá um brilhante futuro pela frente. Parabéns, Ayane!!</p>

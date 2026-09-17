@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, WP_LOGO } from '../consts';
+import { SITE_TITLE, LOGO } from '../consts';
 import { url } from '../utils/paths';
 const nav = [
   ['Início','/'], ['Pesquisa','/projects'], ['Pessoas','/team'],
@@ -9,12 +9,13 @@ const nav = [
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href={url('/')} aria-label={`${SITE_TITLE} — início`}>
-      <img src={WP_LOGO} alt="fonUFAL" width="150" height="51" />
-      <span class="brand-copy">
-        <strong>Fonética e Fonologia</strong>
-        <span>Universidade Federal de Alagoas</span>
-      </span>
+      <img src={url(LOGO)} alt="fonUFAL" width="220" height="51" style="width:180px;height:auto" />
+      <span class="brand-mark">Fonética<br/>&amp; Fonologia</span>
     </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </label>
     <nav class="site-nav" aria-label="Navegação principal">
       {nav.map(([label,path]) => <a href={url(path)}>{label}</a>)}
     </nav>
