@@ -41,12 +41,14 @@ const linkOrder = ['lattes', 'orcid', 'email'];
         <article class="person-tile">
           {a.photo && <img class="avatar avatar-lg" src={url(a.photo)} alt={a.name} width="96" height="96" loading="lazy" />}
           <h3>{a.name}</h3>
-          {a.subRole && <span class={`badge ${subRoleBadge[a.subRole] || ''}`}>{subRoleEn[a.subRole] || a.subRole}</span>}
-          <p class="person-links">
-            {linkOrder.filter(key => a.links[key]).map(key => (
-              <a href={a.links[key]} target="_blank" rel="noopener">{linkLabels[key]}</a>
-            ))}
-          </p>
+          <div class="person-foot">
+            {a.subRole && <span class={`badge ${subRoleBadge[a.subRole] || ''}`}>{subRoleEn[a.subRole] || a.subRole}</span>}
+            <p class="person-links">
+              {linkOrder.filter(key => a.links[key]).map(key => (
+                <a href={a.links[key]} target="_blank" rel="noopener">{linkLabels[key]}</a>
+              ))}
+            </p>
+          </div>
         </article>
       ))}
     </div>
