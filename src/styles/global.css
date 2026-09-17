@@ -31,6 +31,8 @@
   --status-review-fg: #8a5a12;
   --status-proposal-bg: #edeff3;
   --status-proposal-fg: #454f5c;
+  --status-done-bg: #e5eef5;
+  --status-done-fg: var(--fon-blue-strong);
 
   /* Type */
   --font-display: 'Newsreader', Georgia, 'Times New Roman', serif;
@@ -173,6 +175,7 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .badge--active { color: var(--status-active-fg); background: var(--status-active-bg); }
 .badge--review { color: var(--status-review-fg); background: var(--status-review-bg); }
 .badge--proposal { color: var(--status-proposal-fg); background: var(--status-proposal-bg); }
+.badge--done { color: var(--status-done-fg); background: var(--status-done-bg); }
 .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 
 /* Student degree level — distinct from status badges above */

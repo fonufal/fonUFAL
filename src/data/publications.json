@@ -349,5 +349,50 @@
     "year": 2017,
     "url": "https://doi.org/10.21680/1517-7874.2017v19n0id12616",
     "noticiaSlug": "remildo-barbosa-publica-seu-primeiro-artigo"
+  },
+  {
+    "id": "almeida2025ead",
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Teste Kappa de Concordância na Delimitação de Unidades Prosódicas em Enunciados Numéricos no PB",
+    "journal": "EaD & Tecnologias Digitais na Educação",
+    "volume": "13",
+    "issue": null,
+    "pages": "88-99",
+    "year": 2025,
+    "url": "https://ojs.ufgd.edu.br/ead/article/view/20622"
+  },
+  {
+    "id": "10-1016-j-jvoice-2020-12-005",
+    "authors": [
+      "Julio Cesar Cavalcanti",
+      "Marina Englert",
+      "Miguel Oliveira",
+      "Ana Carolina Constantini"
+    ],
+    "title": "Microphone and Audio Compression Effects on Acoustic Voice Analysis: A Pilot Study",
+    "journal": "Journal of Voice",
+    "volume": "37",
+    "issue": null,
+    "pages": "162-172",
+    "year": 2023,
+    "url": "https://doi.org/10.1016/j.jvoice.2020.12.005"
+  },
+  {
+    "id": "10-21680-1517-7874-2021v23n2id23121",
+    "authors": [
+      "Kyvia Fernanda Tenório da Silva",
+      "Luzia Miscow da Cruz Payão",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Aquisição segmental e prosódica nas produções verbais de crianças prematuras",
+    "journal": "Revista do GELNE",
+    "volume": "23",
+    "issue": "2",
+    "pages": "102-118",
+    "year": 2021,
+    "url": "https://doi.org/10.21680/1517-7874.2021v23n2id23121"
   }
 ]

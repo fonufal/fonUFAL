@@ -2,19 +2,33 @@
   {
     "id": "entre-muitas-vozes",
     "title": "Entre muitas vozes: síntese de fala usando dados de fala espontânea com variedades linguísticas do português",
-    "description": "Projeto em cooperação voltado ao desenvolvimento, avaliação e disseminação de tecnologias de síntese de fala capazes de representar com naturalidade e inteligibilidade a diversidade linguística do português.",
+    "description": "Projeto em cooperação voltado ao desenvolvimento, avaliação e disseminação de tecnologias de síntese de fala capazes de representar com naturalidade e inteligibilidade a diversidade linguística do português. Contam com a participação dos estudantes de graduação Quézia Ester Ferreira Barros e Aleksandro da Silva Aureliano.",
     "year": 2026,
     "period": "10/07/2026–31/07/2028",
     "status": "Em andamento",
     "funding": "CNPq — Chamada nº 16/2025, Faixa 1: Projeto em cooperação",
     "reference": "Processo 446854/2025-5",
-    "authors": ["miguel-oliveira-jr"],
-    "themes": ["síntese de fala", "fala espontânea", "variação linguística", "TTS", "ciência aberta"],
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "síntese de fala",
+      "fala espontânea",
+      "variação linguística",
+      "TTS",
+      "ciência aberta"
+    ],
     "title_en": "Among Many Voices: speech synthesis using spontaneous speech data across varieties of Portuguese",
-    "description_en": "A collaborative project focused on developing, evaluating, and disseminating speech synthesis technologies capable of naturally and intelligibly representing the linguistic diversity of Portuguese.",
+    "description_en": "A collaborative project focused on developing, evaluating, and disseminating speech synthesis technologies capable of naturally and intelligibly representing the linguistic diversity of Portuguese. Undergraduate students Quézia Ester Ferreira Barros and Aleksandro da Silva Aureliano take part in the project.",
     "status_en": "Ongoing",
     "funding_en": "CNPq — Call No. 16/2025, Track 1: Cooperative Project",
-    "themes_en": ["speech synthesis", "spontaneous speech", "linguistic variation", "TTS", "open science"]
+    "themes_en": [
+      "speech synthesis",
+      "spontaneous speech",
+      "linguistic variation",
+      "TTS",
+      "open science"
+    ]
   },
   {
     "id": "sintese",
@@ -23,12 +37,26 @@
     "year": 2026,
     "period": "2026–2027",
     "status": "Em andamento",
-    "authors": ["miguel-oliveira-jr"],
-    "themes": ["TTS", "prosódia", "EyetrackingMOS", "reprodutibilidade", "curadoria de dados"],
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "TTS",
+      "prosódia",
+      "EyetrackingMOS",
+      "reprodutibilidade",
+      "curadoria de dados"
+    ],
     "title_en": "SÍNTESE — reproducible evaluation of synthesized speech",
     "description_en": "A fonUFAL work program integrating perceptual and objective TTS evaluation, EyetrackingMOS, acoustic-prosodic metrics, audio/TextGrid/metadata curation, and reproducible technical documentation.",
     "status_en": "Ongoing",
-    "themes_en": ["TTS", "prosody", "EyetrackingMOS", "reproducibility", "data curation"]
+    "themes_en": [
+      "TTS",
+      "prosody",
+      "EyetrackingMOS",
+      "reproducibility",
+      "data curation"
+    ]
   },
   {
     "id": "eyetrackingmos-metricas-tts",
@@ -38,12 +66,76 @@
     "period": "Cota PIBITI 2026–2027",
     "status": "Em avaliação",
     "reference": "PVLE4730-2026",
-    "authors": ["miguel-oliveira-jr"],
-    "themes": ["EyetrackingMOS", "TTS", "MOS", "rastreamento ocular", "prosódia"],
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "EyetrackingMOS",
+      "TTS",
+      "MOS",
+      "rastreamento ocular",
+      "prosódia"
+    ],
     "title_en": "EyetrackingMOS and automatic metrics for TTS evaluation in Portuguese",
     "description_en": "A scientific and technological development project continuing work on eye-tracking-based perceptual evaluation and automatic metrics for synthesized speech in Portuguese.",
     "status_en": "Under review",
-    "themes_en": ["EyetrackingMOS", "TTS", "MOS", "eye tracking", "prosody"]
+    "themes_en": [
+      "EyetrackingMOS",
+      "TTS",
+      "MOS",
+      "eye tracking",
+      "prosody"
+    ]
+  },
+  {
+    "id": "processamento-estrutura-discurso-multimodal",
+    "title": "O processamento da estrutura do discurso em contexto multimodal",
+    "description": "Investiga o papel da prosódia acústica e visual no processamento da estrutura do discurso, por meio de estudos experimentais de percepção que combinam testes comportamentais e técnicas on-line de resposta eletrofisiológica a estímulos multimodais. Contam com a participação das estudantes de graduação Cinthya Gabrielly de Melo Silva, Helen Moraes, Mariana Costa Galdino e Hevillyn Luiza da Silva Santos.",
+    "year": 2024,
+    "period": "2024–atual",
+    "status": "Em andamento",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "discurso",
+      "multimodalidade",
+      "psicolinguística experimental"
+    ],
+    "title_en": "Discourse structure processing in multimodal context",
+    "description_en": "Investigates the role of acoustic and visual prosody in discourse-structure processing, through experimental perception studies that combine behavioral tests and online electrophysiological-response techniques for multimodal stimuli. Undergraduate students Cinthya Gabrielly de Melo Silva, Helen Moraes, Mariana Costa Galdino, and Hevillyn Luiza da Silva Santos take part in the project.",
+    "status_en": "Ongoing",
+    "themes_en": [
+      "prosody",
+      "discourse",
+      "multimodality",
+      "experimental psycholinguistics"
+    ]
+  },
+  {
+    "id": "computacao-heterogenea-visao-pln",
+    "title": "Computação Heterogênea para Visão Computacional e Processamento de Linguagem Natural",
+    "description": "Projeto de pesquisa em Ciências da Computação que articula Processamento de Imagens e Processamento de Linguagem Natural, com análise, modelagem e tratamento computacional de dados de imagem e de língua. Contam com a participação dos estudantes de graduação Guilherme da Silva Oliveira, Marianne Florentino Bezerra, Letícia Lília da Silva Barbosa e Nicole Biatriz de Oliveira Santos.",
+    "year": 2022,
+    "period": "2022–atual",
+    "status": "Em andamento",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "visão computacional",
+      "processamento de linguagem natural",
+      "computação heterogênea"
+    ],
+    "title_en": "Heterogeneous Computing for Computer Vision and Natural Language Processing",
+    "description_en": "A Computer Science research project bridging Image Processing and Natural Language Processing, through the analysis, modeling, and computational treatment of image and language data. Undergraduate students Guilherme da Silva Oliveira, Marianne Florentino Bezerra, Letícia Lília da Silva Barbosa, and Nicole Biatriz de Oliveira Santos take part in the project.",
+    "status_en": "Ongoing",
+    "themes_en": [
+      "computer vision",
+      "natural language processing",
+      "heterogeneous computing"
+    ]
   },
   {
     "id": "fronteiras-prosodicas-fase-4",
@@ -53,12 +145,28 @@
     "period": "Cota PIBIC 2026–2027",
     "status": "Em avaliação",
     "reference": "PVLE4829-2026",
-    "authors": ["miguel-oliveira-jr"],
-    "themes": ["prosódia", "discurso", "fronteiras", "eye tracking", "EEG", "multimodalidade"],
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "discurso",
+      "fronteiras",
+      "eye tracking",
+      "EEG",
+      "multimodalidade"
+    ],
     "title_en": "Processing of Prosodic Boundaries in Discourse, Phase 4: acoustic cues, event perception, and preparation for neurocognitive and multimodal studies",
     "description_en": "Investigates the relative and cumulative weight of temporal, melodic, and energy-related cues in the perception of discourse boundaries, combining acoustic analysis, prosodic manipulation, behavioral experiments, and eye tracking, with preparation for EEG and multimodal studies.",
     "status_en": "Under review",
-    "themes_en": ["prosody", "discourse", "boundaries", "eye tracking", "EEG", "multimodality"]
+    "themes_en": [
+      "prosody",
+      "discourse",
+      "boundaries",
+      "eye tracking",
+      "EEG",
+      "multimodality"
+    ]
   },
   {
     "id": "eeg-naturalidade-tts",
@@ -66,11 +174,185 @@
     "description": "Proposta para testar se sinais de EEG obtidos durante escuta sem julgamento avaliativo predizem naturalidade percebida da fala sintetizada e acrescentam informação a modelos acústicos.",
     "year": 2026,
     "status": "Proposta 2026",
-    "authors": ["miguel-oliveira-jr"],
-    "themes": ["EEG", "naturalidade", "TTS", "percepção da fala", "modelos acústicos"],
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "EEG",
+      "naturalidade",
+      "TTS",
+      "percepção da fala",
+      "modelos acústicos"
+    ],
     "title_en": "Implicit Neurophysiological Index of Synthesized Speech Naturalness",
     "description_en": "A proposal to test whether EEG signals recorded during non-evaluative listening predict the perceived naturalness of synthesized speech and add information to acoustic models.",
     "status_en": "2026 Proposal",
-    "themes_en": ["EEG", "naturalness", "TTS", "speech perception", "acoustic models"]
+    "themes_en": [
+      "EEG",
+      "naturalness",
+      "TTS",
+      "speech perception",
+      "acoustic models"
+    ]
+  },
+  {
+    "id": "interfaces-prosodicas-profaces",
+    "title": "Interfaces Prosódias - PROFACES",
+    "description": "Projeto abrigado na Associação de Linguística e Filologia da América Latina (ALFAL) voltado a promover debates interdisciplinares sobre prosódia, articulando estudos da fala em letras, linguística, fonoaudiologia, música, engenharia elétrica e processamento de sinais.",
+    "year": 2023,
+    "period": "2018–2023",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "interdisciplinaridade",
+      "fonoaudiologia",
+      "processamento de sinais"
+    ],
+    "title_en": "Prosody Interfaces - PROFACES",
+    "description_en": "A project hosted by the Latin American Linguistics and Philology Association (ALFAL) to promote interdisciplinary debate on prosody, bridging speech studies across letters, linguistics, speech-language pathology, music, electrical engineering, and signal processing.",
+    "status_en": "Completed",
+    "themes_en": [
+      "prosody",
+      "interdisciplinarity",
+      "speech-language pathology",
+      "signal processing"
+    ]
+  },
+  {
+    "id": "papel-prosodia-discurso-tecnicas-online",
+    "title": "O papel da prosódia no processamento da estrutura do discurso: Estudos com técnicas experimentais on-line",
+    "description": "Investigou o papel da prosódia no processamento da estrutura do discurso em português e Libras, combinando testes comportamentais com técnicas on-line de rastreamento ocular e eletroencefalografia.",
+    "year": 2023,
+    "period": "2018–2023",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "discurso",
+      "eye tracking",
+      "EEG",
+      "Libras"
+    ],
+    "title_en": "The role of prosody in discourse-structure processing: studies with online experimental techniques",
+    "description_en": "Investigated the role of prosody in discourse-structure processing in Portuguese and Libras, combining behavioral tests with online eye-tracking and electroencephalography techniques.",
+    "status_en": "Completed",
+    "themes_en": [
+      "prosody",
+      "discourse",
+      "eye tracking",
+      "EEG",
+      "Libras"
+    ]
+  },
+  {
+    "id": "nurc-digital-fase-2",
+    "title": "NURC Digital - Fase 2",
+    "description": "Deu continuidade à informatização do corpus do Projeto NURC, ampliando o acervo disponibilizado no Portal NURC Digital com a inclusão de todos os dados do Projeto NURC Recife, devidamente anotados e etiquetados.",
+    "year": 2020,
+    "period": "2017–2020",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "corpus",
+      "NURC",
+      "documentação linguística",
+      "dados abertos"
+    ],
+    "title_en": "NURC Digital - Phase 2",
+    "description_en": "Continued the digitization of the NURC Project corpus, expanding the archive available on the NURC Digital Portal to include all data from the NURC Recife Project, duly annotated and tagged.",
+    "status_en": "Completed",
+    "themes_en": [
+      "corpus",
+      "NURC",
+      "language documentation",
+      "open data"
+    ]
+  },
+  {
+    "id": "prosodia-discurso-potenciais-eventos",
+    "title": "O Papel da Prosódia no Processamento da Estrutura do Discurso em Língua Portuguesa: Um Estudo de Potenciais Relacionados a Eventos",
+    "description": "Investigou, por meio de eletroencefalografia e da medida de potenciais relacionados a eventos (Closure Positive Shift), o processamento simultâneo da prosódia e da estrutura do discurso espontâneo em português e inglês.",
+    "year": 2017,
+    "period": "2016–2017",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "discurso",
+      "EEG",
+      "ERP"
+    ],
+    "title_en": "The Role of Prosody in Discourse-Structure Processing in Portuguese: An Event-Related Potentials Study",
+    "description_en": "Investigated, through electroencephalography and the event-related potential measure known as Closure Positive Shift, the simultaneous processing of prosody and spontaneous discourse structure in Portuguese and English.",
+    "status_en": "Completed",
+    "themes_en": [
+      "prosody",
+      "discourse",
+      "EEG",
+      "ERP"
+    ]
+  },
+  {
+    "id": "prosodia-discurso-neuroimagem",
+    "title": "O Papel da Prosódia no Processamento da Estrutura do Discurso em Língua Portuguesa: Um Estudo com Técnicas de Neuroimagem",
+    "description": "Investigou o papel da prosódia no processamento da estrutura do discurso em português por meio de testes comportamentais combinados a técnicas de neuroimagem: eletroencefalografia (EEG) e espectroscopia de infravermelho próximo funcional (fNIRS).",
+    "year": 2017,
+    "period": "2015–2017",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "prosódia",
+      "discurso",
+      "EEG",
+      "fNIRS",
+      "neuroimagem"
+    ],
+    "title_en": "The Role of Prosody in Discourse-Structure Processing in Portuguese: A Neuroimaging Study",
+    "description_en": "Investigated the role of prosody in discourse-structure processing in Portuguese through behavioral tests combined with neuroimaging techniques: electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS).",
+    "status_en": "Completed",
+    "themes_en": [
+      "prosody",
+      "discourse",
+      "EEG",
+      "fNIRS",
+      "neuroimaging"
+    ]
+  },
+  {
+    "id": "documentation-traditional-narratives-yaathe",
+    "title": "Documentação de Narrativas Tradicionais em Yaathe",
+    "description": "Formou um grupo de professores Fulni-ô para coletar, transcrever e traduzir narrativas tradicionais em Yaathe junto a falantes mais velhos, resultando em um livro eletrônico com 20 narrativas e em um corpus anotado incorporado ao acervo do The Language Archive.",
+    "year": 2017,
+    "period": "2015–2017",
+    "status": "Concluído",
+    "authors": [
+      "miguel-oliveira-jr"
+    ],
+    "themes": [
+      "língua indígena",
+      "documentação linguística",
+      "Yaathe",
+      "Fulni-ô"
+    ],
+    "title_en": "Documentation of Traditional Narratives in Yaathe",
+    "description_en": "Trained a group of Fulni-ô teachers to collect, transcribe, and translate traditional narratives in Yaathe with elderly speakers, resulting in an electronic book with 20 narratives and an annotated corpus incorporated into The Language Archive.",
+    "status_en": "Completed",
+    "themes_en": [
+      "indigenous language",
+      "language documentation",
+      "Yaathe",
+      "Fulni-ô"
+    ]
   }
 ]
