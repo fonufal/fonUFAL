@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - migration/astro-scholar
   workflow_dispatch:
 
 permissions:
