@@ -25,6 +25,7 @@ const degreeLabel = { tese: 'Tese de Doutorado', dissertacao: 'Dissertação de 
     {artigos.map(p => (
       <article class="pub-item">
         <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
         <h3><a href={p.url} target="_blank" rel="noopener">{p.title}</a></h3>
         <p class="meta">{formatAuthors(p.authors)}</p>
         <p>{p.journal}{p.volume && `, v. ${p.volume}`}{p.issue && `, n. ${p.issue}`}{p.pages && `, p. ${p.pages}`}.</p>
@@ -40,6 +41,7 @@ const degreeLabel = { tese: 'Tese de Doutorado', dissertacao: 'Dissertação de 
     {livros.map(p => (
       <article class="pub-item">
         <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
         <h3>{p.title}</h3>
         <p class="meta">{formatAuthors(p.authors)}</p>
         <p>{p.publisher}{p.city && `, ${p.city}`}, {p.year}{p.pages && `. ${p.pages}`}.</p>
@@ -54,6 +56,7 @@ const degreeLabel = { tese: 'Tese de Doutorado', dissertacao: 'Dissertação de 
     {capitulos.map(p => (
       <article class="pub-item">
         <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
         <h3>{p.title}</h3>
         <p class="meta">{formatAuthors(p.authors)}</p>
         <p>In: {p.bookTitle}. {p.publisher}{p.city && `, ${p.city}`}, {p.year}{p.pages && `, p. ${p.pages}`}.</p>
@@ -68,6 +71,7 @@ const degreeLabel = { tese: 'Tese de Doutorado', dissertacao: 'Dissertação de 
     {orientacoes.map(t => (
       <article class="pub-item">
         <span class="badge">{t.year || 'Em andamento'}</span>
+        {t.topics && t.topics.length > 0 && <p class="topic-badges">{t.topics.map(top => <span class="badge badge--topic">{top}</span>)}</p>}
         <h3>{t.title}</h3>
         <p class="meta">{t.author} · {degreeLabel[t.type]} — {t.institution}{t.role === 'Coorientador' && ' (coorientação)'}</p>
         {t.url && <p><a href={t.url} target="_blank" rel="noopener">Repositório UFAL →</a></p>}

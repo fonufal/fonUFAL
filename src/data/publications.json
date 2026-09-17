@@ -19,7 +19,11 @@
     "pages": "547–561",
     "year": 2026,
     "url": "https://doi.org/10.1007/978-3-032-15984-7_37",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
   },
   {
     "id": "10-25189-2675-4916-2025-v6-n4-id863",
@@ -67,7 +71,10 @@
     "pages": null,
     "year": 2025,
     "url": "https://doi.org/10.25189/2675-4916.2025.v6.n4.id863",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "inteligência artificial"
+    ]
   },
   {
     "id": "10-35520-diadorim-2023-v25n2a61715",
@@ -83,7 +90,12 @@
     "pages": "e61715",
     "year": 2025,
     "url": "https://doi.org/10.35520/diadorim.2023.v25n2a61715",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
   },
   {
     "id": "10-25189-rabralin-v23i1-2287",
@@ -100,7 +112,11 @@
     "pages": null,
     "year": 2024,
     "url": "https://doi.org/10.25189/rabralin.v23i1.2287",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "prosódia",
+      "percepção da fala"
+    ]
   },
   {
     "id": "10-5753-stil-2024-245424",
@@ -122,7 +138,11 @@
     "pages": "87–96",
     "year": 2024,
     "url": "https://doi.org/10.5753/stil.2024.245424",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "eye tracking",
+      "síntese de fala"
+    ]
   },
   {
     "id": "10-25189-2675-4916-2024-v5-n1-id723",
@@ -139,7 +159,10 @@
     "pages": "e723",
     "year": 2024,
     "url": "https://doi.org/10.25189/2675-4916.2024.v5.n1.id723",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "línguas ameaçadas"
+    ]
   },
   {
     "id": "10-17851-2237-2083-30-3-1314-1338",
@@ -155,7 +178,10 @@
     "pages": "1314–1338",
     "year": 2024,
     "url": "https://doi.org/10.17851/2237-2083.30.3.1314-1338",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "EEG"
+    ]
   },
   {
     "id": "10-5007-1984-8420-2023-e92124",
@@ -172,7 +198,10 @@
     "pages": "255–270",
     "year": 2023,
     "url": "https://doi.org/10.5007/1984-8420.2023.e92124",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "percepção da fala"
+    ]
   },
   {
     "id": "10-25189-rabralin-v22i1-2130",
@@ -187,7 +216,10 @@
     "pages": "1–15",
     "year": 2023,
     "url": "https://doi.org/10.25189/rabralin.v22i1.2130",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "10-1590-1981-5794-e16329",
@@ -201,7 +233,10 @@
     "pages": null,
     "year": 2023,
     "url": "https://doi.org/10.1590/1981-5794-e16329",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "fonologia"
+    ]
   },
   {
     "id": "10-1075-scl-108-05qua",
@@ -217,7 +252,11 @@
     "pages": "123–154",
     "year": 2023,
     "url": "https://doi.org/10.1075/scl.108.05qua",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "Libras",
+      "corpus"
+    ]
   },
   {
     "id": "10-14393-dl49-v16n1a2022-10",
@@ -232,7 +271,10 @@
     "pages": "255–297",
     "year": 2022,
     "url": "https://doi.org/10.14393/dl49-v16n1a2022-10",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa"
+    ]
   },
   {
     "id": "10-25189-2675-4916-2021-v2-n4-id477",
@@ -247,7 +289,11 @@
     "pages": "e477",
     "year": 2021,
     "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id477",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
   },
   {
     "id": "10-25189-2675-4916-2021-v2-n4-id468",
@@ -263,7 +309,10 @@
     "pages": null,
     "year": 2021,
     "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id468",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "10-20396-cel-v63i00-8660603",
@@ -279,7 +328,11 @@
     "pages": "e021004",
     "year": 2021,
     "url": "https://doi.org/10.20396/cel.v63i00.8660603",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "prosódia",
+      "sintaxe"
+    ]
   },
   {
     "id": "10-5935-2079-312x-20210021",
@@ -294,7 +347,10 @@
     "pages": null,
     "year": 2021,
     "url": "https://doi.org/10.5935/2079-312x.20210021",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
   },
   {
     "id": "10-5151-9786555500929-06",
@@ -309,7 +365,12 @@
     "pages": "135–150",
     "year": 2021,
     "url": "https://doi.org/10.5151/9786555500929-06",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
   },
   {
     "id": "silva2020roseta",
@@ -322,7 +383,10 @@
     "year": 2020,
     "url": "http://www.roseta.org.br/pt/2020/02/27/o-mundo-aos-pedacos-como-a-segmentacao-nos-ajudar-a-compreender-estimulos/",
     "noticiaSlug": "artigo-de-divulgacao-cientifica",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa"
+    ]
   },
   {
     "id": "almeida2019prolingua",
@@ -338,7 +402,10 @@
     "year": 2019,
     "url": "https://doi.org/10.22478/ufpb.1983-9979.2019v14n1.48974",
     "noticiaSlug": "novo-artigo",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
   },
   {
     "id": "oliveira2018deltavogais",
@@ -354,7 +421,11 @@
     "year": 2018,
     "url": "https://doi.org/10.1590/0102-445033561122072027",
     "noticiaSlug": "artigo-na-delta",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "fonologia",
+      "corpus"
+    ]
   },
   {
     "id": "silva2017gelne",
@@ -369,7 +440,10 @@
     "year": 2017,
     "url": "https://doi.org/10.21680/1517-7874.2017v19n0id12616",
     "noticiaSlug": "remildo-barbosa-publica-seu-primeiro-artigo",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
   },
   {
     "id": "almeida2025ead",
@@ -384,7 +458,11 @@
     "pages": "88-99",
     "year": 2025,
     "url": "https://ojs.ufgd.edu.br/ead/article/view/20622",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
   },
   {
     "id": "10-1016-j-jvoice-2020-12-005",
@@ -401,7 +479,10 @@
     "pages": "162-172",
     "year": 2023,
     "url": "https://doi.org/10.1016/j.jvoice.2020.12.005",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "voz e fala"
+    ]
   },
   {
     "id": "10-21680-1517-7874-2021v23n2id23121",
@@ -417,7 +498,11 @@
     "pages": "102-118",
     "year": 2021,
     "url": "https://doi.org/10.21680/1517-7874.2021v23n2id23121",
-    "type": "artigo"
+    "type": "artigo",
+    "topics": [
+      "aquisição da linguagem",
+      "prosódia"
+    ]
   },
   {
     "id": "livro-2026-contracao-rarefacao",
@@ -429,7 +514,8 @@
     "publisher": "Mercado de Letras",
     "city": "Campinas",
     "year": 2026,
-    "pages": "504p"
+    "pages": "504p",
+    "topics": []
   },
   {
     "id": "livro-2025-prosodic-interfaces",
@@ -441,7 +527,10 @@
     "publisher": "De Gruyter",
     "city": "Berlim",
     "year": 2025,
-    "pages": "279p"
+    "pages": "279p",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "livro-2023-30-anos-ppgll",
@@ -454,7 +543,8 @@
     "publisher": "Pontes Editores",
     "city": "Campinas",
     "year": 2023,
-    "pages": "281p"
+    "pages": "281p",
+    "topics": []
   },
   {
     "id": "livro-2022-prosodia-prosodias",
@@ -466,7 +556,10 @@
     "publisher": "Contexto",
     "city": "São Paulo",
     "year": 2022,
-    "pages": "224p"
+    "pages": "224p",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "livro-2022-linguagem-sociedade",
@@ -479,7 +572,10 @@
     "title": "Linguagem e Sociedade: questões variacionistas, filológicas e discursivas",
     "publisher": "Pontes Editores",
     "city": "Campinas",
-    "year": 2022
+    "year": 2022,
+    "topics": [
+      "sociolinguística"
+    ]
   },
   {
     "id": "livro-2021-estudos-fonetica-fonologia",
@@ -492,7 +588,10 @@
     "publisher": "Blücher",
     "city": "São Paulo",
     "year": 2021,
-    "pages": "326p"
+    "pages": "326p",
+    "topics": [
+      "fonologia"
+    ]
   },
   {
     "id": "livro-2019-50-anos-abralin",
@@ -504,7 +603,8 @@
     "publisher": "Pontes Editores",
     "city": "Campinas",
     "year": 2019,
-    "pages": "530p"
+    "pages": "530p",
+    "topics": []
   },
   {
     "id": "livro-2019-nurc-50-anos",
@@ -516,7 +616,10 @@
     "publisher": "Parábola Editorial",
     "city": "São Paulo",
     "year": 2019,
-    "pages": "232p"
+    "pages": "232p",
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "livro-2018-fulni-o-sato-saathatise",
@@ -531,7 +634,10 @@
     "publisher": "Blucher",
     "city": "São Paulo",
     "year": 2018,
-    "pages": "106p"
+    "pages": "106p",
+    "topics": [
+      "documentação linguística"
+    ]
   },
   {
     "id": "livro-2017-linguagem-falada-recife-v1",
@@ -546,7 +652,10 @@
     "publisher": "Ed. UFPE",
     "city": "Recife",
     "year": 2017,
-    "pages": "263p"
+    "pages": "263p",
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "livro-2017-linguagem-falada-recife-v2",
@@ -561,7 +670,10 @@
     "publisher": "Ed. UFPE",
     "city": "Recife",
     "year": 2017,
-    "pages": "261p"
+    "pages": "261p",
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "livro-2017-linguagem-falada-recife-v3",
@@ -576,7 +688,10 @@
     "publisher": "Ed. UFPE",
     "city": "Recife",
     "year": 2017,
-    "pages": "415p"
+    "pages": "415p",
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "livro-2013-caderno-resumos-iv-coloquio",
@@ -590,7 +705,10 @@
     "publisher": "Poligraf",
     "city": "Maceió",
     "year": 2013,
-    "pages": "248p"
+    "pages": "248p",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "livro-2010-estudos-de-corpora",
@@ -601,7 +719,10 @@
     "title": "Estudos de Corpora: da teoria à prática",
     "publisher": "Colibri",
     "city": "Lisboa",
-    "year": 2010
+    "year": 2010,
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "cap-2026-gps-esquerda",
@@ -615,7 +736,11 @@
     "publisher": "Mercado de Letras",
     "city": "Campinas",
     "year": 2026,
-    "pages": "243-290"
+    "pages": "243-290",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
   },
   {
     "id": "cap-2026-entoacao-no-discurso",
@@ -628,7 +753,11 @@
     "publisher": "Mercado de Letras",
     "city": "Campinas",
     "year": 2026,
-    "pages": "13-50"
+    "pages": "13-50",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
   },
   {
     "id": "cap-2026-certas-palavras-propor",
@@ -650,7 +779,11 @@
     "publisher": "Association for Computational Linguistics",
     "city": "Salvador",
     "year": 2026,
-    "pages": "819-829"
+    "pages": "819-829",
+    "topics": [
+      "síntese de fala",
+      "corpus"
+    ]
   },
   {
     "id": "cap-2025-role-prosody-ambiguities",
@@ -665,7 +798,11 @@
     "publisher": "De Gruyter",
     "city": "Berlim",
     "year": 2025,
-    "pages": "31-64"
+    "pages": "31-64",
+    "topics": [
+      "prosódia",
+      "sintaxe"
+    ]
   },
   {
     "id": "cap-2023-fonufal-historia-pesquisa",
@@ -684,7 +821,8 @@
     "publisher": "Pontes Editores",
     "city": "Campinas",
     "year": 2023,
-    "pages": "170-185"
+    "pages": "170-185",
+    "topics": []
   },
   {
     "id": "cap-2023-pesquisas-rastreamento-ocular-ne",
@@ -702,7 +840,10 @@
     "publisher": "Pontes",
     "city": "Campinas",
     "year": 2023,
-    "pages": "69-99"
+    "pages": "69-99",
+    "topics": [
+      "eye tracking"
+    ]
   },
   {
     "id": "cap-2022-prosodia-do-discurso",
@@ -715,7 +856,11 @@
     "publisher": "Contexto",
     "city": "São Paulo",
     "year": 2022,
-    "pages": "125"
+    "pages": "125",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
   },
   {
     "id": "cap-2022-o-que-e-entoacao",
@@ -728,7 +873,10 @@
     "publisher": "Parábola",
     "city": "São Paulo",
     "year": 2022,
-    "pages": "261-265"
+    "pages": "261-265",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "cap-2022-brazilian-portuguese-corpora",
@@ -751,7 +899,10 @@
     "publisher": "Officinaventuno",
     "city": "Milão",
     "year": 2022,
-    "pages": "179-187"
+    "pages": "179-187",
+    "topics": [
+      "corpus"
+    ]
   },
   {
     "id": "cap-2021-vogais-parkinson",
@@ -765,7 +916,11 @@
     "publisher": "Blücher",
     "city": "São Paulo",
     "year": 2021,
-    "pages": "11-58"
+    "pages": "11-58",
+    "topics": [
+      "fonologia",
+      "voz e fala"
+    ]
   },
   {
     "id": "cap-2021-prosodicos-libras-telefone",
@@ -780,7 +935,12 @@
     "publisher": "Blücher",
     "city": "São Paulo",
     "year": 2021,
-    "pages": "91-110"
+    "pages": "91-110",
+    "topics": [
+      "Libras",
+      "numerais",
+      "prosódia"
+    ]
   },
   {
     "id": "cap-2021-paradigma-mundo-visual",
@@ -795,7 +955,10 @@
     "publisher": "Blücher",
     "city": "São Paulo",
     "year": 2021,
-    "pages": "111-134"
+    "pages": "111-134",
+    "topics": [
+      "eye tracking"
+    ]
   },
   {
     "id": "cap-2021-segmentacao-narrativas-espontaneas",
@@ -809,7 +972,12 @@
     "publisher": "Blücher",
     "city": "São Paulo",
     "year": 2021,
-    "pages": "135-150"
+    "pages": "135-150",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
   },
   {
     "id": "orient-leandro-santana-2026",
@@ -819,7 +987,10 @@
     "title": "A influência das redes na palatalização regressiva de falantes da região metropolitana de Recife",
     "institution": "Universidade Federal de Alagoas",
     "startYear": 2026,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "sociolinguística"
+    ]
   },
   {
     "id": "orient-jose-cicero-2026",
@@ -829,7 +1000,10 @@
     "title": "O monitor sociolinguístico das formas de palatalização progressiva e regressiva de /T/ e /D/ em Alagoas",
     "institution": "Universidade Federal de Alagoas",
     "startYear": 2026,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "sociolinguística"
+    ]
   },
   {
     "id": "orient-mariana-silva-sousa-2026",
@@ -839,7 +1013,10 @@
     "title": "Descrição fonético-acústica dos correlatos fonéticos do acento em Yaathe",
     "institution": "Universidade Federal de Alagoas",
     "startYear": 2026,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística"
+    ]
   },
   {
     "id": "orient-arthur-terto-2023",
@@ -849,7 +1026,12 @@
     "title": "O processamento da prosódia como marca de segmentação discursiva: um estudo a partir de respostas oculomotoras",
     "institution": "Universidade Federal de Alagoas",
     "year": 2023,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "eye tracking",
+      "discurso e narrativa",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-julio-galdino-2020",
@@ -860,7 +1042,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2020,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/jspui/handle/123456789/12648"
+    "url": "https://www.repositorio.ufal.br/jspui/handle/123456789/12648",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-kyvia-silva-2019",
@@ -870,7 +1056,11 @@
     "title": "Análise dos processos fonológicos na aquisição do onset complexo em crianças com desenvolvimento fonológico típico",
     "institution": "Universidade Federal de Alagoas",
     "year": 2019,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
   },
   {
     "id": "orient-ewerton-marques-2018",
@@ -880,7 +1070,10 @@
     "title": "A Fonética de LIBRAS",
     "institution": "Universidade Federal de Alagoas",
     "year": 2018,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "Libras"
+    ]
   },
   {
     "id": "orient-remildo-silva-2016",
@@ -891,7 +1084,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2016,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/3231"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/3231",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-elvis-sa-2015",
@@ -901,7 +1098,11 @@
     "title": "Documentação das Narrativas Orais de Anciões Fulni-ô e Análise Linguística: Fala dos Mais Velhos/Fala dos Jovens; Fala Masculina/Fala Feminina",
     "institution": "Universidade Federal de Alagoas",
     "year": 2015,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística",
+      "discurso e narrativa"
+    ]
   },
   {
     "id": "orient-daniela-santos-2015",
@@ -912,7 +1113,12 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2015,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/3357"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/3357",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-ana-mendonca-2013",
@@ -923,7 +1129,10 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2013,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/2181"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2181",
+    "topics": [
+      "fonologia"
+    ]
   },
   {
     "id": "orient-maraisa-castro-2013",
@@ -934,7 +1143,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2013,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/2231"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2231",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
   },
   {
     "id": "orient-frederico-sampaio-2012",
@@ -945,7 +1158,8 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2012,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/123456789/16593"
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16593",
+    "topics": []
   },
   {
     "id": "orient-joao-paulo-santos-2012",
@@ -956,7 +1170,10 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2012,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/2383"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2383",
+    "topics": [
+      "fonologia"
+    ]
   },
   {
     "id": "orient-oyedeji-musiliyu-2012",
@@ -967,7 +1184,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2012,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/2323"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2323",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-fabia-silva-2011",
@@ -978,7 +1199,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2011,
     "role": "Coorientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/488"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/488",
+    "topics": [
+      "documentação linguística",
+      "fonologia"
+    ]
   },
   {
     "id": "orient-ebson-silva-2023",
@@ -989,7 +1214,12 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2023,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/123456789/16632"
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16632",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
   },
   {
     "id": "orient-humberto-araujo-2022",
@@ -999,7 +1229,12 @@
     "title": "A percepção de fronteiras de eventos em narrativas sinalizadas",
     "institution": "Universidade Federal de Alagoas",
     "year": 2022,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "Libras",
+      "discurso e narrativa",
+      "percepção da fala"
+    ]
   },
   {
     "id": "orient-crislaini-dias-2020",
@@ -1009,7 +1244,10 @@
     "title": "Dicionário do Yaathe, língua indígena brasileira",
     "institution": "Universidade Federal de Alagoas",
     "year": 2020,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística"
+    ]
   },
   {
     "id": "orient-remildo-silva-2020",
@@ -1020,7 +1258,10 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2020,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/123456789/18234"
+    "url": "https://www.repositorio.ufal.br/handle/123456789/18234",
+    "topics": [
+      "prosódia"
+    ]
   },
   {
     "id": "orient-kyvia-silva-2020",
@@ -1030,7 +1271,10 @@
     "title": "A correlação dos biossinais da eletromiografia de superfície e da eletroencefalografia na fala interna",
     "institution": "Universidade Federal de Alagoas",
     "year": 2020,
-    "role": "Orientador"
+    "role": "Orientador",
+    "topics": [
+      "EEG"
+    ]
   },
   {
     "id": "orient-rene-almeida-2018",
@@ -1041,7 +1285,10 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2018,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/2225"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2225",
+    "topics": [
+      "sintaxe"
+    ]
   },
   {
     "id": "orient-maraisa-castro-2015",
@@ -1052,7 +1299,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2015,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/123456789/8503"
+    "url": "https://www.repositorio.ufal.br/handle/123456789/8503",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
   },
   {
     "id": "orient-oyedeji-musiliyu-2014",
@@ -1063,7 +1314,12 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2014,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/123456789/16592"
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16592",
+    "topics": [
+      "EEG",
+      "fonologia",
+      "discurso e narrativa"
+    ]
   },
   {
     "id": "orient-ayane-almeida-2013",
@@ -1074,7 +1330,11 @@
     "institution": "Universidade Federal de Alagoas",
     "year": 2013,
     "role": "Orientador",
-    "url": "https://www.repositorio.ufal.br/handle/riufal/1847"
+    "url": "https://www.repositorio.ufal.br/handle/riufal/1847",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
   },
   {
     "id": "orient-tiago-freitas-2008",
@@ -1084,6 +1344,10 @@
     "title": "O português ao telefone: estrutura conversacional e prosódia",
     "institution": "Universidade de Lisboa",
     "year": 2008,
-    "role": "Coorientador"
+    "role": "Coorientador",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
   }
 ]
