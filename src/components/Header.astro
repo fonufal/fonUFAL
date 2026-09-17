@@ -1,26 +1,61 @@
 ---
 import { SITE_TITLE, LOGO } from '../consts';
 import { url } from '../utils/paths';
-const nav = [
+
+interface Props { lang?: 'pt' | 'en' }
+const { lang = 'pt' } = Astro.props;
+
+const navPt = [
   ['Início','/'], ['Pesquisa','/projects'], ['Pessoas','/team'],
   ['Publicações','/publications'], ['Notícias','/noticias'], ['Contato','/contato']
 ];
+const navEn = [
+  ['Home','/en/'], ['Research','/en/projects'], ['People','/en/team'],
+  ['Publications','/publications'], ['News','/noticias'], ['Contact','/en/contact']
+];
+const nav = lang === 'en' ? navEn : navPt;
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const currentPath = Astro.url.pathname.slice(base.length) || '/';
 const isActive = (path: string) => path === '/' ? currentPath === '/' : currentPath.startsWith(path);
+
+// Map the current page to its counterpart in the other language, when one
+// exists. English currently covers Home, Research (incl. project pages),
+// People and Contact only — Publications and News stay Portuguese-only.
+function otherLangHref(): string {
+  const p = currentPath;
+  if (lang === 'pt') {
+    if (p === '/') return url('/en/');
+    if (p === '/projects') return url('/en/projects');
+    const projectMatch = p.match(/^\/projects\/(.+)$/);
+    if (projectMatch) return url(`/en/projects/${projectMatch[1]}`);
+    if (p === '/team') return url('/en/team');
+    if (p === '/contato') return url('/en/contact');
+    return url('/en/');
+  } else {
+    if (p === '/en/' || p === '/en') return url('/');
+    if (p === '/en/projects') return url('/projects');
+    const projectMatch = p.match(/^\/en\/projects\/(.+)$/);
+    if (projectMatch) return url(`/projects/${projectMatch[1]}`);
+    if (p === '/en/team') return url('/team');
+    if (p === '/en/contact') return url('/contato');
+    return url('/');
+  }
+}
 ---
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href={url('/')} aria-label={`${SITE_TITLE} — início`}>
+    <a class="brand" href={url(lang === 'en' ? '/en/' : '/')} aria-label={`${SITE_TITLE} — ${lang === 'en' ? 'home' : 'início'}`}>
       <img src={url(LOGO)} alt="fonUFAL" width="220" height="51" style="width:180px;height:auto" />
-      <span class="brand-mark">Fonética<br/>&amp; Fonologia</span>
+      <span class="brand-mark">{lang === 'en' ? <>Phonetics<br/>&amp; Phonology</> : <>Fonética<br/>&amp; Fonologia</>}</span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menu">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label={lang === 'en' ? 'Open menu' : 'Abrir menu'}>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </label>
-    <nav class="site-nav" aria-label="Navegação principal">
+    <nav class="site-nav" aria-label={lang === 'en' ? 'Main navigation' : 'Navegação principal'}>
       {nav.map(([label,path]) => <a href={url(path)} aria-current={isActive(path) ? 'page' : undefined} class={isActive(path) ? 'is-active' : undefined}>{label}</a>)}
+      <a href={otherLangHref()} class="lang-switch" hreflang={lang === 'en' ? 'pt' : 'en'}>{lang === 'en' ? 'PT' : 'EN'}</a>
     </nav>
   </div>
 </header>

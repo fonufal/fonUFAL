@@ -9,7 +9,12 @@
     "funding": "CNPq — Chamada nº 16/2025, Faixa 1: Projeto em cooperação",
     "reference": "Processo 446854/2025-5",
     "authors": ["miguel-oliveira-jr"],
-    "themes": ["síntese de fala", "fala espontânea", "variação linguística", "TTS", "ciência aberta"]
+    "themes": ["síntese de fala", "fala espontânea", "variação linguística", "TTS", "ciência aberta"],
+    "title_en": "Among Many Voices: speech synthesis using spontaneous speech data across varieties of Portuguese",
+    "description_en": "A collaborative project focused on developing, evaluating, and disseminating speech synthesis technologies capable of naturally and intelligibly representing the linguistic diversity of Portuguese.",
+    "status_en": "Ongoing",
+    "funding_en": "CNPq — Call No. 16/2025, Track 1: Cooperative Project",
+    "themes_en": ["speech synthesis", "spontaneous speech", "linguistic variation", "TTS", "open science"]
   },
   {
     "id": "sintese",
@@ -19,7 +24,11 @@
     "period": "2026–2027",
     "status": "Em andamento",
     "authors": ["miguel-oliveira-jr"],
-    "themes": ["TTS", "prosódia", "EyetrackingMOS", "reprodutibilidade", "curadoria de dados"]
+    "themes": ["TTS", "prosódia", "EyetrackingMOS", "reprodutibilidade", "curadoria de dados"],
+    "title_en": "SÍNTESE — reproducible evaluation of synthesized speech",
+    "description_en": "A fonUFAL work program integrating perceptual and objective TTS evaluation, EyetrackingMOS, acoustic-prosodic metrics, audio/TextGrid/metadata curation, and reproducible technical documentation.",
+    "status_en": "Ongoing",
+    "themes_en": ["TTS", "prosody", "EyetrackingMOS", "reproducibility", "data curation"]
   },
   {
     "id": "eyetrackingmos-metricas-tts",
@@ -30,7 +39,11 @@
     "status": "Em avaliação",
     "reference": "PVLE4730-2026",
     "authors": ["miguel-oliveira-jr"],
-    "themes": ["EyetrackingMOS", "TTS", "MOS", "rastreamento ocular", "prosódia"]
+    "themes": ["EyetrackingMOS", "TTS", "MOS", "rastreamento ocular", "prosódia"],
+    "title_en": "EyetrackingMOS and automatic metrics for TTS evaluation in Portuguese",
+    "description_en": "A scientific and technological development project continuing work on eye-tracking-based perceptual evaluation and automatic metrics for synthesized speech in Portuguese.",
+    "status_en": "Under review",
+    "themes_en": ["EyetrackingMOS", "TTS", "MOS", "eye tracking", "prosody"]
   },
   {
     "id": "fronteiras-prosodicas-fase-4",
@@ -41,7 +54,11 @@
     "status": "Em avaliação",
     "reference": "PVLE4829-2026",
     "authors": ["miguel-oliveira-jr"],
-    "themes": ["prosódia", "discurso", "fronteiras", "eye tracking", "EEG", "multimodalidade"]
+    "themes": ["prosódia", "discurso", "fronteiras", "eye tracking", "EEG", "multimodalidade"],
+    "title_en": "Processing of Prosodic Boundaries in Discourse, Phase 4: acoustic cues, event perception, and preparation for neurocognitive and multimodal studies",
+    "description_en": "Investigates the relative and cumulative weight of temporal, melodic, and energy-related cues in the perception of discourse boundaries, combining acoustic analysis, prosodic manipulation, behavioral experiments, and eye tracking, with preparation for EEG and multimodal studies.",
+    "status_en": "Under review",
+    "themes_en": ["prosody", "discourse", "boundaries", "eye tracking", "EEG", "multimodality"]
   },
   {
     "id": "eeg-naturalidade-tts",
@@ -50,6 +67,10 @@
     "year": 2026,
     "status": "Proposta 2026",
     "authors": ["miguel-oliveira-jr"],
-    "themes": ["EEG", "naturalidade", "TTS", "percepção da fala", "modelos acústicos"]
+    "themes": ["EEG", "naturalidade", "TTS", "percepção da fala", "modelos acústicos"],
+    "title_en": "Implicit Neurophysiological Index of Synthesized Speech Naturalness",
+    "description_en": "A proposal to test whether EEG signals recorded during non-evaluative listening predict the perceived naturalness of synthesized speech and add information to acoustic models.",
+    "status_en": "2026 Proposal",
+    "themes_en": ["EEG", "naturalness", "TTS", "speech perception", "acoustic models"]
   }
 ]

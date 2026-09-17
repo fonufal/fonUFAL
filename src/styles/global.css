@@ -99,6 +99,13 @@ nav.site-nav a:hover { color: var(--ink); }
 nav.site-nav a:hover::after { right: 0; }
 nav.site-nav a.is-active { color: var(--ink); font-weight: 600; }
 nav.site-nav a.is-active::after { right: 0; background: var(--fon-blue); }
+nav.site-nav a.lang-switch {
+  font-family: var(--font-mono); font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  border: 1px solid var(--border-strong); border-radius: var(--radius-pill); padding: 4px 10px;
+  margin-left: 4px;
+}
+nav.site-nav a.lang-switch::after { display: none; }
+nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var(--bg-soft); }
 
 .nav-toggle { display: none; }
 .nav-toggle-label { display: none; }

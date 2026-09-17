@@ -1,19 +1,22 @@
 ---
 import { CONTACT_EMAIL } from '../consts';
 import { url } from '../utils/paths';
+
+interface Props { lang?: 'pt' | 'en' }
+const { lang = 'pt' } = Astro.props;
 ---
 <footer class="site-footer">
   <div class="footer-inner">
     <div>
       <p class="footer-brand">fonUFAL</p>
-      <p>Grupo de Estudos em Fonética e Fonologia<br/>Universidade Federal de Alagoas</p>
+      <p>{lang === 'en' ? <>Phonetics and Phonology Research Group<br/>Federal University of Alagoas (UFAL), Brazil</> : <>Grupo de Estudos em Fonética e Fonologia<br/>Universidade Federal de Alagoas</>}</p>
     </div>
     <div>
       <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
     </div>
     <div>
-      <p class="credit">Site baseado no template Astro Scholar, de Shravan Goswami (MIT).</p>
-      <p class="credit"><a href={url('/design-system')}>Sistema de design →</a></p>
+      <p class="credit">{lang === 'en' ? 'Built on the Astro Scholar template, by Shravan Goswami (MIT).' : 'Site baseado no template Astro Scholar, de Shravan Goswami (MIT).'}</p>
+      <p class="credit"><a href={url('/design-system')}>{lang === 'en' ? 'Design system →' : 'Sistema de design →'}</a></p>
     </div>
   </div>
 </footer>

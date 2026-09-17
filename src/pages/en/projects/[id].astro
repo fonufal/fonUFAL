@@ -1,0 +1,13 @@
+---
+import BaseHead from '../../../components/BaseHead.astro'; import Header from '../../../components/Header.astro'; import Footer from '../../../components/Footer.astro';
+import projects from '../../../data/projects.json'; import authors from '../../../data/authors.json'; import { SITE_TITLE } from '../../../consts'; import { statusClass } from '../../../utils/status'; import { url } from '../../../utils/paths';
+export function getStaticPaths(){ return projects.map(project=>({params:{id:project.id},props:{project}})); }
+const { project } = Astro.props;
+const title = project.title_en || project.title;
+const description = project.description_en || project.description;
+const status = project.status_en || project.status;
+const funding = project.funding_en || project.funding;
+const themes = project.themes_en || project.themes;
+const projectAuthors = (project.authors ?? []).map((id: string) => authors.find((a: any) => a.id === id)).filter(Boolean);
+---
+<html lang="en"><head><BaseHead title={`${title} | ${SITE_TITLE}`} description={description} /></head><body><Header lang="en"/><main><article class="hero-content" style="max-width:var(--measure)"><p class="eyebrow">Research project</p><h1>{title}</h1><p><span class={`badge ${statusClass(status)}`}>{status}</span></p><p class="lead">{description}</p><section class="section"><h2>Details</h2><p><strong>Period:</strong> {project.period || project.year}</p>{project.reference && <p><strong>Reference:</strong> {project.reference}</p>}{funding && <p><strong>Funding:</strong> {funding}</p>}{projectAuthors.length > 0 && <p><strong>Lead:</strong> {projectAuthors.map((a: any) => <a href={url('/en/team')}>{a.name}</a>)}</p>}<p><strong>Themes:</strong> {themes.join(' · ')}</p></section><section class="section"><div class="callout"><strong>Migration note.</strong> This page uses only already-documented information. Team, publications, products, and links will be expanded once the inventory and current sources are validated.</div></section></article></main><Footer lang="en"/></body></html>
