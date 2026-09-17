@@ -1,4 +1,41 @@
 ---
-import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE } from '../consts';
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL } from '../consts'; import { url } from '../utils/paths';
+const nextUrl = `${SITE_URL}${url('/contato?enviado=1')}`;
 ---
-<html lang="pt-BR"><head><BaseHead title={`Contato | ${SITE_TITLE}`} description="Contato do fonUFAL" /></head><body><Header/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contato</p><h1>Fale com o fonUFAL</h1><p class="lead">E-mail: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section><section class="section"><div class="callout"><h2>Formulário em preparação</h2><p>O formulário do WordPress não será copiado automaticamente. A solução definitiva será escolhida para funcionar sem backend WordPress e sem expor dados desnecessários.</p></div></section></main><Footer/></body></html>
+<html lang="pt-BR"><head><BaseHead title={`Contato | ${SITE_TITLE}`} description="Contato do fonUFAL" /></head><body><Header/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contato</p><h1>Fale com o fonUFAL</h1><p class="lead">E-mail: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section>
+<section class="section">
+  <div id="contact-success" class="callout" hidden>
+    <h2>Mensagem enviada</h2>
+    <p>Obrigado pelo contato — a mensagem foi encaminhada para o fonUFAL. Respondemos o quanto antes.</p>
+  </div>
+  <div id="contact-form-wrap">
+    <form class="contact-form" action={`https://formsubmit.co/${CONTACT_EMAIL}`} method="POST">
+      <input type="hidden" name="_subject" value="Nova mensagem via site fonUFAL" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="true" />
+      <input type="hidden" name="_next" value={nextUrl} />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="form-field">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-field">
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+    </form>
+    <p class="meta" style="margin-top:16px">O envio é processado pelo FormSubmit, sem passar por um backend próprio do site. Nenhum dado é armazenado além do encaminhamento da mensagem por e-mail.</p>
+  </div>
+</section>
+</main><Footer/></body></html>
+<script>
+  if (new URLSearchParams(location.search).get('enviado') === '1') {
+    document.getElementById('contact-form-wrap').hidden = true;
+    document.getElementById('contact-success').hidden = false;
+  }
+</script>

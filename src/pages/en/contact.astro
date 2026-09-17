@@ -1,4 +1,41 @@
 ---
-import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import Waveform from '../../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE } from '../../consts';
+import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import Waveform from '../../components/Waveform.astro'; import { CONTACT_EMAIL, SITE_TITLE, SITE_URL } from '../../consts'; import { url } from '../../utils/paths';
+const nextUrl = `${SITE_URL}${url('/en/contact?sent=1')}`;
 ---
-<html lang="en"><head><BaseHead title={`Contact | ${SITE_TITLE}`} description="Contact fonUFAL" /></head><body><Header lang="en"/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contact</p><h1>Get in touch with fonUFAL</h1><p class="lead">Email: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section><section class="section"><div class="callout"><h2>Contact form in preparation</h2><p>The WordPress form will not be copied automatically. A definitive solution will be chosen to work without a WordPress backend and without exposing unnecessary data.</p></div></section></main><Footer lang="en"/></body></html>
+<html lang="en"><head><BaseHead title={`Contact | ${SITE_TITLE}`} description="Contact fonUFAL" /></head><body><Header lang="en"/><main><section class="hero"><div class="hero-content"><p class="eyebrow">Contact</p><h1>Get in touch with fonUFAL</h1><p class="lead">Email: <a class="btn btn--ghost" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p></div><Waveform class="hero-waveform" /></section>
+<section class="section">
+  <div id="contact-success" class="callout" hidden>
+    <h2>Message sent</h2>
+    <p>Thanks for reaching out — your message has been forwarded to fonUFAL. We'll reply as soon as we can.</p>
+  </div>
+  <div id="contact-form-wrap">
+    <form class="contact-form" action={`https://formsubmit.co/${CONTACT_EMAIL}`} method="POST">
+      <input type="hidden" name="_subject" value="New message from the fonUFAL website" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="true" />
+      <input type="hidden" name="_next" value={nextUrl} />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary">Send message</button>
+    </form>
+    <p class="meta" style="margin-top:16px">Submissions are processed by FormSubmit, without a backend of the site's own. No data is stored beyond forwarding the message by email.</p>
+  </div>
+</section>
+</main><Footer lang="en"/></body></html>
+<script>
+  if (new URLSearchParams(location.search).get('sent') === '1') {
+    document.getElementById('contact-form-wrap').hidden = true;
+    document.getElementById('contact-success').hidden = false;
+  }
+</script>
