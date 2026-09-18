@@ -1,0 +1,27 @@
+---
+import { CONTACT_EMAIL, INSTAGRAM_URL } from '../consts';
+import { url } from '../utils/paths';
+
+interface Props { lang?: 'pt' | 'en' }
+const { lang = 'pt' } = Astro.props;
+---
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">fonUFAL</p>
+      <p>{lang === 'en' ? <>Phonetics and Phonology Research Group<br/>Federal University of Alagoas (UFAL), Brazil</> : <>Grupo de Estudos em Fonética e Fonologia<br/>Universidade Federal de Alagoas</>}</p>
+    </div>
+    <div>
+      <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+      <p class="footer-social">
+        <a href={INSTAGRAM_URL} target="_blank" rel="noopener" aria-label="Instagram do fonUFAL">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.4" cy="6.6" r="1"/></svg>
+        </a>
+      </p>
+    </div>
+    <div>
+      <p class="credit">© {new Date().getFullYear()} fonUFAL</p>
+      <p class="credit"><a href={url('/design-system')}>{lang === 'en' ? 'Design system →' : 'Sistema de design →'}</a></p>
+    </div>
+  </div>
+</footer>

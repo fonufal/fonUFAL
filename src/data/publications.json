@@ -1,0 +1,1353 @@
+[
+  {
+    "id": "10-1007-978-3-032-15984-7-37",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Sidney Leal",
+      "Leticia de Souza",
+      "Rodrigo Lima",
+      "Antonio Moreira",
+      "Arnaldo Candido",
+      "Miguel Oliveira Jr.",
+      "Edresson Casanova",
+      "Sandra Aluísio"
+    ],
+    "title": "The Impact of Prosodic Segmentation on Speech Synthesis of Spontaneous Speech",
+    "journal": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "547–561",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/978-3-032-15984-7_37",
+    "type": "artigo",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "10-25189-2675-4916-2025-v6-n4-id863",
+    "authors": [
+      "Raquel Freitag",
+      "Marcia dos Santos Machado Vieira",
+      "Juliana Bertucci Barbosa",
+      "Miguel Oliveira Jr.",
+      "Cleber Ataíde",
+      "Alana de Santana Correia",
+      "Amanda Post da Silveira",
+      "André Britto de Carvalho",
+      "Andréia Silva Araujo",
+      "Brayna Conceição dos Santos Cardoso",
+      "Claudia Andrea Rosto Snichelotto",
+      "Eduardo Cardoso Martins",
+      "Eliabe dos Santos Procópio",
+      "Elisa Battisti",
+      "Elisângela Nogueira Teixeira",
+      "Fabiane Cristina Altino",
+      "Hadinei Ribeiro Batista",
+      "Hendrik Teixeira Macedo",
+      "Isabel de Oliveira e Silva Monguilhott",
+      "Iury Cleveston",
+      "Kendra Dickinson",
+      "Lilian Cristine Hübner",
+      "Luma da Silva Miranda",
+      "Mailce Borges Mota",
+      "Marcus Garcia de Sene",
+      "Marinete Rodrigues da Silva",
+      "Marta Deysiane Alves Faria Sousa",
+      "Monica Maria Guimarães Savedra",
+      "Pedro Ricardo Bin",
+      "Ronice Muller de Quadros",
+      "Sandro Marcío Drumond Alves Marengo",
+      "Silvana Silva de Farias Araújo",
+      "Túlio Sousa de Gois",
+      "Valéria Viana Sousa",
+      "Valter de Carvalho Dias"
+    ],
+    "title": "Plataforma da Diversidade Linguística Brasileira: dados linguísticos para uma IA brasileira",
+    "journal": "Cadernos de Linguística",
+    "volume": "6",
+    "issue": "4",
+    "pages": null,
+    "year": 2025,
+    "url": "https://doi.org/10.25189/2675-4916.2025.v6.n4.id863",
+    "type": "artigo",
+    "topics": [
+      "inteligência artificial"
+    ]
+  },
+  {
+    "id": "10-35520-diadorim-2023-v25n2a61715",
+    "authors": [
+      "Ebson Wilkerson Rocha da Silva",
+      "Arthur Ronald Brasil Terto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "O uso da prosódia na percepção de fronteiras de eventos narrados em português brasileiro",
+    "journal": "Diadorim: revista de estudos linguísticos e literários",
+    "volume": "25",
+    "issue": "2",
+    "pages": "e61715",
+    "year": 2025,
+    "url": "https://doi.org/10.35520/diadorim.2023.v25n2a61715",
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "10-25189-rabralin-v23i1-2287",
+    "authors": [
+      "Remildo Barbosa da Silva",
+      "Arthur Ronald Brasil Terto",
+      "Ebson Wilkerson Rocha da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Rastreador ocular como método de análise de percepção da prosódia da fala: uma revisão de escopo",
+    "journal": "Revista da ABRALIN",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "year": 2024,
+    "url": "https://doi.org/10.25189/rabralin.v23i1.2287",
+    "type": "artigo",
+    "topics": [
+      "prosódia",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "10-5753-stil-2024-245424",
+    "authors": [
+      "Gustavo E. Araújo",
+      "Julio Cesar Galdino",
+      "Rodrigo de F. Lima",
+      "Leonardo Ishida",
+      "Gustavo W. Lopes",
+      "Miguel Oliveira Jr.",
+      "Arnaldo Cândido Jr.",
+      "Sandra M. Aluísio",
+      "Moacir A. Ponti"
+    ],
+    "title": "EyetrackingMOS: Proposal for an online evaluation method for speech synthesis models",
+    "journal": "Anais do XV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL 2024)",
+    "volume": null,
+    "issue": null,
+    "pages": "87–96",
+    "year": 2024,
+    "url": "https://doi.org/10.5753/stil.2024.245424",
+    "type": "artigo",
+    "topics": [
+      "eye tracking",
+      "síntese de fala"
+    ]
+  },
+  {
+    "id": "10-25189-2675-4916-2024-v5-n1-id723",
+    "authors": [
+      "Camiel Hamans",
+      "Hein Van der Voort",
+      "Miguel Oliveira Jr.",
+      "Katia Silene Costa Valdenilson"
+    ],
+    "title": "Economic Value of Endangered Languages",
+    "journal": "Cadernos de Linguística",
+    "volume": "5",
+    "issue": "1",
+    "pages": "e723",
+    "year": 2024,
+    "url": "https://doi.org/10.25189/2675-4916.2024.v5.n1.id723",
+    "type": "artigo",
+    "topics": [
+      "línguas ameaçadas"
+    ]
+  },
+  {
+    "id": "10-17851-2237-2083-30-3-1314-1338",
+    "authors": [
+      "Kyvia Fernanda Tenório da Silva",
+      "Susana Carvalho",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "A identificação da fala interna por meio da eletromiografia de superfície e da encefalografia: uma revisão de escopo",
+    "journal": "Revista de Estudos da Linguagem",
+    "volume": "30",
+    "issue": "3",
+    "pages": "1314–1338",
+    "year": 2024,
+    "url": "https://doi.org/10.17851/2237-2083.30.3.1314-1338",
+    "type": "artigo",
+    "topics": [
+      "EEG"
+    ]
+  },
+  {
+    "id": "10-5007-1984-8420-2023-e92124",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Miguel Oliveira Jr.",
+      "Ayane Nazarela Santos de Almeida",
+      "Oyedeji Musiliyu"
+    ],
+    "title": "Percepção de fala comprimida: um estudo experimental",
+    "journal": "Working Papers em Linguística",
+    "volume": "24",
+    "issue": "1",
+    "pages": "255–270",
+    "year": 2023,
+    "url": "https://doi.org/10.5007/1984-8420.2023.e92124",
+    "type": "artigo",
+    "topics": [
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "10-25189-rabralin-v22i1-2130",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Prosódia e síntese da fala: uma revisão integrativa da literatura",
+    "journal": "Revista da ABRALIN",
+    "volume": null,
+    "issue": null,
+    "pages": "1–15",
+    "year": 2023,
+    "url": "https://doi.org/10.25189/rabralin.v22i1.2130",
+    "type": "artigo",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "10-1590-1981-5794-e16329",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "PROCESSOS FÔNICOS NA PRODUÇÃO DE SENTIDO: A FONOLOGIA NA VIRADA PRAGMÁTICA",
+    "journal": "Alfa: Revista de Linguística (São José do Rio Preto)",
+    "volume": "67",
+    "issue": null,
+    "pages": null,
+    "year": 2023,
+    "url": "https://doi.org/10.1590/1981-5794-e16329",
+    "type": "artigo",
+    "topics": [
+      "fonologia"
+    ]
+  },
+  {
+    "id": "10-1075-scl-108-05qua",
+    "authors": [
+      "Ronice Müller de Quadros",
+      "Jair Barbosa da Silva",
+      "Rodrigo Nogueira Machado"
+    ],
+    "title": "A corpus-based analysis of coordinate structures in Libras",
+    "journal": "Studies in Corpus Linguistics",
+    "volume": null,
+    "issue": null,
+    "pages": "123–154",
+    "year": 2023,
+    "url": "https://doi.org/10.1075/scl.108.05qua",
+    "type": "artigo",
+    "topics": [
+      "Libras",
+      "corpus"
+    ]
+  },
+  {
+    "id": "10-14393-dl49-v16n1a2022-10",
+    "authors": [
+      "Humberto Meira de Araújo Neto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Papel das mudanças na segmentação de eventos narrados",
+    "journal": "Domínios de Lingu@gem",
+    "volume": "16",
+    "issue": "1",
+    "pages": "255–297",
+    "year": 2022,
+    "url": "https://doi.org/10.14393/dl49-v16n1a2022-10",
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa"
+    ]
+  },
+  {
+    "id": "10-25189-2675-4916-2021-v2-n4-id477",
+    "authors": [
+      "Arthur Ronald Brasil Terto",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "A prosódia do metadiscurso",
+    "journal": "Cadernos de Linguística",
+    "volume": "2",
+    "issue": "4",
+    "pages": "e477",
+    "year": 2021,
+    "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id477",
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "10-25189-2675-4916-2021-v2-n4-id468",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Kyvia Fernanda Tenório da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Características prosódicas associadas aos sinais de pontuação: uma revisão de escopo",
+    "journal": "Cadernos de Linguística",
+    "volume": "2",
+    "issue": "4",
+    "pages": null,
+    "year": 2021,
+    "url": "https://doi.org/10.25189/2675-4916.2021.v2.n4.id468",
+    "type": "artigo",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "10-20396-cel-v63i00-8660603",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Miguel Oliveira Jr.",
+      "Reinier Cozijn"
+    ],
+    "title": "A influência da prosódia da fala na resolução de ambiguidade sintática",
+    "journal": "Cadernos de Estudos Linguísticos",
+    "volume": "63",
+    "issue": null,
+    "pages": "e021004",
+    "year": 2021,
+    "url": "https://doi.org/10.20396/cel.v63i00.8660603",
+    "type": "artigo",
+    "topics": [
+      "prosódia",
+      "sintaxe"
+    ]
+  },
+  {
+    "id": "10-5935-2079-312x-20210021",
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Análisis entonacional de los códigos postales (CEP) en portugués brasileño",
+    "journal": "Lingüística",
+    "volume": "37",
+    "issue": "2",
+    "pages": null,
+    "year": 2021,
+    "url": "https://doi.org/10.5935/2079-312x.20210021",
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
+  },
+  {
+    "id": "10-5151-9786555500929-06",
+    "authors": [
+      "Ebson Wilkerson Rocha da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Segmentação Automática e Manual de Narrativas Espontâneas: Metodologia de um Estudo de Percepção da Prosódia",
+    "journal": "Estudos em Fonética e Fonologia",
+    "volume": null,
+    "issue": null,
+    "pages": "135–150",
+    "year": 2021,
+    "url": "https://doi.org/10.5151/9786555500929-06",
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "silva2020roseta",
+    "authors": [
+      "Ebson Wilkerson da Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "O mundo aos pedaços: como a segmentação nos ajuda a compreender estímulos?",
+    "journal": "Roseta (divulgação científica, ABRALIN)",
+    "year": 2020,
+    "url": "http://www.roseta.org.br/pt/2020/02/27/o-mundo-aos-pedacos-como-a-segmentacao-nos-ajudar-a-compreender-estimulos/",
+    "noticiaSlug": "artigo-de-divulgacao-cientifica",
+    "type": "artigo",
+    "topics": [
+      "discurso e narrativa"
+    ]
+  },
+  {
+    "id": "almeida2019prolingua",
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Análise do comportamento da F0 em enunciados numéricos de CPF no português brasileiro",
+    "journal": "PROLÍNGUA",
+    "volume": "14",
+    "issue": "1",
+    "pages": "35–49",
+    "year": 2019,
+    "url": "https://doi.org/10.22478/ufpb.1983-9979.2019v14n1.48974",
+    "noticiaSlug": "novo-artigo",
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
+  },
+  {
+    "id": "oliveira2018deltavogais",
+    "authors": [
+      "Miguel Oliveira Jr.",
+      "João Paulo Moraes Lima dos Santos"
+    ],
+    "title": "Análise das vogais átonas finais /e/ e /o/ em sândi vocálico externo em dados do Projeto NURC-Recife",
+    "journal": "DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada",
+    "volume": "34",
+    "issue": "4",
+    "pages": "1243–1274",
+    "year": 2018,
+    "url": "https://doi.org/10.1590/0102-445033561122072027",
+    "noticiaSlug": "artigo-na-delta",
+    "type": "artigo",
+    "topics": [
+      "fonologia",
+      "corpus"
+    ]
+  },
+  {
+    "id": "silva2017gelne",
+    "authors": [
+      "Miguel Oliveira Jr.",
+      "Remildo Barbosa da Silva"
+    ],
+    "title": "Padrões temporais em agrupamentos de números telefônicos móveis no português do Brasil",
+    "journal": "Revista do GELNE",
+    "volume": "19",
+    "pages": "107–122",
+    "year": 2017,
+    "url": "https://doi.org/10.21680/1517-7874.2017v19n0id12616",
+    "noticiaSlug": "remildo-barbosa-publica-seu-primeiro-artigo",
+    "type": "artigo",
+    "topics": [
+      "numerais"
+    ]
+  },
+  {
+    "id": "almeida2025ead",
+    "authors": [
+      "Ayane Nazarela Santos de Almeida",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Teste Kappa de Concordância na Delimitação de Unidades Prosódicas em Enunciados Numéricos no PB",
+    "journal": "EaD & Tecnologias Digitais na Educação",
+    "volume": "13",
+    "issue": null,
+    "pages": "88-99",
+    "year": 2025,
+    "url": "https://ojs.ufgd.edu.br/ead/article/view/20622",
+    "type": "artigo",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "10-1016-j-jvoice-2020-12-005",
+    "authors": [
+      "Julio Cesar Cavalcanti",
+      "Marina Englert",
+      "Miguel Oliveira",
+      "Ana Carolina Constantini"
+    ],
+    "title": "Microphone and Audio Compression Effects on Acoustic Voice Analysis: A Pilot Study",
+    "journal": "Journal of Voice",
+    "volume": "37",
+    "issue": null,
+    "pages": "162-172",
+    "year": 2023,
+    "url": "https://doi.org/10.1016/j.jvoice.2020.12.005",
+    "type": "artigo",
+    "topics": [
+      "voz e fala"
+    ]
+  },
+  {
+    "id": "10-21680-1517-7874-2021v23n2id23121",
+    "authors": [
+      "Kyvia Fernanda Tenório da Silva",
+      "Luzia Miscow da Cruz Payão",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Aquisição segmental e prosódica nas produções verbais de crianças prematuras",
+    "journal": "Revista do GELNE",
+    "volume": "23",
+    "issue": "2",
+    "pages": "102-118",
+    "year": 2021,
+    "url": "https://doi.org/10.21680/1517-7874.2021v23n2id23121",
+    "type": "artigo",
+    "topics": [
+      "aquisição da linguagem",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "livro-2026-contracao-rarefacao",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "Da contração à rarefação? Homenagem a João Antônio de Moraes",
+    "publisher": "Mercado de Letras",
+    "city": "Campinas",
+    "year": 2026,
+    "pages": "504p",
+    "topics": []
+  },
+  {
+    "id": "livro-2025-prosodic-interfaces",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Prosodic Interfaces: Interdisciplinary Perspectives on Sound Patterns and Human Interaction",
+    "publisher": "De Gruyter",
+    "city": "Berlim",
+    "year": 2025,
+    "pages": "279p",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "livro-2023-30-anos-ppgll",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr. (Org.)",
+      "Ana Clara Magalhães de Medeiros (Org.)"
+    ],
+    "title": "30 anos do PPGLL UFAL",
+    "publisher": "Pontes Editores",
+    "city": "Campinas",
+    "year": 2023,
+    "pages": "281p",
+    "topics": []
+  },
+  {
+    "id": "livro-2022-prosodia-prosodias",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Prosódia, Prosódias: uma introdução",
+    "publisher": "Contexto",
+    "city": "São Paulo",
+    "year": 2022,
+    "pages": "224p",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "livro-2022-linguagem-sociedade",
+    "type": "livro",
+    "authors": [
+      "S. S. F. Araujo (Org.)",
+      "Miguel Oliveira Jr. (Org.)",
+      "L. L. S. Barreiros (Org.)"
+    ],
+    "title": "Linguagem e Sociedade: questões variacionistas, filológicas e discursivas",
+    "publisher": "Pontes Editores",
+    "city": "Campinas",
+    "year": 2022,
+    "topics": [
+      "sociolinguística"
+    ]
+  },
+  {
+    "id": "livro-2021-estudos-fonetica-fonologia",
+    "type": "livro",
+    "authors": [
+      "Januacele da Costa (Org.)",
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "Estudos em Fonética e Fonologia",
+    "publisher": "Blücher",
+    "city": "São Paulo",
+    "year": 2021,
+    "pages": "326p",
+    "topics": [
+      "fonologia"
+    ]
+  },
+  {
+    "id": "livro-2019-50-anos-abralin",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "50 anos de Abralin - Memórias e Perspectivas",
+    "publisher": "Pontes Editores",
+    "city": "Campinas",
+    "year": 2019,
+    "pages": "530p",
+    "topics": []
+  },
+  {
+    "id": "livro-2019-nurc-50-anos",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "NURC - 50 anos",
+    "publisher": "Parábola Editorial",
+    "city": "São Paulo",
+    "year": 2019,
+    "pages": "232p",
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "livro-2018-fulni-o-sato-saathatise",
+    "type": "livro",
+    "authors": [
+      "Elvis F. Sá (Org.)",
+      "J. F. Costa (Org.)",
+      "Fábia Pereira Silva (Org.)",
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "Fulni-ô Sato Saathatise",
+    "publisher": "Blucher",
+    "city": "São Paulo",
+    "year": 2018,
+    "pages": "106p",
+    "topics": [
+      "documentação linguística"
+    ]
+  },
+  {
+    "id": "livro-2017-linguagem-falada-recife-v1",
+    "type": "livro",
+    "authors": [
+      "M. P. M. Sá (Org.)",
+      "D. A. C. Cunha (Org.)",
+      "A. M. C. A. Lima (Org.)",
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "A linguagem falada culta na cidade do Recife, vol. 1: diálogos entre informante e documentador",
+    "publisher": "Ed. UFPE",
+    "city": "Recife",
+    "year": 2017,
+    "pages": "263p",
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "livro-2017-linguagem-falada-recife-v2",
+    "type": "livro",
+    "authors": [
+      "M. P. M. Sá (Org.)",
+      "D. A. C. Cunha (Org.)",
+      "A. M. C. A. Lima (Org.)",
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "A linguagem falada culta na cidade do Recife, vol. 2: elocuções formais",
+    "publisher": "Ed. UFPE",
+    "city": "Recife",
+    "year": 2017,
+    "pages": "261p",
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "livro-2017-linguagem-falada-recife-v3",
+    "type": "livro",
+    "authors": [
+      "M. P. M. Sá (Org.)",
+      "D. A. C. Cunha (Org.)",
+      "A. M. C. A. Lima (Org.)",
+      "Miguel Oliveira Jr. (Org.)"
+    ],
+    "title": "A linguagem falada culta na cidade do Recife, vol. 3: diálogos entre dois informantes",
+    "publisher": "Ed. UFPE",
+    "city": "Recife",
+    "year": 2017,
+    "pages": "415p",
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "livro-2013-caderno-resumos-iv-coloquio",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr. (Org.)",
+      "Ayane Nazarela Santos de Almeida (Org.)",
+      "René Almeida (Org.)"
+    ],
+    "title": "Caderno de Resumos do IV Colóquio Brasileiro de Prosódia da Fala",
+    "publisher": "Poligraf",
+    "city": "Maceió",
+    "year": 2013,
+    "pages": "248p",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "livro-2010-estudos-de-corpora",
+    "type": "livro",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Estudos de Corpora: da teoria à prática",
+    "publisher": "Colibri",
+    "city": "Lisboa",
+    "year": 2010,
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "cap-2026-gps-esquerda",
+    "type": "capitulo",
+    "authors": [
+      "Julio Cesar Galdino",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Em 200 metros, vire à esquerda: a entoação dos comandos de GPS",
+    "bookTitle": "Da contração à rarefação? Homenagem a João Antônio de Moraes",
+    "publisher": "Mercado de Letras",
+    "city": "Campinas",
+    "year": 2026,
+    "pages": "243-290",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "cap-2026-entoacao-no-discurso",
+    "type": "capitulo",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "A entoação no discurso",
+    "bookTitle": "Entoação: interface e experimentação",
+    "publisher": "Mercado de Letras",
+    "city": "Campinas",
+    "year": 2026,
+    "pages": "13-50",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "cap-2026-certas-palavras-propor",
+    "type": "capitulo",
+    "authors": [
+      "G. E. Araujo",
+      "M. Ponti",
+      "A. Candido Junior",
+      "S. Leal",
+      "E. Casanova",
+      "R. M. Silva",
+      "Miguel Oliveira Jr.",
+      "A. B. Santos",
+      "G. W. Lopes",
+      "S. Aluísio"
+    ],
+    "title": "Certas Palavras: A 1980s-90s Brazilian Radio Corpus to Test TTS Models in Noisy Multi-Speaker Dialogues",
+    "bookTitle": "Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026)",
+    "publisher": "Association for Computational Linguistics",
+    "city": "Salvador",
+    "year": 2026,
+    "pages": "819-829",
+    "topics": [
+      "síntese de fala",
+      "corpus"
+    ]
+  },
+  {
+    "id": "cap-2025-role-prosody-ambiguities",
+    "type": "capitulo",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Reinier Cozijn",
+      "Miguel Oliveira"
+    ],
+    "title": "The Role of Prosody in the Processing of Ambiguities in Brazilian Portuguese",
+    "bookTitle": "Prosodic Interfaces: Interdisciplinary Perspectives on Sound Patterns and Human Interaction",
+    "publisher": "De Gruyter",
+    "city": "Berlim",
+    "year": 2025,
+    "pages": "31-64",
+    "topics": [
+      "prosódia",
+      "sintaxe"
+    ]
+  },
+  {
+    "id": "cap-2023-fonufal-historia-pesquisa",
+    "type": "capitulo",
+    "authors": [
+      "Miguel Oliveira Jr.",
+      "J. F. Costa",
+      "Ayane Nazarela Santos Almeida",
+      "R. A. S. Almeida",
+      "K. F. T. Silva",
+      "R. B. Silva",
+      "E. W. R. Silva"
+    ],
+    "title": "fonUFAL: Uma História de Pesquisa",
+    "bookTitle": "30 Anos de PPGLL-UFAL",
+    "publisher": "Pontes Editores",
+    "city": "Campinas",
+    "year": 2023,
+    "pages": "170-185",
+    "topics": []
+  },
+  {
+    "id": "cap-2023-pesquisas-rastreamento-ocular-ne",
+    "type": "capitulo",
+    "authors": [
+      "A. H. V. Lima",
+      "J. Tejada",
+      "M. E. Soares",
+      "Miguel Oliveira Jr.",
+      "R. A. S. Almeida",
+      "R. Freitag"
+    ],
+    "title": "Pesquisas Linguísticas Sobre o Processamento da Linguagem Pelo Método do Rastreamento Ocular na Região Nordeste",
+    "bookTitle": "Cartografia da Pesquisa em Linguagem no Nordeste",
+    "publisher": "Pontes",
+    "city": "Campinas",
+    "year": 2023,
+    "pages": "69-99",
+    "topics": [
+      "eye tracking"
+    ]
+  },
+  {
+    "id": "cap-2022-prosodia-do-discurso",
+    "type": "capitulo",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Prosódia do Discurso",
+    "bookTitle": "Prosódia, Prosódias: Uma Introdução",
+    "publisher": "Contexto",
+    "city": "São Paulo",
+    "year": 2022,
+    "pages": "125",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "cap-2022-o-que-e-entoacao",
+    "type": "capitulo",
+    "authors": [
+      "Miguel Oliveira Jr."
+    ],
+    "title": "O Que é Entoação",
+    "bookTitle": "O Que Sabemos Sobre a Linguagem",
+    "publisher": "Parábola",
+    "city": "São Paulo",
+    "year": 2022,
+    "pages": "261-265",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "cap-2022-brazilian-portuguese-corpora",
+    "type": "capitulo",
+    "authors": [
+      "H. Mello",
+      "T. Raso",
+      "Miguel Oliveira Jr.",
+      "T. B. Sardinha",
+      "C. Freitas",
+      "S. M. Aluísio",
+      "T. Pardo",
+      "M. Duran",
+      "S. Leal",
+      "M. Davies",
+      "C. Galves-Chambelland"
+    ],
+    "title": "Brazilian Portuguese: Spoken, Written and Diachronic Corpora",
+    "bookTitle": "Corpora e Studi Linguistici. Atti del LIV Congresso della Società di Linguistica Italiana",
+    "publisher": "Officinaventuno",
+    "city": "Milão",
+    "year": 2022,
+    "pages": "179-187",
+    "topics": [
+      "corpus"
+    ]
+  },
+  {
+    "id": "cap-2021-vogais-parkinson",
+    "type": "capitulo",
+    "authors": [
+      "S. Carvalho",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Análise acústica das vogais produzidas por falantes com doença de Parkinson",
+    "bookTitle": "Estudos em Fonética e Fonologia",
+    "publisher": "Blücher",
+    "city": "São Paulo",
+    "year": 2021,
+    "pages": "11-58",
+    "topics": [
+      "fonologia",
+      "voz e fala"
+    ]
+  },
+  {
+    "id": "cap-2021-prosodicos-libras-telefone",
+    "type": "capitulo",
+    "authors": [
+      "E. C. M. Marques",
+      "Miguel Oliveira Jr.",
+      "Ayane Nazarela Santos Almeida"
+    ],
+    "title": "Aspectos prosódicos da libras em números de telefone móvel",
+    "bookTitle": "Estudos em Fonética e Fonologia",
+    "publisher": "Blücher",
+    "city": "São Paulo",
+    "year": 2021,
+    "pages": "91-110",
+    "topics": [
+      "Libras",
+      "numerais",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "cap-2021-paradigma-mundo-visual",
+    "type": "capitulo",
+    "authors": [
+      "René Alain Santana de Almeida",
+      "Miguel Oliveira Jr.",
+      "R. Cozijn"
+    ],
+    "title": "Paradigma do mundo visual: método de rastreamento ocular",
+    "bookTitle": "Estudos em Fonética e Fonologia",
+    "publisher": "Blücher",
+    "city": "São Paulo",
+    "year": 2021,
+    "pages": "111-134",
+    "topics": [
+      "eye tracking"
+    ]
+  },
+  {
+    "id": "cap-2021-segmentacao-narrativas-espontaneas",
+    "type": "capitulo",
+    "authors": [
+      "Ebson Wilkerson da Rocha Silva",
+      "Miguel Oliveira Jr."
+    ],
+    "title": "Segmentação automática e manual de narrativas espontâneas: Metodologia de um estudo de percepção da prosódia",
+    "bookTitle": "Estudos em Fonética e Fonologia",
+    "publisher": "Blücher",
+    "city": "São Paulo",
+    "year": 2021,
+    "pages": "135-150",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "orient-leandro-santana-2026",
+    "type": "dissertacao",
+    "status": "em andamento",
+    "author": "Leandro Sipriano de Santana",
+    "title": "A influência das redes na palatalização regressiva de falantes da região metropolitana de Recife",
+    "institution": "Universidade Federal de Alagoas",
+    "startYear": 2026,
+    "role": "Orientador",
+    "topics": [
+      "sociolinguística"
+    ]
+  },
+  {
+    "id": "orient-jose-cicero-2026",
+    "type": "dissertacao",
+    "status": "em andamento",
+    "author": "José Cícero Afonso dos Santos",
+    "title": "O monitor sociolinguístico das formas de palatalização progressiva e regressiva de /T/ e /D/ em Alagoas",
+    "institution": "Universidade Federal de Alagoas",
+    "startYear": 2026,
+    "role": "Orientador",
+    "topics": [
+      "sociolinguística"
+    ]
+  },
+  {
+    "id": "orient-mariana-silva-sousa-2026",
+    "type": "tese",
+    "status": "em andamento",
+    "author": "Mariana Silva Sousa",
+    "title": "Descrição fonético-acústica dos correlatos fonéticos do acento em Yaathe",
+    "institution": "Universidade Federal de Alagoas",
+    "startYear": 2026,
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística"
+    ]
+  },
+  {
+    "id": "orient-arthur-terto-2023",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Arthur Ronald Brasil Terto",
+    "title": "O processamento da prosódia como marca de segmentação discursiva: um estudo a partir de respostas oculomotoras",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2023,
+    "role": "Orientador",
+    "topics": [
+      "eye tracking",
+      "discurso e narrativa",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-julio-galdino-2020",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Julio Cesar Galdino",
+    "title": "A 200 metros, vire à esquerda: a entoação dos comandos de GPS",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2020,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/jspui/handle/123456789/12648",
+    "topics": [
+      "síntese de fala",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-kyvia-silva-2019",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Kyvia Fernanda Tenório da Silva",
+    "title": "Análise dos processos fonológicos na aquisição do onset complexo em crianças com desenvolvimento fonológico típico",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2019,
+    "role": "Orientador",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
+  },
+  {
+    "id": "orient-ewerton-marques-2018",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Ewerton Carlos Matos Marques",
+    "title": "A Fonética de LIBRAS",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2018,
+    "role": "Orientador",
+    "topics": [
+      "Libras"
+    ]
+  },
+  {
+    "id": "orient-remildo-silva-2016",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Remildo Barbosa da Silva",
+    "title": "A mentira tem perna curta? Elementos prosódicos como pista para identificação de discurso enganoso",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2016,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/3231",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-elvis-sa-2015",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Elvis Ferreira de Sá",
+    "title": "Documentação das Narrativas Orais de Anciões Fulni-ô e Análise Linguística: Fala dos Mais Velhos/Fala dos Jovens; Fala Masculina/Fala Feminina",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2015,
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística",
+      "discurso e narrativa"
+    ]
+  },
+  {
+    "id": "orient-daniela-santos-2015",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Daniela Monique Tavares dos Santos",
+    "title": "Aquisição fonológica e de unidades prosódicas em crianças, na faixa etária de 12 a 30 meses, nascidas prematuras e a termo",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2015,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/3357",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-ana-mendonca-2013",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Ana Maria Santos de Mendonça",
+    "title": "Aspectos do Processo de Nasalização Automática no PB",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2013,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2181",
+    "topics": [
+      "fonologia"
+    ]
+  },
+  {
+    "id": "orient-maraisa-castro-2013",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Maraísa Espíndola de Castro",
+    "title": "Aquisição do Onset Complexo no Desenvolvimento Fonológico Típico em Crianças Entre 2;6 e 5;11 de Idade, Estudantes de uma Creche-Escola Municipal Pública de Maceió-AL",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2013,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2231",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
+  },
+  {
+    "id": "orient-frederico-sampaio-2012",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Frederico Chaves Sampaio Junior",
+    "title": "Necessidades Linguísticas em Língua Espanhola dos Guias de Turismo Regional da Cidade de Aracaju",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2012,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16593",
+    "topics": []
+  },
+  {
+    "id": "orient-joao-paulo-santos-2012",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "João Paulo Moraes Lima dos Santos",
+    "title": "As Vogais Médias Átonas Finais em Sândi Vocálico Externo em Duas Variedades do Português do Nordeste Brasileiro",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2012,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2383",
+    "topics": [
+      "fonologia"
+    ]
+  },
+  {
+    "id": "orient-oyedeji-musiliyu-2012",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Oyedeji Musiliyu",
+    "title": "Características Prosódicas dos Números Telefônicos do Português do Brasil",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2012,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2323",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-fabia-silva-2011",
+    "type": "dissertacao",
+    "status": "concluída",
+    "author": "Fábia Pereira da Silva",
+    "title": "A Sílaba em Yaathê",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2011,
+    "role": "Coorientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/488",
+    "topics": [
+      "documentação linguística",
+      "fonologia"
+    ]
+  },
+  {
+    "id": "orient-ebson-silva-2023",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Ebson Wilkerson Rocha da Silva",
+    "title": "O papel da prosódia no processamento do discurso em língua portuguesa: um estudo de percepção em laboratório on-line",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2023,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16632",
+    "topics": [
+      "discurso e narrativa",
+      "prosódia",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "orient-humberto-araujo-2022",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Humberto Meira de Araújo Neto",
+    "title": "A percepção de fronteiras de eventos em narrativas sinalizadas",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2022,
+    "role": "Orientador",
+    "topics": [
+      "Libras",
+      "discurso e narrativa",
+      "percepção da fala"
+    ]
+  },
+  {
+    "id": "orient-crislaini-dias-2020",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Crislaini da Silva Dias",
+    "title": "Dicionário do Yaathe, língua indígena brasileira",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2020,
+    "role": "Orientador",
+    "topics": [
+      "documentação linguística"
+    ]
+  },
+  {
+    "id": "orient-remildo-silva-2020",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Remildo Barbosa da Silva",
+    "title": "Parâmetros prosódicos durante a transição do turno de fala",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2020,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/123456789/18234",
+    "topics": [
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-kyvia-silva-2020",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Kyvia Fernanda Tenório da Silva",
+    "title": "A correlação dos biossinais da eletromiografia de superfície e da eletroencefalografia na fala interna",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2020,
+    "role": "Orientador",
+    "topics": [
+      "EEG"
+    ]
+  },
+  {
+    "id": "orient-rene-almeida-2018",
+    "type": "tese",
+    "status": "concluída",
+    "author": "René Alain Santana de Almeida",
+    "title": "Processamento on-line de sentenças ambíguas do português brasileiro",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2018,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/2225",
+    "topics": [
+      "sintaxe"
+    ]
+  },
+  {
+    "id": "orient-maraisa-castro-2015",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Maraísa Espíndola de Castro",
+    "title": "O onset complexo em crianças com desvio fonológico e no desenvolvimento fonológico típico: um estudo comparativo",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2015,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/123456789/8503",
+    "topics": [
+      "fonologia",
+      "aquisição da linguagem"
+    ]
+  },
+  {
+    "id": "orient-oyedeji-musiliyu-2014",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Oyedeji Musiliyu",
+    "title": "Características de sinais eletrofisiológicos associados à percepção da fronteira prosódica no nível do sintagma entoacional e do enunciado fonológico",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2014,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/123456789/16592",
+    "topics": [
+      "EEG",
+      "fonologia",
+      "discurso e narrativa"
+    ]
+  },
+  {
+    "id": "orient-ayane-almeida-2013",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Ayane Nazarela Santos de Almeida",
+    "title": "Análise prosódica de agrupamentos numéricos no português do Brasil",
+    "institution": "Universidade Federal de Alagoas",
+    "year": 2013,
+    "role": "Orientador",
+    "url": "https://www.repositorio.ufal.br/handle/riufal/1847",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
+  },
+  {
+    "id": "orient-tiago-freitas-2008",
+    "type": "tese",
+    "status": "concluída",
+    "author": "Tiago Freitas",
+    "title": "O português ao telefone: estrutura conversacional e prosódia",
+    "institution": "Universidade de Lisboa",
+    "year": 2008,
+    "role": "Coorientador",
+    "topics": [
+      "numerais",
+      "prosódia"
+    ]
+  }
+]

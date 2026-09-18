@@ -1,0 +1,82 @@
+---
+import BaseHead from '../components/BaseHead.astro'; import Header from '../components/Header.astro'; import Footer from '../components/Footer.astro'; import Waveform from '../components/Waveform.astro'; import { SITE_TITLE } from '../consts'; import { url } from '../utils/paths';
+import publications from '../data/publications.json';
+
+function formatAuthors(authors: string[]) {
+  if (authors.length <= 4) return authors.join(', ');
+  return `${authors.slice(0, 4).join(', ')} et al.`;
+}
+
+const artigos = publications.filter(p => p.type === 'artigo').sort((a, b) => b.year - a.year);
+const livros = publications.filter(p => p.type === 'livro').sort((a, b) => b.year - a.year);
+const capitulos = publications.filter(p => p.type === 'capitulo').sort((a, b) => b.year - a.year);
+const orientacoes = publications
+  .filter(p => p.type === 'tese' || p.type === 'dissertacao')
+  .sort((a, b) => (b.year || b.startYear) - (a.year || a.startYear));
+
+const degreeLabel = { tese: 'Tese de Doutorado', dissertacao: 'Dissertação de Mestrado' };
+---
+<html lang="pt-BR"><head><BaseHead title={`Publicações | ${SITE_TITLE}`} description="Publicações do fonUFAL" /></head><body><Header/><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Produção científica · {publications.length} publicações</p><h1>Publicações</h1><p class="lead">Artigos, livros, capítulos e orientações de teses e dissertações do fonUFAL, com ênfase na produção recente de seus integrantes atuais.</p></div><Waveform class="hero-waveform" /></section>
+
+<section class="section">
+  <div class="section-head"><h2>Artigos</h2><span class="person-count">{artigos.length}</span></div>
+  <div class="pub-list">
+    {artigos.map(p => (
+      <article class="pub-item">
+        <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
+        <h3><a href={p.url} target="_blank" rel="noopener">{p.title}</a></h3>
+        <p class="meta">{formatAuthors(p.authors)}</p>
+        <p>{p.journal}{p.volume && `, v. ${p.volume}`}{p.issue && `, n. ${p.issue}`}{p.pages && `, p. ${p.pages}`}.</p>
+        {p.noticiaSlug && <p class="meta"><a href={url(`/noticias/${p.noticiaSlug}`)}>Ver notícia original →</a></p>}
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>Livros</h2><span class="person-count">{livros.length}</span></div>
+  <div class="pub-list">
+    {livros.map(p => (
+      <article class="pub-item">
+        <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
+        <h3>{p.title}</h3>
+        <p class="meta">{formatAuthors(p.authors)}</p>
+        <p>{p.publisher}{p.city && `, ${p.city}`}, {p.year}{p.pages && `. ${p.pages}`}.</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>Capítulos de livros</h2><span class="person-count">{capitulos.length}</span></div>
+  <div class="pub-list">
+    {capitulos.map(p => (
+      <article class="pub-item">
+        <span class="badge">{p.year}</span>
+        {p.topics && p.topics.length > 0 && <p class="topic-badges">{p.topics.map(t => <span class="badge badge--topic">{t}</span>)}</p>}
+        <h3>{p.title}</h3>
+        <p class="meta">{formatAuthors(p.authors)}</p>
+        <p>In: {p.bookTitle}. {p.publisher}{p.city && `, ${p.city}`}, {p.year}{p.pages && `, p. ${p.pages}`}.</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>Teses e dissertações orientadas</h2><span class="person-count">{orientacoes.length}</span></div>
+  <div class="pub-list">
+    {orientacoes.map(t => (
+      <article class="pub-item">
+        <span class="badge">{t.year || 'Em andamento'}</span>
+        {t.topics && t.topics.length > 0 && <p class="topic-badges">{t.topics.map(top => <span class="badge badge--topic">{top}</span>)}</p>}
+        <h3>{t.title}</h3>
+        <p class="meta">{t.author} · {degreeLabel[t.type]} — {t.institution}{t.role === 'Coorientador' && ' (coorientação)'}</p>
+        {t.url && <p><a href={t.url} target="_blank" rel="noopener">Repositório UFAL →</a></p>}
+      </article>
+    ))}
+  </div>
+</section>
+</main><Footer/></body></html>

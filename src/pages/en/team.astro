@@ -1,0 +1,59 @@
+---
+import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro'; import Waveform from '../../components/Waveform.astro'; import authors from '../../data/authors.json'; import { SITE_TITLE } from '../../consts'; import { url } from '../../utils/paths';
+
+const categoryOrder = ['lider', 'pesquisador', 'estudante', 'egresso'];
+const categoryTitles: Record<string, string> = {
+  lider: 'Leadership',
+  pesquisador: 'Researchers',
+  estudante: 'Students',
+  egresso: 'Alumni',
+};
+const subRoleEn: Record<string, string> = {
+  'Doutorado': 'PhD',
+  'Mestrado': "Master's",
+  'Graduação': 'Undergraduate',
+};
+const studentRank: Record<string, number> = { Doutorado: 0, Mestrado: 1, Graduação: 2 };
+const subRoleBadge: Record<string, string> = { Doutorado: 'badge--phd', Mestrado: 'badge--masters', Graduação: 'badge--undergrad' };
+const groups = categoryOrder.map(cat => {
+  let members = authors.filter(a => a.category === cat);
+  if (cat === 'estudante') {
+    members = [...members].sort((a, b) => {
+      const rankDiff = (studentRank[a.subRole] ?? 99) - (studentRank[b.subRole] ?? 99);
+      return rankDiff !== 0 ? rankDiff : a.name.localeCompare(b.name, 'pt-BR');
+    });
+  } else if (cat === 'egresso') {
+    members = [...members].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+  }
+  return { key: cat, title: categoryTitles[cat], members };
+}).filter(g => g.members.length > 0);
+
+const linkLabels: Record<string, string> = { lattes: 'Lattes', orcid: 'ORCID', email: 'Email' };
+const linkOrder = ['lattes', 'orcid', 'email'];
+const alumniCount = authors.filter(a => a.category === 'egresso').length;
+const currentCount = authors.length - alumniCount;
+---
+<html lang="en"><head><BaseHead title={`Team | ${SITE_TITLE}`} description="fonUFAL team" /></head><body><Header lang="en"/><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Team · {currentCount} current members · {alumniCount} alumni</p><h1>Team</h1><p class="lead">Leadership, research staff, students, and alumni of fonUFAL.</p></div><Waveform class="hero-waveform" /></section>
+{groups.map(group => (
+  <section class="section">
+    <div class="section-head"><h2>{group.title}</h2><span class="person-count">{group.members.length}</span></div>
+    <div class="person-grid">
+      {group.members.map(a => (
+        <article class="person-tile">
+          {a.photo && <img class="avatar avatar-lg" src={url(a.photo)} alt={a.name} width="96" height="96" loading="lazy" />}
+          <h3>{a.name}</h3>
+          <div class="person-foot">
+            {a.subRole && <span class={`badge ${subRoleBadge[a.subRole] || ''}`}>{subRoleEn[a.subRole] || a.subRole}</span>}
+            <p class="person-links">
+              {linkOrder.filter(key => a.links[key]).map(key => (
+                <a href={a.links[key]} target="_blank" rel="noopener">{linkLabels[key]}</a>
+              ))}
+            </p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+))}
+</main><Footer lang="en"/></body></html>

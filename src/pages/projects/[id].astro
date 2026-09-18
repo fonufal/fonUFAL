@@ -1,0 +1,8 @@
+---
+import BaseHead from '../../components/BaseHead.astro'; import Header from '../../components/Header.astro'; import Footer from '../../components/Footer.astro';
+import projects from '../../data/projects.json'; import authors from '../../data/authors.json'; import { SITE_TITLE } from '../../consts'; import { statusClass } from '../../utils/status'; import { url } from '../../utils/paths';
+export function getStaticPaths(){ return projects.map(project=>({params:{id:project.id},props:{project}})); }
+const { project } = Astro.props;
+const projectAuthors = (project.authors ?? []).map((id: string) => authors.find((a: any) => a.id === id)).filter(Boolean);
+---
+<html lang="pt-BR"><head><BaseHead title={`${project.title} | ${SITE_TITLE}`} description={project.description} /></head><body><Header/><main><article class="hero-content" style="max-width:var(--measure)"><p class="eyebrow">Projeto de pesquisa</p><h1>{project.title}</h1><p><span class={`badge ${statusClass(project.status)}`}>{project.status}</span></p><p class="lead">{project.description}</p><section class="section"><h2>Informações</h2><p><strong>Período:</strong> {project.period || project.year}</p>{project.reference && <p><strong>Referência:</strong> {project.reference}</p>}{project.funding && <p><strong>Financiamento:</strong> {project.funding}</p>}{projectAuthors.length > 0 && <p><strong>Coordenação:</strong> {projectAuthors.map((a: any) => <a href={url('/team')}>{a.name}</a>)}</p>}<p><strong>Temas:</strong> {project.themes.join(' · ')}</p></section></article></main><Footer/></body></html>
