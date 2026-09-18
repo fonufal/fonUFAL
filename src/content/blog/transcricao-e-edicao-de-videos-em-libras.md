@@ -3,7 +3,7 @@ title: "Transcrição e edição de vídeos em LIBRAS"
 description: "Nos dias 14-17 de fevereiro organizamos um minicurso sobre transcrição e edição de vídeos em LIBRAS. O minicurso foi ministrado pela Profa. Miriam Royer (UFS..."
 pubDate: 2017-03-02
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15475"
-tags: ["notícias"]
+tags: ["notícias", "Libras", "eventos"]
 ---
 
 <p>Nos dias 14-17 de fevereiro organizamos um minicurso sobre transcrição e edição de vídeos em LIBRAS. O minicurso foi ministrado pela Profa. Miriam Royer (UFSC) e pelo Prof. Jair Barbosa (UFAL), como produto do Projeto <a href="https://fale.ufal.br/grupo/fonufal/projetos/inventario-de-libras-da-grande-maceio/">Inventário de Libras da Grande Maceió</a>, coordenado pelo Prof. Jair Barbosa. O minicurso foi bastante produtivo e contou com a participação de vários membros da comunidade surda de Maceió.</p>

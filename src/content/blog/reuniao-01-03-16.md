@@ -3,7 +3,7 @@ title: "Reunião 01/03/16"
 description: "Amanhã, dia 01 de março, retornamos às atividades do grupo de pesquisa. Para iniciar as atividades, a Profa. Eronilma Barbosa da Silva apresentará o seguinte..."
 pubDate: 2016-02-29
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15390"
-tags: ["notícias"]
+tags: ["notícias", "eventos"]
 ---
 
 <p>Amanhã, dia 01 de março, retornamos às atividades do grupo de pesquisa. Para iniciar as atividades, a Profa. Eronilma Barbosa da Silva apresentará o seguinte texto:</p>

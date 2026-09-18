@@ -3,7 +3,7 @@ title: "Dia do Índio"
 description: "Palestras : Jornada Sobre Temas Indigenistas Prof. Dr. Aldir Santos de Paula Profa. Dra. Januacele da Costa Profa. Dra. Fábia Fulni-ô Apresentação de um grup..."
 pubDate: 2016-04-13
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15417"
-tags: ["notícias"]
+tags: ["notícias", "povos indígenas", "eventos"]
 ---
 
 <p><em><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2016/04/diadoindiosqr.jpg"><img class=" size-medium wp-image-15416 alignleft" src="/fonUFAL/noticias/dia-do-indio-1.jpg" alt="diadoindiosqr" width="300" height="300" /></a>Palestras</em>: Jornada Sobre Temas Indigenistas</p>

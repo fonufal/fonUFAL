@@ -3,7 +3,7 @@ title: "A Implausibilidade de uma “Gramática Universal”"
 description: "No dia 14/03, a UFAL irá receber o linguista norte-americano Dan Everett . Trata-se de um pesquisador renomado, que mudou o rumo das pesquisas sobre a lingua..."
 pubDate: 2016-03-09
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15399"
-tags: ["notícias"]
+tags: ["notícias", "eventos"]
 ---
 
 <p><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2016/03/12778761_10154083966449925_9169873683337752676_o.jpg"><img class="aligncenter wp-image-15400 size-large" src="/fonUFAL/noticias/a-implausibilidade-de-uma-gramatica-universal-1.jpg" alt="Dan Everett" width="1024" height="724" /></a></p>

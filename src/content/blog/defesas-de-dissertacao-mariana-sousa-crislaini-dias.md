@@ -3,7 +3,7 @@ title: "Defesas de Dissertação: Mariana Sousa & Crislaini Dias"
 description: "A língua indígena brasileira Yaathe é a última língua nativa falada no Nordeste do Brasil. Na Universidade Federal de Alagoas, vêm sendo feitos vários trabal..."
 pubDate: 2017-09-05
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15602"
-tags: ["notícias"]
+tags: ["notícias", "defesas", "povos indígenas"]
 ---
 
 <p><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2017/09/yaathe1.jpg"><img src="/fonUFAL/noticias/defesas-de-dissertacao-mariana-sousa-crislaini-dias-1.jpg" alt="yaathe1" width="300" height="300" class="alignleft size-medium wp-image-15604" /></a>A língua indígena brasileira Yaathe é a última língua nativa falada no Nordeste do Brasil. Na Universidade Federal de Alagoas, vêm sendo feitos vários trabalhos sobre essa língua, cada um enfocando um aspecto diferente da sua fonologia e/ou gramática. </p>

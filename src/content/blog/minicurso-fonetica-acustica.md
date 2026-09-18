@@ -3,7 +3,7 @@ title: "Minicurso – Fonética Acústica"
 description: "O Grupo de Estudo em Fonética e Fonologia da UFAL tem o prazer de anunciar a realização do Minicurso de Fonética Acústica, destinado a estudantes interessado..."
 pubDate: 2025-09-24
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15903"
-tags: ["notícias"]
+tags: ["notícias", "eventos"]
 ---
 
 <p>O Grupo de Estudo em Fonética e Fonologia da UFAL tem o prazer de anunciar a realização do Minicurso de Fonética Acústica, destinado a estudantes interessados em compreender e analisar a produção da fala a partir de seus aspectos acústicos.</p>

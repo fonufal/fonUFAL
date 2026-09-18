@@ -3,7 +3,7 @@ title: "Defesa de Tese"
 description: "A tese “A nasalização de vogais átonas em Alagoas: uma análise sociolinguística” da doutoranda Ana Maria Santos de Mendonça (PPGLL/UFAL), orientada pelo prof..."
 pubDate: 2019-03-30
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15734"
-tags: ["notícias"]
+tags: ["notícias", "defesas", "sociolinguística"]
 ---
 
 <p><img src="/fonUFAL/noticias/defesa-de-tese-15734-1.jpeg" alt="" width="232" height="300" class="alignleft size-medium wp-image-15735" />A tese “A nasalização de vogais átonas em Alagoas: uma análise sociolinguística” da doutoranda Ana Maria Santos de Mendonça (PPGLL/UFAL), orientada pelo professor Alan Jardel de Oliveira (UFAL), apresenta os fatores linguísticos e sociais relacionados com a aplicação do processo de nasalização fonética de vogais átonas nos falares alagoanos.<br />

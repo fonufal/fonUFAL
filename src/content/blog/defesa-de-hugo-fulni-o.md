@@ -3,7 +3,7 @@ title: "Defesa de Hugo Fulni-ô"
 description: "No dia 27/07/2017, Elvis Ferreira de Sá (Hugo Fulni-ô), pesquisador do fonUFAL, defendeu, com sucesso, a sua dissertação intitulada “DOCUMENTAÇÃO DE NARRATIV..."
 pubDate: 2017-07-28
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15580"
-tags: ["notícias"]
+tags: ["notícias", "defesas", "povos indígenas"]
 ---
 
 <p>No dia 27/07/2017, Elvis Ferreira de Sá (Hugo Fulni-ô), pesquisador do fonUFAL, defendeu, com sucesso, a sua dissertação intitulada “DOCUMENTAÇÃO DE NARRATIVAS DE ANCIÃOS FULNI-Ô”. O trabalho foi orientado pelos Prof. Miguel Oliveira Jr e Profa. Januacele da Costa. Na banca esteve presente a professora Stella Telles (UFPE). A defesa aconteceu na aldeia Fulni-ô, algo inédito na história de nosso Programa de Pós-graduação, na aldeia Fulni-ô e, possivelmente, no Brasil. Esta defesa deu a oportunidade de membros da aldeia Fulni-ô presenciarem o rito de uma defesa de trabalho acadêmico de pós-graduação e &#8211; mais importante &#8211; ficarem a par do trabalho desenvolvido pelo parente. Foi um momento mágico. Parabéns, Hugo!</p>

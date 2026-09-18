@@ -3,7 +3,7 @@ title: "Fábia Fulni-ô: a segunda índia a receber título de doutora pela UFAL
 description: "Pertencente à etnia Fulni-ô, a pesquisadora dedica-se à preservação e à manutenção da única língua nativa ainda funcional no Nordeste Uma palestra no ensino..."
 pubDate: 2016-02-29
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15392"
-tags: ["notícias"]
+tags: ["notícias", "povos indígenas", "eventos"]
 ---
 
 <p>Pertencente à etnia Fulni-ô, a pesquisadora dedica-se à preservação e à manutenção da única língua nativa ainda funcional no Nordeste</p>

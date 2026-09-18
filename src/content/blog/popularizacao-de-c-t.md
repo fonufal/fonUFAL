@@ -3,7 +3,7 @@ title: "Popularização de C&T"
 description: "O Grupo de Estudos em Fonética e Fonologia da Universidade Federal de Alagoas (fonUFAL) está engajado e ações que promovem a popularização da Linguística. Se..."
 pubDate: 2017-10-06
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15642"
-tags: ["notícias"]
+tags: ["notícias", "divulgação científica"]
 ---
 
 <p>O Grupo de Estudos em Fonética e Fonologia da Universidade Federal de Alagoas (fonUFAL) está engajado e ações que promovem a popularização da Linguística. Seus membros têm participado ativamente em eventos, com o objetivo não apenas de divulgar, em linguagem coloquial, pesquisas realizadas na área, mas também de ouvir a comunidade em seus mais vários espectros. Membros do grupo têm participado ativamente de eventos científicos e não-científicos com o propósito de partilhar os estudos que desenvolvem, de maneira didática, para públicos muito diversificados, como alunos de graduação de áreas afins, comunidade indígena e alunos de escolas secundárias. Compreendemos que a popularização da ciência faz parte de um amplo movimento de inclusão social que assumimos como obrigação nas ações do grupo de pesquisa.</p>

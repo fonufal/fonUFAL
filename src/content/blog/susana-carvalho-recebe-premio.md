@@ -3,7 +3,7 @@ title: "Susana Carvalho recebe prêmio"
 description: "O trabalho &#8220;Novos parâmetros acústico-articulatórios para a avaliação objetiva da fala na doença de Parkinson&#8221;, da professora Susana Carvalho (UF..."
 pubDate: 2018-11-21
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15725"
-tags: ["notícias"]
+tags: ["notícias", "prêmios"]
 ---
 
 <p>O trabalho &#8220;Novos parâmetros acústico-articulatórios para a avaliação objetiva da fala na doença de Parkinson&#8221;, da professora Susana Carvalho (UFS) e do professor Miguel Oliveira Jr da Universidade Federal de Alagoas (UFAL), recebeu o 2º lugar na área de “Linguagem”.</p>

@@ -179,6 +179,8 @@ nav.site-nav a.lang-switch:hover { border-color: var(--fon-red); background: var
 .badge--done { color: var(--status-done-fg); background: var(--status-done-bg); }
 .badge--topic { color: var(--muted); background: var(--bg-soft); border: 1px solid var(--border); }
 .badge--topic::before { display: none; }
+.badge--news { color: var(--fon-red-strong); background: color-mix(in srgb, var(--fon-red) 10%, var(--bg-soft)); }
+.badge--news::before { display: none; }
 .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 .topic-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0; }
 

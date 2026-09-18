@@ -3,7 +3,7 @@ title: "Evento com Diane Lillo-Martin e Ronice Quadros"
 description: "Nos dias 12 e 13 de abril de 2017, o Grupo de Pesquisa fonUFAL, o Curso de Letras-Libras e o PPGLL/UFAL trazem para Maceió as professoras visitantes Diane Li..."
 pubDate: 2017-04-03
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15521"
-tags: ["notícias"]
+tags: ["notícias", "Libras", "eventos"]
 ---
 
 <p><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2017/04/ronice.jpg"><img src="/fonUFAL/noticias/evento-com-diane-lillo-martin-e-ronice-quadros-1.jpg" alt="ronice" width="300" height="300" class="alignleft size-medium wp-image-15522" /></a>Nos dias 12 e 13 de abril de 2017, o Grupo de Pesquisa fonUFAL, o Curso de Letras-Libras e o PPGLL/UFAL trazem para Maceió as professoras visitantes Diane Lillo-Martin (UCONN/USA) e Ronice Quadros (UFSC/BR). </p>

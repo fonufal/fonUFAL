@@ -3,7 +3,7 @@ title: "Defesa do Marcos Moraes"
 description: "Defesa do Marcos Moraes, membro do fonUFAL e primeiro surdo a defender mestrado na UFAL. A dissertação foi orientada pelo Prof. Jair Barbosa."
 pubDate: 2018-06-22
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15700"
-tags: ["notícias"]
+tags: ["notícias", "defesas", "Libras"]
 ---
 
 <p>Defesa do Marcos Moraes, membro do fonUFAL e primeiro surdo a defender mestrado na UFAL. A dissertação foi orientada pelo Prof. Jair Barbosa.</p>

@@ -3,7 +3,7 @@ title: "fonUFAL no Speech Prosody 2018"
 description: "fonUFAL no Speech Prosody 2018 , em Poznan, Polônia. Foram apresentados na ocasião os seguintes trabalhos: Laryngealization, Gender and Speakers’ Distinctive..."
 pubDate: 2018-06-22
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15706"
-tags: ["notícias"]
+tags: ["notícias", "eventos"]
 ---
 
 <p>fonUFAL no <a href="http://sp9.home.amu.edu.pl">Speech Prosody 2018</a>, em Poznan, Polônia. </p>

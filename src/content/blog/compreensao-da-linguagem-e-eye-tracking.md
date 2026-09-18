@@ -3,7 +3,7 @@ title: "Compreensão da Linguagem e Eye Tracking"
 description: "Título do Evento : Compreensão da Linguagem e Eye Tracking Proponente : Dr. R. (Reinier) Cozijn, Centro de Cognição e Comunicação, Universidade de Tilburg, P..."
 pubDate: 2016-06-21
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15432"
-tags: ["notícias"]
+tags: ["notícias", "eye tracking", "eventos"]
 ---
 
 <p><strong>Título do Evento</strong>: Compreensão da Linguagem e Eye Tracking<br />

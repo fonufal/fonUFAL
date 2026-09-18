@@ -3,7 +3,7 @@ title: "Defesas de Crislaini Dias & Mariana Sousa"
 description: "No dia 25 de setembro de 2017, as alunas Crislaini Dias e Mariana Sousa, do Grupo de Pesquisa Estudos em Fonética e Fonologia (fonUFAL) defenderam brilhantem..."
 pubDate: 2017-09-25
 originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15608"
-tags: ["notícias"]
+tags: ["notícias", "defesas"]
 ---
 
 <p>No dia 25 de setembro de 2017, as alunas Crislaini Dias e Mariana Sousa, do Grupo de Pesquisa Estudos em Fonética e Fonologia (fonUFAL) defenderam brilhantemente suas dissertações de mestrado sobre aspectos da língua dos Fulni-ô, o Yaathe. Crislaine defendeu o seu trabalho “A Função e o Comportamento do Traço Nasal no Yaathe, Língua Indígena Brasileira” e Mariana, o trabalho intitulado “Análise Acústico-Experimental da Duração de Vogais em Yaathe”. Ambos os trabalhos foram orientados pela Profa. Dra. Januacele da Costa. Participaram da banca a Profa. Dra. Fábia Pereira da Silva (UFAL-Sertão) e o Prof. Dr. Miguel Oliveira Jr. Ambos os trabalhos foram aprovados, com indicação para publicação e sugestão para continuidade em pesquisa de doutoramento. Parabéns Crislaine &#038; Mariana!</p>
