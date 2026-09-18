@@ -6,6 +6,10 @@ on:
       - main
       - migration/astro-scholar
   workflow_dispatch:
+  schedule:
+    # Daily rebuild so the "Próximas atividades" section (pulled from the
+    # group's Google Calendar at build time) doesn't go stale between pushes.
+    - cron: '0 9 * * *'
 
 permissions:
   contents: read
