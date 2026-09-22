@@ -40,13 +40,31 @@ export async function getUpcomingActivities(limit = 3): Promise<UpcomingActivity
     for (const key in data) {
       const ev: any = data[key];
       if (ev.type !== 'VEVENT' || !ev.summary || !PREFIX.test(ev.summary)) continue;
+      if (String(ev.status || '').toUpperCase() === 'CANCELLED') continue;
 
-      if (ev.rrule) {
-        for (const d of ev.rrule.between(now, horizon, true)) {
-          occurrences.push({ start: new Date(d), summary: ev.summary, description: ev.description || '', uid: ev.uid });
-        }
-      } else if (ev.start && new Date(ev.start) >= now) {
-        occurrences.push({ start: new Date(ev.start), summary: ev.summary, description: ev.description || '', uid: ev.uid });
+      // Let node-ical expand the series itself. This is important because
+      // Google Calendar represents deleted/modified occurrences with EXDATE
+      // and RECURRENCE-ID; expanding ev.rrule manually would ignore those.
+      const instances = ical.expandRecurringEvent(ev, {
+        from: now,
+        to: horizon,
+        includeOverrides: true,
+        excludeExdates: true,
+      });
+
+      for (const instance of instances) {
+        if (!instance.start || new Date(instance.start) < now) continue;
+
+        const summary = instance.summary || ev.summary;
+        if (!summary || !PREFIX.test(summary)) continue;
+        if (String((instance as any).status || '').toUpperCase() === 'CANCELLED') continue;
+
+        occurrences.push({
+          start: new Date(instance.start),
+          summary,
+          description: instance.description || ev.description || '',
+          uid: ev.uid,
+        });
       }
     }
 
