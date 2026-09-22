@@ -1,40 +1,37 @@
-# fonUFAL — scaffold Astro Scholar
+# fonUFAL
 
-Primeira base de conversão do site do fonUFAL para Astro, derivada da arquitetura do template **Astro Scholar** (Shravan Goswami, MIT).
+Site institucional do **Grupo de Estudos em Fonética e Fonologia da Universidade Federal de Alagoas (fonUFAL)**.
 
-## Estado
+Site público: https://fonufal.github.io/fonUFAL/
 
-Este diretório é um **scaffold de migração**, ainda não uma publicação final. Ele fixa a arquitetura aprovada e já substitui o conteúdo demonstrativo por conteúdo institucional e projetos documentados do fonUFAL.
+## Fonte canônica
 
-## Decisões já aplicadas
+A branch **`main` é a única fonte canônica do site publicado**.
 
-- Base técnica e editorial: Astro Scholar.
-- Continuidade visual com o WordPress: uso do logotipo atual, branco como fundo dominante e os acentos vermelho/azul do fonUFAL.
-- Menu: Início · Pesquisa · Pessoas · Publicações · Notícias · Contato.
-- Área Interna excluída do GitHub Pages.
-- Projetos distinguem explicitamente Em andamento / Em avaliação / Proposta.
-- Notícias migradas somente após preservação bruta; o post de minicurso é apenas um registro de migração, não uma reconstrução do texto.
+Toda manutenção de conteúdo, código, dados e configuração deve ser feita a partir de `main`. Branches históricas de migração não devem ser usadas como fonte de conteúdo atual nem como origem de deploy.
 
-## Projetos já estruturados
+O GitHub Pages é publicado exclusivamente pelo workflow:
 
-1. Entre muitas vozes — CNPq, processo 446854/2025-5, vigência 2026–2028.
-2. SÍNTESE — programa de avaliação reprodutível de TTS.
-3. EyetrackingMOS e métricas automáticas para avaliação de TTS em português — PVLE4730-2026, em avaliação.
-4. Processamento de fronteiras prosódicas no discurso — Fase 4 — PVLE4829-2026, em avaliação.
-5. Índice neurofisiológico implícito da naturalidade da fala sintetizada — proposta 2026.
+`.github/workflows/website-deploy.yml`
 
-## Pendências antes de publicação
+Esse workflow:
+- executa em alterações de `main`;
+- realiza um rebuild diário para atualizar conteúdos dependentes do Google Calendar;
+- cancela deploys anteriores ainda em andamento quando existe uma versão mais recente.
 
-- completar inventário e extração bruta do WordPress;
-- baixar localmente logo e demais mídia, eliminando hotlink do WordPress;
-- migrar os 66 perfis preservados e auditar situação atual;
-- consolidar bibliografia em `src/data/publications.bib`;
-- completar arquivo de notícias e mapa URL antiga → URL nova;
-- executar `npm install` e `npm run build` em ambiente com acesso à rede;
-- validar responsividade, WCAG, SEO e links;
-- validar o scaffold na branch `migration/astro-scholar` e revisar o PR antes de mesclar em `main`.
+## Estrutura técnica
 
-## Desenvolvimento
+O site é desenvolvido em Astro e usa `base: /fonUFAL` para publicação no GitHub Pages.
+
+Principais fontes:
+- `src/pages/` — páginas;
+- `src/content/blog/` — notícias em português;
+- `src/content/blog-en/` — notícias em inglês;
+- `src/data/` — projetos, equipe e publicações;
+- `public/` — imagens e assets;
+- `src/utils/calendar.ts` — integração com o Google Calendar.
+
+## Desenvolvimento e validação
 
 ```bash
 npm install
@@ -42,4 +39,8 @@ npm run dev
 npm run build
 ```
 
-O `base` está configurado para `/fonUFAL`, compatível com `https://fonufal.github.io/fonUFAL/` enquanto não houver domínio personalizado.
+Antes de publicar alterações, o build deve concluir sem erros.
+
+## Materiais de migração
+
+Arquivos ou diretórios que ainda contenham referências à migração WordPress → Astro são mantidos apenas como **registro histórico/proveniência**. Eles não representam o estado corrente do site e não devem orientar manutenção, deploy ou escolha de branch.
