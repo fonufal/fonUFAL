@@ -29,7 +29,9 @@ function otherLangHref(): string {
     if (projectMatch) return url(`/en/projects/${projectMatch[1]}`);
     if (p === '/team') return url('/en/team');
     if (p === '/contato') return url('/en/contact');
+    if (p === '/noticias') return url('/en/news');
     if (p === '/noticias/ssw14-blizzard-2027-maceio') return url('/en/news/ssw14-blizzard-2027-maceio');
+    if (p === '/noticias/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/en/news/para-compreender-a-fonologia-de-uma-lingua-natural');
     return url('/en/');
   } else {
     if (p === '/en/' || p === '/en') return url('/');
@@ -38,7 +40,9 @@ function otherLangHref(): string {
     if (projectMatch) return url(`/projects/${projectMatch[1]}`);
     if (p === '/en/team') return url('/team');
     if (p === '/en/contact') return url('/contato');
+    if (p === '/en/news') return url('/noticias');
     if (p === '/en/news/ssw14-blizzard-2027-maceio') return url('/noticias/ssw14-blizzard-2027-maceio');
+    if (p === '/en/news/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/noticias/para-compreender-a-fonologia-de-uma-lingua-natural');
     return url('/');
   }
 }
