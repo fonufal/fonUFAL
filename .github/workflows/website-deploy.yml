@@ -18,7 +18,9 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # Always publish the newest site state. If a previous Pages deployment is
+  # still running when a newer commit arrives, cancel the stale run.
+  cancel-in-progress: true
 
 jobs:
   build:
