@@ -12,7 +12,7 @@ const navPt = [
 ];
 const navEn = [
   ['Home','/en/'], ['Projects','/en/projects'], ['People','/en/team'],
-  ['Publications','/publications'], ['News','/noticias'], ['Contact','/en/contact']
+  ['Publications','/publications'], ['News','/en/news'], ['Contact','/en/contact']
 ];
 const nav = lang === 'en' ? navEn : navPt;
 
@@ -20,9 +20,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const currentPath = Astro.url.pathname.slice(base.length) || '/';
 const isActive = (path: string) => path === '/' ? currentPath === '/' : currentPath.startsWith(path);
 
-// Map the current page to its counterpart in the other language, when one
-// exists. English currently covers Home, Research (incl. project pages),
-// People and Contact only — Publications and News stay Portuguese-only.
 function otherLangHref(): string {
   const p = currentPath;
   if (lang === 'pt') {
@@ -32,6 +29,7 @@ function otherLangHref(): string {
     if (projectMatch) return url(`/en/projects/${projectMatch[1]}`);
     if (p === '/team') return url('/en/team');
     if (p === '/contato') return url('/en/contact');
+    if (p === '/noticias/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/en/news/para-compreender-a-fonologia-de-uma-lingua-natural');
     return url('/en/');
   } else {
     if (p === '/en/' || p === '/en') return url('/');
@@ -40,6 +38,7 @@ function otherLangHref(): string {
     if (projectMatch) return url(`/projects/${projectMatch[1]}`);
     if (p === '/en/team') return url('/team');
     if (p === '/en/contact') return url('/contato');
+    if (p === '/en/news/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/noticias/para-compreender-a-fonologia-de-uma-lingua-natural');
     return url('/');
   }
 }
