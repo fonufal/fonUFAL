@@ -1,0 +1,48 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Waveform from '../components/Waveform.astro';
+import { getCollection } from 'astro:content';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { url } from '../utils/paths';
+import { getUpcomingActivities } from '../utils/calendar';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const dateKeyInMaceio = (date: Date) => {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Maceio',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date);
+  const value = (type: Intl.DateTimeFormatPartTypes) => parts.find(part => part.type === type)?.value ?? '';
+  return `${value('year')}-${value('month')}-${value('day')}`;
+};
+
+const todayInMaceio = dateKeyInMaceio(new Date());
+const isActiveFeatured = (post: (typeof posts)[number]) =>
+  post.data.featured === true &&
+  (!post.data.featuredUntil || post.data.featuredUntil.toISOString().slice(0, 10) >= todayInMaceio);
+
+const featuredPosts = posts.filter(isActiveFeatured).slice(0, 2);
+const featuredIds = new Set(featuredPosts.map(post => post.id));
+const regularPosts = posts
+  .filter(post => post.data.featured !== true)
+  .slice(0, Math.max(0, 3 - featuredPosts.length));
+const recentPosts = [...featuredPosts, ...regularPosts];
+
+const upcomingActivities = await getUpcomingActivities(3);
+const activityDate = (d: Date) => d.toLocaleString('pt-BR', { timeZone: 'America/Maceio', day: '2-digit', month: 'long', hour: '2-digit', minute: '2-digit' });
+---
+<html lang="pt-BR">
+<head><BaseHead title={`${SITE_TITLE} | Universidade Federal de Alagoas`} description={SITE_DESCRIPTION} /></head>
+<body><Header /><main>
+<section class="hero"><div class="hero-content"><p class="eyebrow">Universidade Federal de Alagoas · Faculdade de Letras</p><h1>Estudos em <em>Fonética</em> e Fonologia</h1><p class="lead">O fonUFAL desenvolve pesquisa teórico-experimental sobre os sons, a prosódia e o processamento da linguagem, articulando descrição linguística, métodos experimentais, tecnologias da fala e documentação.</p><p><a class="btn btn--primary" href={url('/projects')}>Ver pesquisas em andamento →</a></p></div><Waveform class="hero-waveform" /></section>
+{upcomingActivities.length > 0 && <section class="section"><div class="section-head"><h2>Próximas atividades</h2></div><div class="grid">{upcomingActivities.map(a => <article class="card"><p class="meta">{activityDate(a.start)}</p><h3><a href={a.url} target="_blank" rel="noopener">{a.title}</a></h3>{a.description && <p>{a.description}</p>}</article>)}</div></section>}
+<section class="section"><div class="section-head"><h2>Notícias recentes</h2><a href={url('/noticias')}>Ver todas as notícias →</a></div><div class="grid">{recentPosts.map(p => {const topics=(p.data.tags ?? []).filter(t=>t.toLowerCase() !== 'notícias'); const badges = featuredIds.has(p.id) ? ['Destaque', ...topics] : topics; return <article class="card"><p class="meta">{p.data.pubDate.toLocaleDateString('pt-BR', { timeZone: 'UTC' })}</p>{badges.length > 0 && <p class="topic-badges">{badges.map(t=><span class="badge badge--news">{t}</span>)}</p>}<h3><a href={url(`/noticias/${p.id}`)}>{p.data.title}</a></h3><p>{p.data.description}</p></article>})}</div></section>
+<section class="section"><h2>Linhas de atuação</h2><div class="grid"><div class="card"><h3>Prosódia e discurso</h3><p>Produção e percepção de fronteiras, estruturação do discurso e processamento em tempo real.</p></div><div class="card"><h3>Fonética experimental</h3><p>Análise acústica, percepção da fala, rastreamento ocular, EEG e métodos multimodais.</p></div><div class="card"><h3>Tecnologias da fala</h3><p>Síntese de fala, naturalidade, avaliação de TTS, métricas automáticas e ciência aberta.</p></div></div></section>
+<section class="section"><div class="callout"><h2>Diversidade & Inclusão</h2><p>O Grupo de Estudos em Fonética e Fonologia (fonUFAL) promove a igualdade, a diversidade e a inclusão, objetivando excelência em pesquisa acadêmica e alcance público abrangente. Estamos comprometidos com um ambiente intelectual que seja ao mesmo tempo acolhedor, encorajador e estimulante, e que respeite o espectro completo da diversidade humana em raça, etnia, identidade de gênero, idade, status socioeconômico, deficiência, nacionalidade, orientação sexual e crença. A equipe do Grupo de Estudos em Fonética e Fonologia (fonUFAL) trabalha ativamente para criar e manter um ambiente de afirmação, de proteção, de respeito mútuo e de apoio irrestrito.</p></div></section>
+</main><Footer /></body></html>

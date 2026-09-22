@@ -1,0 +1,12 @@
+---
+title: "Defesa de Tese: Ayane Santos"
+description: "Reconhece esses agrupamentos numéricos? No nosso dia a dia, frequentemente temos de lidar com agrupamentos numéricos como esses. Muitos deles são facilmente..."
+pubDate: 2017-03-08
+originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15491"
+tags: ["defesas"]
+---
+
+<p><a href="/fonUFAL/noticias/defesa-de-tese-ayane-santos-1.jpg"><img class="alignleft wp-image-15492 size-full" src="/fonUFAL/noticias/defesa-de-tese-ayane-santos-1.jpg" alt="numeros" width="400" height="400" /></a>Reconhece esses agrupamentos numéricos? No nosso dia a dia, frequentemente temos de lidar com agrupamentos numéricos como esses. Muitos deles são facilmente identificáveis, por conta de sua disposição gráfica. Mas como são enunciados? Existe um padrão de enunciação de agrupamentos numéricos comuns no português falado no Brasil? A tese de Ayane Santos, “Análise prosódica de agrupamentos numéricos no Português do Brasil” procura responder essa pergunta, apresentando uma descrição detalhada da enunciação de agrupamentos numéricos comuns no Brasil: número de CPF, CEP, conta corrente, cartão de crédito, número de telefone fixo e celular. O trabalho, orientado pelo Prof. Miguel Oliveira Jr, contribui para a descrição das características prosódicas do português falado no Brasil e tem aplicação direta no aperfeiçoamento de sistemas de síntese e reconhecimento de fala. Quantas vezes você já teve de repetir seu número de telefone para um sistema de reconhecimento que teima em não processar o seu enunciado? Já tentou fazer com que o sistema Google, por exemplo, enuncie o seu número de CPF? Faça um teste: <a href="https://translate.google.com/#auto/pt/937.576.441-27">https://translate.google.com/#auto/pt/937.576.441-27</a>. Esses sistemas não foram treinados para reconhecer agrupamentos numéricos porque não existem descrições suficientes de como eles se organizam em português. Melhor, não existiam. O trabalho foi realizado no âmbito do projeto <a href="https://fale.ufal.br/grupo/fonufal/projetos/a-prosodia-de-agrupamentos-numericos-no-portugues-do-brasil/">A Prosódia de Agrupamentos Numéricos no Português do Brasil</a>, financiado pelo CNPq. Se quiser saber mais, não deixe de comparecer à defesa de doutorado de Ayane Santos, do Grupo de Estudos em Fonética e Fonologia da Universidade Federal de Alagoas (fonUFAL):<br />
+Dia: 17/04/2017<br />
+Hora: 14h<br />
+Local: Faculdade de Letras</p>

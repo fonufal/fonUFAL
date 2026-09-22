@@ -1,0 +1,9 @@
+---
+title: "ERLE: ​I Encontro Regional de Letras Espanhol da UFAL"
+description: "A Faculdade de Letras (em nome das professoras Eliane Barbosa e Aline Vieira, pesquisadoras do fonUFAL), a Associação de Professores de Espanhol do Estado de..."
+pubDate: 2017-03-08
+originalUrl: "https://fale.ufal.br/grupo/fonufal/?p=15497"
+tags: ["notícias", "eventos"]
+---
+
+<p><a href="https://fale.ufal.br/grupo/fonufal/wp-content/uploads/2017/03/bienvenidos-pic-with-flags.jpg"><img src="/fonUFAL/noticias/erle-i-encontro-regional-de-letras-espanhol-da-ufal-1.jpg" alt="bienvenidos pic with flags" width="300" height="169" class="alignleft size-medium wp-image-15498" /></a><a href="http://www.fale.ufal.br">A Faculdade de Letras</a> (em nome das professoras Eliane Barbosa e Aline Vieira, pesquisadoras do fonUFAL), a <a href="http://apeeal.webnode.com.br">Associação de Professores de Espanhol do Estado de Alagoas</a> (em nome das professoras Eronilma Beux e Eliane Barbosa, pesquisadoras do fonUFAL) e a <a href="http://www.ufal.edu.br/institucional/orgaos-de-apoio/academico/coordenadoria-institucional-de-educacao-a-distancia-cied">Coordenadoria Institucional de Educação a Distância (CIED)</a> têm o prazer de convidar a comunidade científica para o I Encontro Regional de Letras/espanhol – UFAL, a realizar-se no período de 04 a 06 de abril na Universidade Federal de Alagoas no Campus- Maceió. As inscrições estarão abertas para cada modalidade de participação, no período de 01 de março de 2017 a 10 de março de 2017. Serão aceitos trabalhos &#8211; apresentações de pesquisas em andamento ou concluídas &#8211; nas modalidades de mesa coordenadas, compostas por um coordenador e até dois expositores e comunicação individual. As mesas coordenadas deverão ser organizadas por mestres ou doutores. Para maiores informações, visite o site: <a href="https://erle2017.wixsite.com/erle/">https://erle2017.wixsite.com/erle/</a>.</p>

@@ -1,0 +1,61 @@
+---
+import { SITE_TITLE } from '../consts';
+import { url } from '../utils/paths';
+import Logo from './Logo.astro';
+
+interface Props { lang?: 'pt' | 'en' }
+const { lang = 'pt' } = Astro.props;
+
+const navPt = [
+  ['Início','/'], ['Projetos','/projects'], ['Equipe','/team'],
+  ['Publicações','/publications'], ['Notícias','/noticias'], ['Contato','/contato']
+];
+const navEn = [
+  ['Home','/en/'], ['Projects','/en/projects'], ['People','/en/team'],
+  ['Publications','/publications'], ['News','/en/news'], ['Contact','/en/contact']
+];
+const nav = lang === 'en' ? navEn : navPt;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const currentPath = Astro.url.pathname.slice(base.length) || '/';
+const isActive = (path: string) => path === '/' ? currentPath === '/' : currentPath.startsWith(path);
+
+function otherLangHref(): string {
+  const p = currentPath;
+  if (lang === 'pt') {
+    if (p === '/') return url('/en/');
+    if (p === '/projects') return url('/en/projects');
+    const projectMatch = p.match(/^\/projects\/(.+)$/);
+    if (projectMatch) return url(`/en/projects/${projectMatch[1]}`);
+    if (p === '/team') return url('/en/team');
+    if (p === '/contato') return url('/en/contact');
+    if (p === '/noticias/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/en/news/para-compreender-a-fonologia-de-uma-lingua-natural');
+    return url('/en/');
+  } else {
+    if (p === '/en/' || p === '/en') return url('/');
+    if (p === '/en/projects') return url('/projects');
+    const projectMatch = p.match(/^\/en\/projects\/(.+)$/);
+    if (projectMatch) return url(`/projects/${projectMatch[1]}`);
+    if (p === '/en/team') return url('/team');
+    if (p === '/en/contact') return url('/contato');
+    if (p === '/en/news/para-compreender-a-fonologia-de-uma-lingua-natural') return url('/noticias/para-compreender-a-fonologia-de-uma-lingua-natural');
+    return url('/');
+  }
+}
+---
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href={url(lang === 'en' ? '/en/' : '/')} aria-label={`${SITE_TITLE} — ${lang === 'en' ? 'home' : 'início'}`}>
+      <Logo class="brand-logo" />
+      <span class="brand-mark">{lang === 'en' ? <>Phonetics<br/>&amp; Phonology</> : <>Fonética<br/>&amp; Fonologia</>}</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label={lang === 'en' ? 'Open menu' : 'Abrir menu'}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </label>
+    <nav class="site-nav" aria-label={lang === 'en' ? 'Main navigation' : 'Navegação principal'}>
+      {nav.map(([label,path]) => <a href={url(path)} aria-current={isActive(path) ? 'page' : undefined} class={isActive(path) ? 'is-active' : undefined}>{label}</a>)}
+      <a href={otherLangHref()} class="lang-switch" hreflang={lang === 'en' ? 'pt' : 'en'}>{lang === 'en' ? 'PT' : 'EN'}</a>
+    </nav>
+  </div>
+</header>

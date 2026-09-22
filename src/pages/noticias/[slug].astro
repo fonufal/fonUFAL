@@ -1,0 +1,38 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection, render } from 'astro:content';
+import { SITE_TITLE } from '../../consts';
+import { url } from '../../utils/paths';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const formattedDate = post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const topics = (post.data.tags ?? []).filter(t => t.toLowerCase() !== 'notícias');
+---
+<html lang="pt-BR">
+<head><BaseHead title={`${post.data.title} | ${SITE_TITLE}`} description={post.data.description} /></head>
+<body>
+<Header />
+<main>
+  <article class="hero-content" style="max-width:var(--measure)">
+    <p class="eyebrow">Notícias · {formattedDate}</p>
+    {topics.length > 0 && (
+      <p class="topic-badges">{topics.map(t => <span class="badge badge--news">{t}</span>)}</p>
+    )}
+    <h1>{post.data.title}</h1>
+    <div class="prose">
+      <Content />
+    </div>
+    <p style="margin-top:32px"><a href={url('/noticias')}>← Voltar para notícias</a></p>
+  </article>
+</main>
+<Footer />
+</body>
+</html>

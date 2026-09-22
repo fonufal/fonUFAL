@@ -1,0 +1,131 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Waveform from '../components/Waveform.astro';
+import { SITE_TITLE } from '../consts';
+import { url } from '../utils/paths';
+
+const colors = [
+  ['--fon-red', 'Vermelho fonUFAL', 'Cor oficial (#C4161C) — ênfase, links ativos, estado "em andamento"'],
+  ['--fon-blue', 'Azul fonUFAL', 'Cor oficial (#005E9E) — links, acentos secundários, callouts'],
+  ['--fon-gray', 'Cinza fonUFAL', 'Cor oficial (#939598) — barras neutras do símbolo da marca'],
+  ['--ink', 'Texto principal', 'Títulos e corpo de texto'],
+  ['--muted', 'Texto secundário', 'Metadados, legendas'],
+  ['--bg', 'Fundo', 'Fundo de página'],
+  ['--bg-soft', 'Fundo suave', 'Seções alternadas, footer'],
+  ['--border', 'Borda', 'Divisores, contornos de card'],
+];
+
+const type = [
+  ['h1 · Newsreader 500', 'display'],
+  ['h2 · Newsreader 600', 'h2'],
+  ['h3 · Newsreader 600', 'h3'],
+  ['Corpo · Inter 400', 'body'],
+  ['Rótulo · JetBrains Mono 600', 'mono'],
+];
+---
+<html lang="pt-BR">
+<head><BaseHead title={`Sistema de Design | ${SITE_TITLE}`} description="Tokens e componentes do sistema de design do fonUFAL" /></head>
+<body>
+<Header />
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Documentação interna</p>
+      <h1>Sistema de <em>Design</em></h1>
+      <p class="lead">Tokens, tipografia e componentes extraídos do site do fonUFAL, reunidos em um sistema único e documentado para manter consistência entre páginas futuras.</p>
+    </div>
+    <Waveform class="hero-waveform" />
+  </section>
+
+  <section class="section">
+    <h2>Identidade</h2>
+    <p class="lead">O símbolo oficial da marca fonUFAL é uma onda sonora em barras cinza, com um acento vermelho e um acento azul — reproduzido aqui a partir da geometria exata de <code>marca-fonUFAL.ai</code> e da <code>identidade-visual-fonUFAL.pdf</code>. Esse motivo foi estendido ao sistema como o elemento gráfico assinatura do grupo — um lembrete visual constante de que o objeto de estudo é o som da fala.</p>
+    <Waveform bars={68} />
+  </section>
+
+  <section class="section">
+    <h2>Cor</h2>
+    <div class="grid">
+      {colors.map(([token, label, use]) => (
+        <article class="card">
+          <div style={`height:56px;border-radius:10px;background:var(${token});border:1px solid var(--border);margin-bottom:14px`}></div>
+          <p class="meta">{token}</p>
+          <h3>{label}</h3>
+          <p>{use}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Tipografia</h2>
+    <p class="lead">Par editorial: <strong>Newsreader</strong> (serifada, títulos) + <strong>Inter</strong> (texto corrido, interface) + <strong>JetBrains Mono</strong> (rótulos, metadados — um aceno à precisão da transcrição fonética).</p>
+    <div class="card" style="margin-top:26px">
+      <h1 style="margin:0">Aa — Estudos em Fonética</h1>
+      <h2 style="margin:.6em 0 0">Aa — Prosódia e discurso</h2>
+      <p class="lead" style="margin-top:.6em">Aa — corpo de texto em Inter, para leitura confortável em parágrafos longos.</p>
+      <p class="meta" style="margin-top:.6em">AA · RÓTULO EM JETBRAINS MONO</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Componentes</h2>
+    <div class="grid">
+      <article class="card">
+        <p class="meta">Badges de status</p>
+        <p><span class="badge badge--active">Em andamento</span> <span class="badge badge--review">Em avaliação</span> <span class="badge badge--proposal">Proposta</span></p>
+      </article>
+      <article class="card">
+        <p class="meta">Botões</p>
+        <p><a class="btn btn--primary" href="#">Ação primária</a> <a class="btn btn--ghost" href="#">Ação secundária</a></p>
+      </article>
+      <article class="card">
+        <span class="badge badge--active">Exemplo</span>
+        <h3>Card padrão</h3>
+        <p>Usado para projetos, publicações e notícias — mesma estrutura, conteúdo variável.</p>
+      </article>
+    </div>
+    <div class="callout" style="margin-top:22px">
+      <h2>Callout</h2>
+      <p>Usado para avisos institucionais e notas de migração de conteúdo.</p>
+    </div>
+    <p class="meta" style="margin-top:26px">Ficha de pessoa (usada em /team)</p>
+    <div class="person-grid" style="max-width:340px">
+      <article class="person-tile">
+        <span class="avatar avatar-lg" style="background:var(--bg-soft);display:block"></span>
+        <h3>Nome Sobrenome</h3>
+        <span class="badge" style="margin-bottom:8px">Doutorado</span>
+        <p class="person-links"><a href="#">Lattes</a><a href="#">Email</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Espaçamento &amp; forma</h2>
+    <p class="lead">Escala de 8px (<code>--space-1</code> a <code>--space-9</code>), raios de <code>8/14/22px</code> e sombras em três níveis para elevação consistente entre cards, menus e overlays.</p>
+  </section>
+
+  <section class="section">
+    <h2>Downloads</h2>
+    <p class="lead">Arquivos oficiais da marca, para uso em materiais do grupo.</p>
+    <div class="grid">
+      <article class="card">
+        <p class="meta">PDF</p>
+        <h3>Identidade Visual</h3>
+        <p>Manual com paleta de cores, símbolo e assinaturas oficiais da marca fonUFAL.</p>
+        <p><a class="btn btn--ghost" href={url('/brand/identidade-visual-fonUFAL.pdf')} target="_blank" rel="noopener">Baixar PDF →</a></p>
+      </article>
+      <article class="card">
+        <p class="meta">ZIP</p>
+        <h3>Pack de Design</h3>
+        <p>Logo em alta resolução e demais arquivos de arte para usos diversos.</p>
+        <p><a class="btn btn--ghost" href={url('/brand/fonufal-design-pack.zip')} target="_blank" rel="noopener">Baixar pack →</a></p>
+      </article>
+    </div>
+  </section>
+</main>
+<Footer />
+</body>
+</html>
