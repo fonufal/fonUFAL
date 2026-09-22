@@ -5,6 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    # GitHub only runs scheduled workflows from the default branch (main).
+    # Rebuild the published migration branch daily so Google Calendar changes
+    # are reflected on the static homepage even when there are no code pushes.
+    - cron: '0 9 * * *'
 
 permissions:
   contents: read
