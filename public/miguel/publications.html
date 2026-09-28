@@ -6,148 +6,112 @@
 <div class="pub-filter-groups">
   <div class="pub-filter-group">
     <div class="pub-filter-label">Tipo</div>
-    <div class="pub-controls" role="group" aria-label="Filtrar publicações por tipo">
-      <button type="button" class="active" aria-pressed="true" data-pub-type="all">Todas</button>
-      <button type="button" aria-pressed="false" data-pub-type="livro">Livros e capítulos</button>
-      <button type="button" aria-pressed="false" data-pub-type="artigo">Artigos</button>
-      <button type="button" aria-pressed="false" data-pub-type="anais">Anais</button>
-      <button type="button" aria-pressed="false" data-pub-type="outro">Outros</button>
-    </div>
-  </div>
-  <div class="pub-filter-group">
-    <div class="pub-filter-label">Projeto</div>
-    <div class="pub-controls" role="group" aria-label="Filtrar publicações por projeto">
-      <button type="button" class="active" aria-pressed="true" data-pub-project="all">Todos</button>
-      <button type="button" aria-pressed="false" data-pub-project="tarsila">TaRSila</button>
-      <button type="button" aria-pressed="false" data-pub-project="multimodal">PQ Multimodal</button>
-      <button type="button" aria-pressed="false" data-pub-project="interfaces">ALFAL P2</button>
-      <button type="button" aria-pressed="false" data-pub-project="pldb">PLDB</button>
-    </div>
-  </div>
+    <div class="pub-filter-set">
+<div class="pub-filter-label">Formato</div>
+<div class="pub-controls" role="group" aria-label="Filtrar por formato">
+<button type="button" class="active" data-pub-filter-type="all" aria-pressed="true">Todas</button>
+<button type="button" data-pub-filter-type="livro" aria-pressed="false">Livros e capítulos</button>
+<button type="button" data-pub-filter-type="periodico" aria-pressed="false">Periódicos</button>
+<button type="button" data-pub-filter-type="anais" aria-pressed="false">Anais</button>
 </div>
-<div class="pub-filter-status" aria-live="polite"><span data-pub-count>12</span> publicações exibidas</div></div></section>
+</div>
+<div class="pub-filter-set">
+<div class="pub-filter-label">Projeto / eixo</div>
+<div class="pub-controls" role="group" aria-label="Filtrar por projeto ou eixo">
+<button type="button" class="active" data-pub-filter-project="all" aria-pressed="true">Todos</button>
+<button type="button" data-pub-filter-project="tarsila" aria-pressed="false">TaRSila / C4AI</button>
+<button type="button" data-pub-filter-project="prosodia" aria-pressed="false">Prosódia e Interfaces</button>
+<button type="button" data-pub-filter-project="multimodal" aria-pressed="false">Discurso multimodal</button>
+<button type="button" data-pub-filter-project="pdlb" aria-pressed="false">PDLB</button>
+</div>
+</div>
+<div class="pub-filter-status" aria-live="polite">12 publicações</div>
+<p class="pub-style-note">Referências normalizadas em um único padrão autor–data compacto. Tags escuras indicam projetos ou redes de pesquisa; tags claras indicam temas ou métodos.</p>
+</div></section>
 
 <section class="pub-list"><div class="shell">
-<p class="pub-style-note">Padrão adotado: AUTOR(ES). (Ano). Título. Fonte, volume/número, páginas ou identificador. DOI/ISBN quando disponível. Tags preenchidas com o nome curto do projeto somente quando a associação é documentalmente sustentada; as demais tags indicam temas.</p>
 
 <article class="pub-row" data-pub-row data-type="anais" data-projects="tarsila">
-  <div class="pub-year">2026</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">ARAÚJO, G. E. et al. (2026).</span> <span class="pub-title-inline">Certas Palavras: A 1980s-90s Brazilian Radio Corpus to Test TTS Models in Noisy Multi-Speaker Dialogues.</span> In: <em>Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026)</em>, v. 1, p. 819–829. Association for Computational Linguistics.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">TaRSila</span><span class="pub-tag">TTS</span><span class="pub-tag">corpus</span></div>
-  </div>
-  <div class="pub-type">Anais · internacional</div>
-  <a class="arrow" href="https://aclanthology.org/2026.propor-1.81/" target="_blank" rel="noopener" aria-label="Abrir Certas Palavras na ACL Anthology">↗</a>
+<div class="pub-year">2026</div>
+<div class="pub-reference"><span class="pub-authors">ARAÚJO, G. E. et al.</span> (2026). <span class="pub-title-inline">Certas Palavras: A 1980s-90s Brazilian Radio Corpus to Test TTS Models in Noisy Multi-Speaker Dialogues.</span> <em>Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026)</em>, v. 1, p. 819–829. Association for Computational Linguistics.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="tarsila" title="TaRSila / C4AI">TaRSila/C4AI</button><span class="pub-tag">corpus</span><span class="pub-tag">TTS</span></div>
+<a class="arrow" href="https://aclanthology.org/2026.propor-1.81/" target="_blank" rel="noopener" aria-label="Abrir Certas Palavras na ACL Anthology">↗</a>
 </article>
 
 <article class="pub-row" data-pub-row data-type="anais" data-projects="tarsila">
-  <div class="pub-year">2026</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">GALDINO, J. C. et al. (2026).</span> <span class="pub-title-inline">The Impact of Prosodic Segmentation on Speech Synthesis of Spontaneous Speech.</span> <em>Lecture Notes in Artificial Intelligence</em>, v. 16180, p. 547–561. Springer. DOI: 10.1007/978-3-032-15984-7_37.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">TaRSila</span><span class="pub-tag">TTS</span><span class="pub-tag">prosódia</span></div>
-  </div>
-  <div class="pub-type">Anais / capítulo</div>
-  <a class="arrow" href="https://doi.org/10.1007/978-3-032-15984-7_37" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
+<div class="pub-year">2026</div>
+<div class="pub-reference"><span class="pub-authors">GALDINO, J. C. et al.</span> (2026). <span class="pub-title-inline">The Impact of Prosodic Segmentation on Speech Synthesis of Spontaneous Speech.</span> In: <em>Intelligent Systems</em>. Lecture Notes in Artificial Intelligence, v. 16180, p. 547–561. Springer. DOI: 10.1007/978-3-032-15984-7_37.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="tarsila" title="TaRSila / C4AI">TaRSila/C4AI</button><span class="pub-tag">segmentação</span><span class="pub-tag">TTS</span></div>
+<a class="arrow" href="https://doi.org/10.1007/978-3-032-15984-7_37" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="livro" data-projects="interfaces">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M. (ed.). (2025).</span> <span class="pub-title-inline">Prosodic Interfaces: Interdisciplinary Perspectives on Sound Patterns and Human Interaction.</span> Linguistica Latinoamericana, v. 5. De Gruyter/Brill. DOI: 10.1515/9783111060309.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">ALFAL P2</span><span class="pub-tag">prosódia</span></div>
-  </div>
-  <div class="pub-type">Livro organizado</div>
-  <a class="arrow" href="https://doi.org/10.1515/9783111060309" target="_blank" rel="noopener" aria-label="Abrir livro via DOI">↗</a>
+<article class="pub-row" data-pub-row data-type="livro" data-projects="prosodia">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M. (ed.).</span> (2025). <span class="pub-title-inline">Prosodic Interfaces: Interdisciplinary Perspectives on Sound Patterns and Human Interaction.</span> Linguistica Latinoamericana, v. 5. De Gruyter. DOI: 10.1515/9783111060309.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="prosodia" title="Projeto 2 — Prosódia e Interfaces / ALFAL">Prosódia e Interfaces</button><span class="pub-tag">prosódia</span></div>
+<a class="arrow" href="https://doi.org/10.1515/9783111060309" target="_blank" rel="noopener" aria-label="Abrir Prosodic Interfaces via DOI">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="livro" data-projects="">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M. (org.). (2025).</span> <span class="pub-title-inline">Da contração à rarefação — Homenagem a João Antônio de Moraes.</span> 1. ed. Campinas: Mercado de Letras. 504 p. ISBN 978-85-7591-970-5.</div>
-    <div class="pub-tags"><span class="pub-tag">prosódia</span><span class="pub-tag">fonética</span></div>
-  </div>
-  <div class="pub-type">Livro organizado</div>
-  <a class="arrow" href="https://mercado-de-letras.com.br/produto/da-contracao-a-rarefacao-homenagem-a-joao-antonio-de-moraes/" target="_blank" rel="noopener" aria-label="Abrir página do livro na Mercado de Letras">↗</a>
+<article class="pub-row" data-pub-row data-type="periodico" data-projects="prosodia">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">ALMEIDA, A. N. S.; OLIVEIRA JR., M.</span> (2025). <span class="pub-title-inline">Teste Kappa de Concordância na Delimitação de Unidades Prosódicas em Enunciados Numéricos no PB.</span> <em>EaD &amp; Tecnologias Digitais na Educação</em>, 13(20).</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="prosodia" title="Projeto 2 — Prosódia e Interfaces / ALFAL">Prosódia e Interfaces</button><span class="pub-tag">anotação</span><span class="pub-tag">concordância</span></div>
+<a class="arrow" href="https://ojs.ufgd.edu.br/ead/article/view/20622" target="_blank" rel="noopener" aria-label="Abrir artigo no periódico">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="artigo" data-projects="">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">ALMEIDA, A. N. S.; OLIVEIRA JR., M. (2025).</span> <span class="pub-title-inline">Teste Kappa de Concordância na Delimitação de Unidades Prosódicas em Enunciados Numéricos no PB.</span> <em>EaD &amp; Tecnologias Digitais na Educação</em>, v. 13, n. 20.</div>
-    <div class="pub-tags"><span class="pub-tag">prosódia</span><span class="pub-tag">anotação</span><span class="pub-tag">métodos</span></div>
-  </div>
-  <div class="pub-type">Artigo</div>
-  <a class="arrow" href="https://ojs.ufgd.edu.br/ead/article/view/20622" target="_blank" rel="noopener" aria-label="Abrir artigo no periódico">↗</a>
+<article class="pub-row" data-pub-row data-type="periodico" data-projects="pdlb">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">FREITAG, R.; MACHADO VIEIRA, M. S.; BARBOSA, J. B.; OLIVEIRA JR., M.; et al.</span> (2025). <span class="pub-title-inline">Plataforma da Diversidade Linguística Brasileira: dados linguísticos para uma IA brasileira.</span> <em>Cadernos de Linguística</em>, 6(4), e863. DOI: 10.25189/2675-4916.2025.v6.n4.id863.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="pdlb" title="Plataforma da Diversidade Linguística Brasileira">PDLB</button><span class="pub-tag">IA brasileira</span><span class="pub-tag">dados linguísticos</span></div>
+<a class="arrow" href="https://doi.org/10.25189/2675-4916.2025.v6.n4.id863" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="outro" data-projects="pldb">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">FREITAG, R. M. K. et al. (2025).</span> <span class="pub-title-inline">Plataforma da Diversidade Linguística Brasileira: dados linguísticos para uma IA brasileira.</span> <em>Cadernos de Linguística</em>, v. 6, n. 4, e863. Project Registration. DOI: 10.25189/2675-4916.2025.v6.n4.id863.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">PLDB</span><span class="pub-tag">IA</span><span class="pub-tag">diversidade</span></div>
-  </div>
-  <div class="pub-type">Project Registration</div>
-  <a class="arrow" href="https://doi.org/10.25189/2675-4916.2025.v6.n4.id863" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
+<article class="pub-row" data-pub-row data-type="livro" data-projects="prosodia">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M. (org.).</span> (2025). <span class="pub-title-inline">Da contração à rarefação: homenagem a João Antônio de Moraes.</span> Campinas: Mercado de Letras. ISBN 978-85-7591-970-5.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="prosodia" title="Projeto 2 — Prosódia e Interfaces / ALFAL">Prosódia e Interfaces</button><span class="pub-tag">prosódia</span></div>
+<a class="arrow" href="https://mercado-de-letras.com.br/produto/da-contracao-a-rarefacao-homenagem-a-joao-antonio-de-moraes/" target="_blank" rel="noopener" aria-label="Abrir página do livro">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="livro" data-projects="">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M. (2025).</span> <span class="pub-title-inline">A entoação no discurso.</span> In: <em>Entoação: interface e experimentação</em>. 1. ed. Mercado de Letras, p. 13–50. ISBN 978-85-7591-967-5.</div>
-    <div class="pub-tags"><span class="pub-tag">prosódia</span><span class="pub-tag">discurso</span><span class="pub-tag">entoação</span></div>
-  </div>
-  <div class="pub-type">Capítulo de livro</div>
-  <a class="arrow" href="https://mercado-de-letras.com.br/e-books-livres/" target="_blank" rel="noopener" aria-label="Abrir página de e-books da editora">↗</a>
+<article class="pub-row" data-pub-row data-type="livro" data-projects="prosodia multimodal">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">OLIVEIRA JR., M.</span> (2025). <span class="pub-title-inline">A entoação no discurso.</span> In: P. Arantes; L. Lucente; R. Rothe-Neves (orgs.), <em>Entoação: interface e experimentação</em>, p. 13–50. Campinas: Mercado de Letras. ISBN 978-85-7591-967-5.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="prosodia" title="Projeto 2 — Prosódia e Interfaces / ALFAL">Prosódia e Interfaces</button><button type="button" class="pub-tag pub-tag-project" data-pub-project="multimodal" title="O Processamento da Estrutura do Discurso em Contexto Multimodal">Discurso multimodal</button><span class="pub-tag">entoação</span></div>
+<a class="arrow" href="https://mercado-de-letras.com.br/e-books-livres/" target="_blank" rel="noopener" aria-label="Abrir página de e-books da Mercado de Letras">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="livro" data-projects="">
-  <div class="pub-year">2025</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">GALDINO, J. C.; OLIVEIRA JR., M. (2025).</span> <span class="pub-title-inline">EM 200 METROS, VIRE À ESQUERDA: A ENTOAÇÃO DOS COMANDOS DE GPS.</span> In: <em>Da contração à rarefação — Homenagem a João Antônio de Moraes</em>. 1. ed. Campinas: Mercado de Letras. ISBN 978-85-7591-970-5.</div>
-    <div class="pub-tags"><span class="pub-tag">prosódia</span><span class="pub-tag">entoação</span></div>
-  </div>
-  <div class="pub-type">Capítulo de livro</div>
-  <a class="arrow" href="https://mercado-de-letras.com.br/produto/da-contracao-a-rarefacao-homenagem-a-joao-antonio-de-moraes/" target="_blank" rel="noopener" aria-label="Abrir página do livro na Mercado de Letras">↗</a>
+<article class="pub-row" data-pub-row data-type="livro" data-projects="prosodia">
+<div class="pub-year">2025</div>
+<div class="pub-reference"><span class="pub-authors">GALDINO, J. C.; OLIVEIRA JR., M.</span> (2025). <span class="pub-title-inline">Em 200 metros, vire à esquerda: a entoação dos comandos de GPS.</span> In: M. de Oliveira Jr. (org.), <em>Da contração à rarefação: homenagem a João Antônio de Moraes</em>. Campinas: Mercado de Letras.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="prosodia" title="Projeto 2 — Prosódia e Interfaces / ALFAL">Prosódia e Interfaces</button><span class="pub-tag">entoação</span><span class="pub-tag">GPS</span></div>
+<a class="arrow" href="https://mercado-de-letras.com.br/produto/da-contracao-a-rarefacao-homenagem-a-joao-antonio-de-moraes/" target="_blank" rel="noopener" aria-label="Abrir página do livro">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="artigo" data-projects="">
-  <div class="pub-year">2024</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">HAMANS, C. et al. (2024).</span> <span class="pub-title-inline">The Economic Value of Endangered Languages.</span> <em>Cadernos de Linguística</em>, v. 5, n. 1, e723. DOI: 10.25189/2675-4916.2024.v5.n1.id723.</div>
-    <div class="pub-tags"><span class="pub-tag">línguas ameaçadas</span><span class="pub-tag">diversidade</span></div>
-  </div>
-  <div class="pub-type">Artigo</div>
-  <a class="arrow" href="https://doi.org/10.25189/2675-4916.2024.v5.n1.id723" target="_blank" rel="noopener" aria-label="Abrir artigo via DOI">↗</a>
+<article class="pub-row" data-pub-row data-type="periodico" data-projects="">
+<div class="pub-year">2024</div>
+<div class="pub-reference"><span class="pub-authors">HAMANS, C.; VAN DER VOORT, H.; OLIVEIRA JR., M.; VALDENILSON, K. S. C.</span> (2024). <span class="pub-title-inline">The Economic Value of Endangered Languages.</span> <em>Cadernos de Linguística</em>, 5(1), e723. DOI: 10.25189/2675-4916.2024.v5.n1.id723.</div>
+<div class="pub-tags"><span class="pub-tag">línguas ameaçadas</span><span class="pub-tag">documentação</span></div>
+<a class="arrow" href="https://doi.org/10.25189/2675-4916.2024.v5.n1.id723" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
 
-<article class="pub-row" data-pub-row data-type="artigo" data-projects="multimodal">
-  <div class="pub-year">2024</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">SILVA, R. B. et al. (2024).</span> <span class="pub-title-inline">Rastreador ocular como método de análise de percepção da prosódia da fala: uma revisão de escopo.</span> <em>Revista da ABRALIN</em>, v. 23, n. 1. DOI: 10.25189/rabralin.v23i1.2287.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">PQ Multimodal</span><span class="pub-tag">eye-tracking</span><span class="pub-tag">prosódia</span></div>
-  </div>
-  <div class="pub-type">Artigo</div>
-  <a class="arrow" href="https://doi.org/10.25189/rabralin.v23i1.2287" target="_blank" rel="noopener" aria-label="Abrir artigo via DOI">↗</a>
+<article class="pub-row" data-pub-row data-type="periodico" data-projects="multimodal">
+<div class="pub-year">2024</div>
+<div class="pub-reference"><span class="pub-authors">SILVA, R. B.; TERTO, A. R. B.; SILVA, E. W. R.; OLIVEIRA JR., M.</span> (2024). <span class="pub-title-inline">Rastreador ocular como método de análise de percepção da prosódia da fala: uma revisão de escopo.</span> <em>Revista da ABRALIN</em>, 23(1). DOI: 10.25189/rabralin.v23i1.2287.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="multimodal" title="O Processamento da Estrutura do Discurso em Contexto Multimodal">Discurso multimodal</button><span class="pub-tag">eye-tracking</span><span class="pub-tag">prosódia</span></div>
+<a class="arrow" href="https://doi.org/10.25189/rabralin.v23i1.2287" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
 
 <article class="pub-row" data-pub-row data-type="anais" data-projects="tarsila">
-  <div class="pub-year">2024</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">ARAÚJO, G. E. et al. (2024).</span> <span class="pub-title-inline">EyetrackingMOS: Proposta de um método de avaliação online para modelos de síntese de fala.</span> In: <em>XV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL 2024)</em>. Porto Alegre: Sociedade Brasileira de Computação, p. 87–96. DOI: 10.5753/stil.2024.245424.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">TaRSila</span><span class="pub-tag">TTS</span><span class="pub-tag">eye-tracking</span></div>
-  </div>
-  <div class="pub-type">Anais</div>
-  <a class="arrow" href="https://doi.org/10.5753/stil.2024.245424" target="_blank" rel="noopener" aria-label="Abrir trabalho via DOI">↗</a>
+<div class="pub-year">2024</div>
+<div class="pub-reference"><span class="pub-authors">ARAÚJO, G. E. et al.</span> (2024). <span class="pub-title-inline">EyetrackingMOS: Proposta de um método de avaliação online para modelos de síntese de fala.</span> <em>Anais do XV Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (STIL)</em>, p. 87–96. Sociedade Brasileira de Computação. DOI: 10.5753/stil.2024.245424.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="tarsila" title="TaRSila / C4AI">TaRSila/C4AI</button><span class="pub-tag">EyetrackingMOS</span><span class="pub-tag">TTS</span></div>
+<a class="arrow" href="https://doi.org/10.5753/stil.2024.245424" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
 
 <article class="pub-row" data-pub-row data-type="anais" data-projects="tarsila">
-  <div class="pub-year">2024</div>
-  <div>
-    <div class="pub-reference"><span class="pub-authors">GALDINO, J. C. et al. (2024).</span> <span class="pub-title-inline">Acoustic Analysis of Prosodic Features in Natural versus Synthesized Speech Samples from YourTTS and SYNTACC Models.</span> In: <em>XXI Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2024)</em>. Porto Alegre: Sociedade Brasileira de Computação, p. 304–315. DOI: 10.5753/eniac.2024.245092.</div>
-    <div class="pub-tags"><span class="pub-tag pub-tag-project">TaRSila</span><span class="pub-tag">TTS</span><span class="pub-tag">prosódia</span></div>
-  </div>
-  <div class="pub-type">Anais</div>
-  <a class="arrow" href="https://doi.org/10.5753/eniac.2024.245092" target="_blank" rel="noopener" aria-label="Abrir trabalho via DOI">↗</a>
+<div class="pub-year">2024</div>
+<div class="pub-reference"><span class="pub-authors">GALDINO, J. C. et al.</span> (2024). <span class="pub-title-inline">Acoustic Analysis of Prosodic Features in Natural versus Synthesized Speech Samples from YourTTS and SYNTACC Models.</span> <em>Anais do XXI Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)</em>, p. 304–315. Sociedade Brasileira de Computação. DOI: 10.5753/eniac.2024.245092.</div>
+<div class="pub-tags"><button type="button" class="pub-tag pub-tag-project" data-pub-project="tarsila" title="TaRSila / C4AI">TaRSila/C4AI</button><span class="pub-tag">análise acústica</span><span class="pub-tag">TTS</span></div>
+<a class="arrow" href="https://doi.org/10.5753/eniac.2024.245092" target="_blank" rel="noopener" aria-label="Abrir publicação via DOI">↗</a>
 </article>
-
 </div></section></main><footer class="footer"><div class="shell footer-inner"><span>Miguel Oliveira Jr. · Universidade Federal de Alagoas</span><span>Fonética · Prosódia · Processamento da linguagem · Tecnologias da fala</span></div></footer><script src="./site.js?v=20260928-3" defer></script></body></html>
