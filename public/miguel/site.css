@@ -207,7 +207,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
 .people-tabs .active,.resource-tabs .active{font-weight:700;border-bottom:2px solid var(--text);padding-bottom:10px;margin-bottom:-13px}
 .people-grid{padding-bottom:78px}
 .person-row{
-  display:grid;grid-template-columns:150px minmax(0,1fr) 250px;
+  display:grid;grid-template-columns:140px minmax(240px,.7fr) minmax(360px,1.3fr);
   padding:18px 0;border-bottom:1px solid var(--rule);gap:22px;align-items:start;
 }
 .person-role{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
@@ -265,7 +265,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
   .research-layout{grid-template-columns:190px 1fr;gap:35px}
   .project-row{grid-template-columns:42px 120px 1fr 28px}.project-meta{display:none}
   .pub-row{grid-template-columns:60px 1fr 28px}.pub-type{display:none}
-  .person-row{grid-template-columns:120px 1fr 24px}.person-focus{display:none}
+  .person-row{grid-template-columns:110px minmax(210px,.8fr) minmax(260px,1.2fr)}.person-focus{display:block}
   .resource-row{grid-template-columns:95px 1fr 24px}.resource-kind{display:none}
   .about-layout{grid-template-columns:1fr;gap:40px}
 }
