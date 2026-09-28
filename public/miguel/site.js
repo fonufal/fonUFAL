@@ -88,9 +88,9 @@
     let activeType = 'all';
     let activeProject = 'all';
 
-    const updatePressed = (buttons, activeButton) => {
+    const setButtonState = (buttons, key, dataKey) => {
       buttons.forEach(btn => {
-        const selected = btn === activeButton;
+        const selected = (btn.dataset[dataKey] || 'all') === key;
         btn.classList.toggle('active', selected);
         btn.setAttribute('aria-pressed', selected ? 'true' : 'false');
       });
@@ -101,30 +101,31 @@
       let visible = 0;
       pubRows.forEach(row => {
         const typeMatch = activeType === 'all' || row.dataset.type === activeType;
-        const projects = (row.dataset.projects || '').split(/\s+/).filter(Boolean);
+        const projects = (row.dataset.projects || '').trim().split(/\s+/).filter(Boolean);
         const projectMatch = activeProject === 'all' || projects.includes(activeProject);
-        const hidden = !(typeMatch && projectMatch);
-        row.hidden = hidden;
-        row.classList.toggle('is-hidden', hidden);
-        if (!hidden) visible += 1;
+        const shouldShow = typeMatch && projectMatch;
+        row.hidden = !shouldShow;
+        row.classList.toggle('is-hidden', !shouldShow);
+        row.style.display = shouldShow ? '' : 'none';
+        if (shouldShow) visible += 1;
       });
       if (pubCount) pubCount.textContent = String(visible);
     };
 
     pubTypeButtons.forEach(btn => btn.addEventListener('click', () => {
       activeType = btn.dataset.pubType || 'all';
-      updatePressed(pubTypeButtons, btn);
+      setButtonState(pubTypeButtons, activeType, 'pubType');
       applyPublicationFilters();
     }));
 
     pubProjectButtons.forEach(btn => btn.addEventListener('click', () => {
       activeProject = btn.dataset.pubProject || 'all';
-      updatePressed(pubProjectButtons, btn);
+      setButtonState(pubProjectButtons, activeProject, 'pubProject');
       applyPublicationFilters();
     }));
 
-    if (pubTypeButtons[0]) updatePressed(pubTypeButtons, pubTypeButtons[0]);
-    if (pubProjectButtons[0]) updatePressed(pubProjectButtons, pubProjectButtons[0]);
+    setButtonState(pubTypeButtons, activeType, 'pubType');
+    setButtonState(pubProjectButtons, activeProject, 'pubProject');
     applyPublicationFilters();
   }
 
