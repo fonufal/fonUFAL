@@ -96,7 +96,9 @@
       });
     };
 
+    const pubCount = document.querySelector('[data-pub-count]');
     const applyPublicationFilters = () => {
+      let visible = 0;
       pubRows.forEach(row => {
         const typeMatch = activeType === 'all' || row.dataset.type === activeType;
         const projects = (row.dataset.projects || '').split(/\s+/).filter(Boolean);
@@ -104,7 +106,9 @@
         const hidden = !(typeMatch && projectMatch);
         row.hidden = hidden;
         row.classList.toggle('is-hidden', hidden);
+        if (!hidden) visible += 1;
       });
+      if (pubCount) pubCount.textContent = String(visible);
     };
 
     pubTypeButtons.forEach(btn => btn.addEventListener('click', () => {
