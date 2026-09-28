@@ -80,17 +80,58 @@
 
   document.querySelectorAll('.field[data-seed]').forEach(makeField);
 
-  const filters = document.querySelectorAll('[data-pub-filter]');
-  const rows = document.querySelectorAll('[data-pub-row]');
-  if (filters.length && rows.length) {
-    filters.forEach(btn => btn.addEventListener('click', () => {
-      filters.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const key = btn.dataset.pubFilter;
-      rows.forEach(row => {
-        row.hidden = key !== 'all' && row.dataset.type !== key;
+  const pubRows = document.querySelectorAll('[data-pub-row]');
+  const pubTypeFilters = document.querySelectorAll('[data-pub-type-filter]');
+  const pubProjectFilters = document.querySelectorAll('[data-pub-project-filter]');
+  const pubProjectTags = document.querySelectorAll('[data-project-select]');
+  const pubCount = document.querySelector('[data-pub-count]');
+
+  if (pubRows.length) {
+    let activeType = 'all';
+    let activeProject = 'all';
+
+    const setPressed = (buttons, activeKey, datasetKey) => {
+      buttons.forEach(btn => {
+        const selected = btn.dataset[datasetKey] === activeKey;
+        btn.classList.toggle('active', selected);
+        btn.setAttribute('aria-pressed', selected ? 'true' : 'false');
       });
+    };
+
+    const updatePublications = () => {
+      let visible = 0;
+      pubRows.forEach(row => {
+        const typeMatch = activeType === 'all' || row.dataset.type === activeType;
+        const projectMatch = activeProject === 'all' || row.dataset.project === activeProject;
+        const hide = !(typeMatch && projectMatch);
+        row.hidden = hide;
+        row.classList.toggle('is-hidden', hide);
+        if (!hide) visible += 1;
+      });
+      if (pubCount) pubCount.textContent = String(visible);
+    };
+
+    pubTypeFilters.forEach(btn => btn.addEventListener('click', () => {
+      activeType = btn.dataset.pubTypeFilter || 'all';
+      setPressed(pubTypeFilters, activeType, 'pubTypeFilter');
+      updatePublications();
     }));
+
+    pubProjectFilters.forEach(btn => btn.addEventListener('click', () => {
+      activeProject = btn.dataset.pubProjectFilter || 'all';
+      setPressed(pubProjectFilters, activeProject, 'pubProjectFilter');
+      updatePublications();
+    }));
+
+    pubProjectTags.forEach(tag => tag.addEventListener('click', () => {
+      activeProject = tag.dataset.projectSelect || 'all';
+      setPressed(pubProjectFilters, activeProject, 'pubProjectFilter');
+      updatePublications();
+      const controls = document.querySelector('.pub-filter-groups');
+      if (controls) controls.scrollIntoView({behavior:'smooth', block:'nearest'});
+    }));
+
+    updatePublications();
   }
 
   const resourceFilters = document.querySelectorAll('[data-resource-filter]');
