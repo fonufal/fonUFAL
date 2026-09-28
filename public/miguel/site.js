@@ -80,56 +80,48 @@
 
   document.querySelectorAll('.field[data-seed]').forEach(makeField);
 
-  const pubTypeFilters = document.querySelectorAll('[data-pub-filter]');
-  const pubProjectFilters = document.querySelectorAll('[data-pub-project-filter]');
-  const pubProjectTags = document.querySelectorAll('[data-pub-project]');
-  const pubRows = document.querySelectorAll('[data-pub-row]');
+  const pubTypeButtons = [...document.querySelectorAll('[data-pub-type]')];
+  const pubProjectButtons = [...document.querySelectorAll('[data-pub-project]')];
+  const pubRows = [...document.querySelectorAll('[data-pub-row]')];
 
   if (pubRows.length) {
     let activeType = 'all';
     let activeProject = 'all';
 
-    const setPressed = (buttons, activeKey, datasetKey) => {
+    const updatePressed = (buttons, activeButton) => {
       buttons.forEach(btn => {
-        const selected = btn.dataset[datasetKey] === activeKey;
+        const selected = btn === activeButton;
         btn.classList.toggle('active', selected);
         btn.setAttribute('aria-pressed', selected ? 'true' : 'false');
       });
     };
 
-    const applyPubFilters = () => {
+    const applyPublicationFilters = () => {
       pubRows.forEach(row => {
         const typeMatch = activeType === 'all' || row.dataset.type === activeType;
         const projects = (row.dataset.projects || '').split(/\s+/).filter(Boolean);
         const projectMatch = activeProject === 'all' || projects.includes(activeProject);
-        const hide = !(typeMatch && projectMatch);
-        row.hidden = hide;
-        row.classList.toggle('is-hidden', hide);
+        const hidden = !(typeMatch && projectMatch);
+        row.hidden = hidden;
+        row.classList.toggle('is-hidden', hidden);
       });
     };
 
-    pubTypeFilters.forEach(btn => btn.addEventListener('click', () => {
-      activeType = btn.dataset.pubFilter || 'all';
-      setPressed(pubTypeFilters, activeType, 'pubFilter');
-      applyPubFilters();
+    pubTypeButtons.forEach(btn => btn.addEventListener('click', () => {
+      activeType = btn.dataset.pubType || 'all';
+      updatePressed(pubTypeButtons, btn);
+      applyPublicationFilters();
     }));
 
-    pubProjectFilters.forEach(btn => btn.addEventListener('click', () => {
-      activeProject = btn.dataset.pubProjectFilter || 'all';
-      setPressed(pubProjectFilters, activeProject, 'pubProjectFilter');
-      applyPubFilters();
+    pubProjectButtons.forEach(btn => btn.addEventListener('click', () => {
+      activeProject = btn.dataset.pubProject || 'all';
+      updatePressed(pubProjectButtons, btn);
+      applyPublicationFilters();
     }));
 
-    pubProjectTags.forEach(tag => tag.addEventListener('click', () => {
-      activeProject = tag.dataset.pubProject || 'all';
-      setPressed(pubProjectFilters, activeProject, 'pubProjectFilter');
-      applyPubFilters();
-      document.querySelector('.pub-filter-projects')?.scrollIntoView({behavior:'smooth', block:'nearest'});
-    }));
-
-    setPressed(pubTypeFilters, activeType, 'pubFilter');
-    setPressed(pubProjectFilters, activeProject, 'pubProjectFilter');
-    applyPubFilters();
+    if (pubTypeButtons[0]) updatePressed(pubTypeButtons, pubTypeButtons[0]);
+    if (pubProjectButtons[0]) updatePressed(pubProjectButtons, pubProjectButtons[0]);
+    applyPublicationFilters();
   }
 
   const resourceFilters = document.querySelectorAll('[data-resource-filter]');
