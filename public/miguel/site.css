@@ -207,7 +207,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
 .people-tabs .active,.resource-tabs .active{font-weight:700;border-bottom:2px solid var(--text);padding-bottom:10px;margin-bottom:-13px}
 .people-grid{padding-bottom:78px}
 .person-row{
-  display:grid;grid-template-columns:150px minmax(0,1fr) 250px 24px;
+  display:grid;grid-template-columns:150px minmax(0,1fr) 250px;
   padding:18px 0;border-bottom:1px solid var(--rule);gap:22px;align-items:start;
 }
 .person-role{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
@@ -339,9 +339,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
   .pub-row{grid-template-columns:50px 1fr 20px;gap:10px;padding:20px 0}
   .pub-title{font-size:19px}
   .people-tabs,.resource-tabs{overflow:auto;white-space:nowrap}
-  .person-row{grid-template-columns:1fr 20px;gap:10px;padding:17px 0}
+  .person-row{grid-template-columns:1fr;gap:7px;padding:17px 0}
   .person-role{grid-column:1}.person-name{grid-column:1;font-size:22px}.person-focus{display:block;grid-column:1}
-  .person-row .arrow{grid-column:2;grid-row:1/4}
   .course-row{grid-template-columns:70px 1fr;gap:12px}
   .course-row .kind{display:none}.course-row h2{font-size:21px}
   .service-grid{grid-template-columns:1fr}
