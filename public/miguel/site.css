@@ -233,6 +233,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
   border:1px solid var(--rule);border-radius:999px;padding:5px 8px;
   font-size:8px;line-height:1;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap
 }
+.pub-style-note{margin:18px 0 4px;font-size:10px;line-height:1.5;color:var(--muted);max-width:760px}
 .pub-list{padding-bottom:80px}
 .pub-row{
   display:grid;grid-template-columns:64px minmax(0,1fr) 230px 28px;
