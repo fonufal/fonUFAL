@@ -7,11 +7,13 @@
       const open = mobileNav.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
       menuButton.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+      document.body.style.overflow = open ? 'hidden' : '';
     });
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
       mobileNav.classList.remove('open');
       menuButton.setAttribute('aria-expanded', 'false');
       menuButton.setAttribute('aria-label', 'Abrir menu');
+      document.body.style.overflow = '';
     }));
   }
 
@@ -87,6 +89,19 @@
       const key = btn.dataset.pubFilter;
       rows.forEach(row => {
         row.hidden = key !== 'all' && row.dataset.type !== key;
+      });
+    }));
+  }
+
+  const resourceFilters = document.querySelectorAll('[data-resource-filter]');
+  const resourceRows = document.querySelectorAll('[data-resource-row]');
+  if (resourceFilters.length && resourceRows.length) {
+    resourceFilters.forEach(btn => btn.addEventListener('click', () => {
+      resourceFilters.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const key = btn.dataset.resourceFilter;
+      resourceRows.forEach(row => {
+        row.hidden = key !== 'all' && row.dataset.resourceType !== key;
       });
     }));
   }
