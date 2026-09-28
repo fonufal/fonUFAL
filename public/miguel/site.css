@@ -185,7 +185,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
 .project-meta{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#c2cac5;line-height:1.7}
 .project-row .arrow{justify-self:end}
 .pub-controls{display:flex;gap:25px;border-bottom:1px solid var(--rule);padding:16px 0 13px;margin-top:28px}
-.pub-controls span{font-size:11px}
+.pub-controls button,.resource-tabs button{
+  appearance:none;border:0;background:none;color:inherit;font:inherit;cursor:pointer;
+  padding:0 0 13px;margin:0;
+}
+.pub-controls button{font-size:11px}
 .pub-controls .active{font-weight:700;border-bottom:2px solid var(--text);padding-bottom:11px;margin-bottom:-14px}
 .pub-list{padding-bottom:80px}
 .pub-row{
@@ -199,7 +203,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
 .people-tabs,.resource-tabs{
   display:flex;gap:26px;border-bottom:1px solid var(--rule);padding-bottom:12px;margin:14px 0 12px;
 }
-.people-tabs span,.resource-tabs span{font-size:11px}
+.people-tabs span,.resource-tabs button{font-size:11px}
 .people-tabs .active,.resource-tabs .active{font-weight:700;border-bottom:2px solid var(--text);padding-bottom:10px;margin-bottom:-13px}
 .people-grid{padding-bottom:78px}
 .person-row{
@@ -307,21 +311,30 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
   .interior-hero .field{height:185px}
   .research-layout{display:block;padding-bottom:55px}
   .side-index{
-    position:static;display:flex;overflow:auto;gap:0;margin-bottom:35px;
-    border-bottom:1px solid var(--rule);border-top:0;scrollbar-width:none;
+    position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+    overflow:visible;gap:0;margin-bottom:35px;border-bottom:0;border-top:1px solid var(--rule);
   }
-  .side-index::-webkit-scrollbar{display:none}
-  .side-index a{min-width:150px;display:block;border-bottom:0;border-right:1px solid var(--rule);padding:12px 18px 12px 0;margin-right:18px}
-  .side-index .num{display:block;margin-bottom:4px}
+  .side-index a{
+    min-width:0;display:grid;grid-template-columns:32px 1fr;gap:6px;
+    border-bottom:1px solid var(--rule);border-right:1px solid var(--rule);
+    padding:12px 10px 12px 0;margin:0;font-size:15px;line-height:1.22;
+  }
+  .side-index a:nth-child(even){border-right:0;padding-left:12px}
+  .side-index a:last-child{grid-column:1/-1;border-right:0;padding-left:0}
+  .side-index .num{display:block;margin:0}
   .research-section{padding-bottom:36px}
   .research-section h2{font-size:37px}
   .question-list div{grid-template-columns:40px 1fr;font-size:15px}
   .catalogue{padding-bottom:55px}
   .project-row{
-    grid-template-columns:34px 1fr 20px;gap:12px;padding:20px 0;
+    grid-template-columns:34px minmax(0,1fr) 20px;gap:12px;padding:20px 0;
   }
-  .project-row .mini-field{grid-column:2/3;height:100px;margin-top:8px}
-  .project-row h2{font-size:25px}.project-meta{display:none}.project-row .arrow{grid-column:3;grid-row:1}
+  .project-row .pnum{grid-column:1;grid-row:1}
+  .project-row .mini-field{grid-column:2/4;grid-row:1;height:100px;margin:0}
+  .project-row > div:nth-child(3){grid-column:2/3;grid-row:2;min-width:0}
+  .project-row h2{font-size:25px;overflow-wrap:anywhere}
+  .project-meta{display:none}
+  .project-row .arrow{grid-column:3;grid-row:2;align-self:start}
   .pub-controls{overflow:auto;white-space:nowrap}
   .pub-row{grid-template-columns:50px 1fr 20px;gap:10px;padding:20px 0}
   .pub-title{font-size:19px}
