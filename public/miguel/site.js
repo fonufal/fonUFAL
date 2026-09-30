@@ -1,18 +1,20 @@
 
 (() => {
+  const isEnglish = document.documentElement.lang.toLowerCase().startsWith('en');
+  const menuLabels = isEnglish ? {open:'Open menu', close:'Close menu'} : {open:'Abrir menu', close:'Fechar menu'};
   const menuButton = document.querySelector('.menu-button');
   const mobileNav = document.querySelector('.mobile-nav');
   if (menuButton && mobileNav) {
     menuButton.addEventListener('click', () => {
       const open = mobileNav.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
-      menuButton.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+      menuButton.setAttribute('aria-label', open ? menuLabels.close : menuLabels.open);
       document.body.style.overflow = open ? 'hidden' : '';
     });
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
       mobileNav.classList.remove('open');
       menuButton.setAttribute('aria-expanded', 'false');
-      menuButton.setAttribute('aria-label', 'Abrir menu');
+      menuButton.setAttribute('aria-label', menuLabels.open);
       document.body.style.overflow = '';
     }));
   }
@@ -111,7 +113,7 @@
         if (show) visible += 1;
       });
       if (pubStatus) {
-        pubStatus.textContent = visible === 1 ? '1 publicação' : visible + ' publicações';
+        pubStatus.textContent = isEnglish ? (visible === 1 ? '1 publication' : visible + ' publications') : (visible === 1 ? '1 publicação' : visible + ' publicações');
       }
     };
 
