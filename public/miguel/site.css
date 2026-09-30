@@ -54,6 +54,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offs
 .nav a[aria-current="page"]::after{
   content:"";position:absolute;left:0;right:0;bottom:-9px;height:1px;background:currentColor;
 }
+.lang-link{
+  flex:0 0 auto;padding-left:18px;border-left:1px solid currentColor;
+  font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;opacity:.72;
+}
+.lang-link:hover{opacity:1}
 .menu-button{display:none;margin-left:auto;border:0;background:none;color:inherit;padding:8px}
 .menu-button span{display:block;width:24px;height:1px;background:currentColor;margin:6px 0}
 .mobile-nav{display:none}
@@ -370,7 +375,8 @@ button.pub-tag-project:hover{background:transparent;color:var(--text)}
   .site-header{position:sticky}
   .header-inner{height:62px}
   .nav{display:none}
-  .menu-button{display:block}
+  .lang-link{margin-left:auto;border-left:0;padding:8px 4px}
+  .menu-button{display:block;margin-left:8px}
   .mobile-nav{
     position:fixed;z-index:40;inset:62px 0 0;background:var(--paper);color:var(--text);
     padding:18px 20px 30px;overflow:auto;
