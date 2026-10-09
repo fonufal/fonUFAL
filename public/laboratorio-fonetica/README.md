@@ -11,3 +11,8 @@ Imagens: recortes de pranchas de direção de arte produzidas para este projeto 
 Visual: verde profundo, sálvia, ameixa, coral queimado e creme; tipografia Fraunces/DM Sans/DM Mono.
 
 Publicação prevista: `https://fonufal.github.io/fonUFAL/laboratorio-fonetica/`
+
+
+## Revisão de conteúdo e imagens (outubro de 2026)
+
+Imagens editoriais ilustrativas, não registros reais do laboratório. Quatro visualizações são derivadas de uma prancha do estudo gráfico: gravação com headset, espectrograma, bancada de iMac e gravador digital TASCAM diante de uma tela de áudio. Apenas uma forma de onda permanece na abertura (a que integra a composição de fundo). Projetos fundamentados no memorial acadêmico de Miguel Oliveira Jr., continuação de 2010: Documentação do Yaathe (sob coordenação de Januacele da Costa), NURC Digital e testes de percepção prosódica. A página não afirma que todos os projetos, iniciados antes ou durante a implantação do espaço, ocorreram fisicamente no laboratório. Inventário permanece parcial, pois não foi recuperada uma lista atualizada inequívoca. Sem equipamento novo presumido instalado.
