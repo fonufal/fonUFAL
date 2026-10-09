@@ -53,3 +53,15 @@
 .channel:hover .lab-scene{transform:scale(1.035)}
 @media(max-width:1050px){.project-band{grid-template-columns:1fr}.project-band-heading{border-right:0;border-bottom:1px solid var(--rule);padding:34px 5%}.project-band-heading h2{margin:15px 0}.project-list{grid-template-columns:repeat(3,minmax(0,1fr))}.project{padding:30px 23px}}
 @media(max-width:600px){.project-list{grid-template-columns:1fr}.project+.project{border-left:0;border-top:1px solid var(--rule)}.project{padding:28px 6%}.project h3{font-size:29px;margin:13px 0}.project>p{font-size:16px;max-width:47ch}.project-period{margin-top:8px}.lab-scene{background-size:auto 260%}}
+
+/* Art-direction crop adjustment: make subjects readable in tall editorial tiles */
+.channel .lab-scene--capture{background-position:30% top}
+.equipment-figure .lab-scene--capture{background-position:19% top}
+.channel .lab-scene--analysis{background-position:69% top}
+.equipment-figure .lab-scene--analysis{background-position:81% top}
+.channel .lab-scene--room{background-position:25% bottom}
+.equipment-figure .lab-scene--room{background-position:19% bottom}
+.channel .lab-scene--research{background-position:69% bottom}
+/* Crop away typography accidentally baked into earlier art-direction images. */
+.mouth-art{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 69%,transparent 91%);mask-image:linear-gradient(to bottom,#000 0%,#000 69%,transparent 91%)}
+.channel-photo img[src$="annotation.webp"]{transform:scale(1.28);transform-origin:center bottom}
