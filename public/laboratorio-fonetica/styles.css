@@ -65,3 +65,16 @@
 /* Crop away typography accidentally baked into earlier art-direction images. */
 .mouth-art{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 69%,transparent 91%);mask-image:linear-gradient(to bottom,#000 0%,#000 69%,transparent 91%)}
 .channel-photo img[src$="annotation.webp"]{transform:scale(1.28);transform-origin:center bottom}
+
+/* People: typographic directory with documented academic links */
+.people-section{display:grid;grid-template-columns:29% 1fr;border-bottom:1px solid var(--rule)}
+.people-heading{padding:42px 10%;border-right:1px solid var(--rule)}
+.people-heading h2{font-family:var(--serif);font-size:clamp(30px,3vw,49px);font-weight:500;color:var(--plum);line-height:1.05;margin:20px 0 14px}
+.people-heading p{font-family:var(--serif);font-size:15px;line-height:1.5;max-width:35ch}
+.people-list{list-style:none;margin:0;padding:12px 5%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:5%}
+.people-entry{display:grid;grid-template-columns:32px 1fr;gap:12px;padding:19px 4px;border-bottom:1px solid var(--rule)}
+.people-index,.person-degree{font:10px/1.5 var(--mono);letter-spacing:.05em;color:#57645b}
+.people-entry h3{font-family:var(--serif);font-size:clamp(18px,1.6vw,26px);line-height:1.12;color:var(--forest);font-weight:500;margin:0 0 8px}
+.people-external,.inline-link{font:11px var(--mono);display:inline-block;border-bottom:1px solid var(--plum);color:var(--plum);padding-bottom:4px;margin-top:9px}
+@media(max-width:850px){.people-section{grid-template-columns:1fr}.people-heading{padding:28px 5%;border-right:0;border-bottom:1px solid var(--rule)}.people-list{padding:12px 5%}}
+@media(max-width:600px){.people-list{grid-template-columns:1fr}.people-entry h3{font-size:23px}}
