@@ -99,3 +99,14 @@
 .contact-email{font:clamp(20px,2.8vw,38px)/1.22 var(--serif);color:var(--plum);overflow-wrap:anywhere;display:inline-block;margin:25px 0;border-bottom:1px solid}
 @media(max-width:850px){.research-intro,.research-relations,.contact-page-grid{grid-template-columns:1fr}.research-archive{grid-template-columns:1fr}.research-record{border-right:0;border-bottom:1px solid var(--rule)}.contact-page-grid>div+div{border-left:0;border-top:1px solid var(--rule)}}
 @media(max-width:600px){.channel{min-height:132px}.channel-photo{aspect-ratio:auto;height:132px;min-height:132px}}
+
+/* Media do índice: imagens independentes 800x600, sem as margens da montagem. */
+.channels{align-items:stretch}
+.channel-photo{position:relative;display:block;box-sizing:border-box;margin:0;padding:0;border:0;overflow:hidden;line-height:0;background:transparent;aspect-ratio:4/3;height:auto;min-height:0}
+.channel-photo>img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center;margin:0;padding:0;border:0;max-width:none}
+@media(max-width:600px){
+  .channel{height:140px;min-height:140px}
+  .channel-info{height:140px;min-height:140px}
+  .channel-photo{height:140px;min-height:140px;aspect-ratio:auto}
+  .channel-photo>img{width:100%;height:100%;object-fit:cover}
+}
