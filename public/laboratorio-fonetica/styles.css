@@ -123,3 +123,16 @@
 .equipment-overview{line-height:1.45}
 @media(max-width:850px){.equipment-section{grid-template-columns:40px minmax(0,1fr) 34%;gap:15px}.equipment-figure{aspect-ratio:4/3}}
 @media(max-width:600px){.equipment-section{grid-template-columns:28px minmax(0,1fr);gap:11px}.equipment-figure{grid-column:2;width:100%;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:4/3}.equipment-list li{font-size:14px}.equipment-copy h2{font-size:clamp(30px,7.2vw,45px)}}
+
+
+/* Research projects: index of six selected projects and supervised theses */
+.research-archive{grid-template-columns:repeat(3,minmax(0,1fr));}
+.research-record{display:flex;flex-direction:column;min-height:360px;overflow-wrap:break-word;border-bottom:1px solid var(--rule)}
+.research-record:nth-child(3n){border-right:0}
+.research-record h2{font-size:clamp(26px,2.7vw,39px);line-height:1.1;overflow-wrap:anywhere}
+.research-record>p:not(.eyebrow){max-width:55ch}
+.research-record .research-subtype{margin-top:auto;padding-top:20px;font:11px/1.45 var(--mono);color:var(--forest)}
+.research-record a{align-self:start}
+.research-intro>p:last-child{max-width:980px;line-height:1.38}
+@media(max-width:850px){.research-archive{grid-template-columns:repeat(2,minmax(0,1fr))}.research-record:nth-child(3n){border-right:1px solid var(--rule)}.research-record:nth-child(2n){border-right:0}}
+@media(max-width:600px){.research-archive{grid-template-columns:1fr}.research-record{min-height:0;border-right:0!important}.research-record h2{font-size:clamp(29px,7vw,38px)}}
