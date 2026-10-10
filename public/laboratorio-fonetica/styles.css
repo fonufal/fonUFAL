@@ -136,3 +136,10 @@
 .research-intro>p:last-child{max-width:980px;line-height:1.38}
 @media(max-width:850px){.research-archive{grid-template-columns:repeat(2,minmax(0,1fr))}.research-record:nth-child(3n){border-right:1px solid var(--rule)}.research-record:nth-child(2n){border-right:0}}
 @media(max-width:600px){.research-archive{grid-template-columns:1fr}.research-record{min-height:0;border-right:0!important}.research-record h2{font-size:clamp(29px,7vw,38px)}}
+
+/* Equipment inventory is presented in continuous editorial prose. */
+.equipment-prose{font-family:var(--serif);font-size:clamp(16px,1.25vw,19px);line-height:1.6;max-width:70ch;margin-top:23px;margin-bottom:6px;overflow-wrap:break-word}
+.equipment-prose em{font-style:italic}
+/* Academic authorship is supporting metadata; scientific topics are the headings. */
+.research-record .research-subtype{margin-top:22px;padding-top:16px;font:11px/1.6 var(--mono);letter-spacing:.01em;color:var(--forest);border-top:1px solid var(--rule);max-width:50ch}
+.research-record>a.inline-link{margin-top:12px}
